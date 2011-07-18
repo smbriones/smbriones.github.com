@@ -59,7 +59,7 @@ their history and why they're used and with every task, I learn something new.
 
 <figure>
 	<img src="/images/blog/week1/IMG_8404.jpg" alt="Sketchnotes from Tim Brown's More Perfect Typography talk." />
-	<figcaption>Sketchnotes taken while watching More Perfect Typeography by Tim Brown.</figcaption>
+	<figcaption>Sketchnotes taken while watching More Perfect Typography by Tim Brown.</figcaption>
 </figure>
 
 On my first day, Billy showed me a video of a talk from [Build Conf](http://2011.buildconf.com/) by Tim Brown called ["More Perfect Typography"](http://vimeo.com/17079380). I took notes on the talk and learned so much from it. The next Build Conf is November 7-11, 2011 in Belfast. Just saying.
