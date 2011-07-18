@@ -1,0 +1,38 @@
+body {
+  font-family:verdana;
+  font-size:81.25%;
+}
+
+div[role="main"] {
+  width: 31.475em;
+  margin: 0 auto;
+}
+
+h1 { 
+  font-family:ronnia,sans-serif;
+  font-size:4.209em;
+  font-weight:300;
+  margin-top:1.333em;
+  text-align:center;
+}
+
+h3 {
+  font-family:ronnia,sans-serif;
+  font-weight:200;
+  font-size:1.333em;
+  font-style:italic;
+  margin-bottom: 1.333em;
+}
+
+p {
+  background-color:#bddde3;
+  display: inline-block;
+  line-height:1.333em;
+  margin-top:1.333em;
+  padding: 0.317em;
+}
+
+.blogposts {
+  margin: 0 auto;
+  width: 55.928em;
+}
