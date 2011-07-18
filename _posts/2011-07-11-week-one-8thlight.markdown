@@ -16,9 +16,9 @@ Somewhere I could gain some experience and learn by doing. I have to admit, I di
 much would come of that tweet. I was, and I am to this day, so grateful for all of the 
 re-tweets, replies, and encouragement, from so many people. 
 
-Through Twitter, I got in contact with Billy Whited, the UX Craftsman at 8th Light. He 
-replied to me saying that that they would be looking for a design apprentice soon and lead 
-me to the application. I nervously filled out the application, submitted it, and anxiously 
+Through Twitter, I got in contact with [Billy Whited](http://www.8thlight.com/our-team/billy-whited), 
+the UX Craftsman at 8th Light. He replied to me saying that that they would be looking for a design apprentice 
+soon and lead me to the application. I nervously filled out the application, submitted it, and anxiously 
 waited for a reply. I met Billy for lunch. We had a great conversation about design, typography, 
 HTML5 and CSS3 and he told me that he'd like to offer me the apprenticeship. I couldn't be 
 happier that he wanted to work with and teach me.
