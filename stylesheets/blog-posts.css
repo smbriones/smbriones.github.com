@@ -58,6 +58,21 @@ body {
 	text-decoration:none;
 }
 
+.column-about {
+	font-size:0.875em;
+	line-height:1.777em;
+}
+
+.column-about a {
+	color: #4CC5D5;
+	font-family:ronnia,sans-serif;
+	font-style:normal;
+	font-weight:300;
+	margin:0 0 0.3125em 0;
+	line-height:1.777em;
+	text-decoration:none;
+}
+
 .column-body a:hover {
 	color: #333;
 }
