@@ -208,3 +208,8 @@ div[role="contentinfo"] .content {
 	margin: 0 auto;
 	padding-top: 3.157em;
 }
+
+code {
+	font-color: #000;
+	font-size: 1.10em;
+}
