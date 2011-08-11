@@ -1,0 +1,109 @@
+---
+layout: blog-post
+title: "Week four &amp; five: Semantic HTML"
+snippet: "I didn't spend all of week four and five learning more about writing semantic HTML, but it was definitely a highlight."
+---
+<p class="date">August 11, 2011</p>
+<h1>{{ page.title }}</h1>
+<h2>{{ page.snippet }}</h2>
+
+<p>
+  A lot of the time was also spent finishing up the blog post migration that we've been tackling.
+</p>
+<p>
+  I spent too much of this week sick at home and I'm delighted to be back in the 8th Light office 
+  today after being cooped up. Hopefully my sniffling isn't too annoying.
+</p>
+<h3>An Assignment in Semantics</h3>
+<p>
+  Billy gave me a really awesome assignment last week, (week five) that I'm still working on in between
+  things. 
+</p>
+<p>  
+  He had me find 3 things; a menu, a news article, and a schedule, (or something tabular). I am to 
+  take those three things and mark them up using semantic HTML.
+</p>
+<p>
+  After going over the HTML, getting advice, and making some changes, I added CSS to replicate the 
+  layout of the document in question. This taught me a lot. I still have some work to do, but I can 
+  show you what I have so far.
+</p>
+<h3>The Menu</h3>
+<p>
+  Since we already had a menu for the awesome Haute Sausage, (one of the food trucks that we frequent) in the office, 
+  I decided to use it.
+</p>  
+<figure>
+  <img src="/images/blog/week4-5/haute-sausage-menu-paper.jpg">
+  <figcaption>
+    Photo of the Haute Sausage menu.
+  </figcaption>
+</figure>
+<p>
+  I marked up the Haute Sausage menu in HTML added some CSS to style it a bit. It took a while to figure 
+  out the three column section below the title, but Billy helped me figure it out.
+</p>
+<figure>
+  <img src="/images/blog/week4-5/haute-sausage-menu.png">
+  <figcaption>
+    Screenshot of the Haute Sausage menu that I wrote in HTML and CSS.
+  </figcaption>
+</figure>
+<h3>The Newspaper Article</h3>
+<p>
+  The article I found is “Peacock Surprise”—an article from the Redeye about the peacock that 
+  escaped from the Central Park Zoo in New York and became almost as popular as the Bronx Zoo Cobra.
+</p>
+<figure>
+  <img src="/images/blog/week4-5/peacock-surprise-paper.jpg">
+  <figcaption>
+    Photo of the Peacock news article from the Redeye.
+  </figcaption>
+</figure>
+<p>
+  I've only done most of the HTML so far, and a touch of CSS for the 2 column layout. One of the most 
+  exciting parts of the CSS on this article was using the CSS3 properties column-count, column-width, 
+  and the slightly more complex column-break-before.
+</p>
+<figure>
+  <img src="/images/blog/week4-5/peacock-surprise.png">
+  <figcaption>
+    Screenshot of the Peacock Surprise article that I wrote in HTML and CSS.
+  </figcaption>
+</figure>
+<p>
+  Below is what was used to structure the columns the way they appear in the actual article, just in 
+  case you're interested.
+</p>
+{% highlight css %}
+/* To have the Title of the article reach accross the full width of the article, as opposed to inline */
+
+h2 {
+	-webkit-column-span: all;
+}
+
+/* To give the article 2 columns and have a width of 250px */
+article {
+	-webkit-column-count: 2;
+	-webkit-column-width: 250px;
+}
+
+/* To place the green box in the same place within the column as in the original article. Tricky! */
+
+div .slug {
+	height: 50px;
+	background: green;
+	-webkit-column-break-before: avoid;
+}
+{% endhighlight %}
+
+<p>
+  As I said, there is some more work to do, but that's what I've got so far. As for the third item, the schedule 
+  or table, I haven't located anything adequate yet, but I'm on the lookout. I'll post the finished products up 
+  on the blog soon.
+</p>  
+<p>
+  So far, what I have learned from this exercise, other than the cool new CSS properties, is that there 
+  is almost <i>always</i> a better way to structure my HTML and improvements that I can make to my CSS. And in my opinion, 
+  that probably shouldn't ever change.
+</p>  

@@ -36,3 +36,7 @@ p {
   margin: 0 auto;
   width: 55.928em;
 }
+
+blockquote {
+  line-height: 1.333em;	
+}
