@@ -1,0 +1,137 @@
+
+/* -------------- ASSIGNMENT: MARKUP HAUTE SAUSAGE MENU -------------- */
+
+
+body {
+	background: #c4eeff;
+	padding: 0;
+	margin: 0;
+}
+
+/* -------------- MENU ITEMS -------------- */
+
+body p {
+	font-size: 1em;
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+	line-height: 0.75em;
+	margin: 20px 0 20px 0;
+	text-align: center;
+}
+
+h3.item {
+	font-size: 1.8em;
+	margin-bottom: -0.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div[role="main"] ul {
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+div[role="main"] ul a {
+	color: #000;
+	text-decoration: none;
+}
+
+div[role="main"] ul.pricing {
+	padding: 0;
+	width: 610px;
+	overflow: hidden;
+}
+
+div[role="main"] ul.pricing li p {
+	width: 180px;
+	padding: 2px 10px 2px 10px;
+}
+
+div[role="main"] ul.pricing li {
+	float: left;
+}
+
+strong {
+	display: block;
+	font-size: 1.75em;
+}
+
+div[role="main"] ul.pricing p.seven {
+	float: left;
+	font-size: 5.5em;
+	margin: 0 -10px 0 0;
+	width: 90px;
+}
+
+div[role="main"] ul.pricing p.taxes {
+	float: left;
+	font-size: 2.5em;
+	margin: 10px 0 0 -20px;
+	width: 90px;
+}
+
+.box {
+	border: 1px solid #000;
+}
+
+small {
+	display: block;
+	font-size: 0.30em;
+	text-transform: uppercase;
+}
+
+div .menu-items {
+	margin-top: -2em;
+}
+
+.menu-items p {
+	margin-bottom: -15px;
+}
+
+/* -------------- BOTTOM OF MENU -------------- */
+
+div[role="main"] ul.links {
+	margin-top: 1.5em;
+	width: 700px;
+}
+
+div[role="main"] ul.links li figure {
+	float: left;
+	padding: 2px 10px 2px 10px;
+	list-style: none;
+}
+
+figure {
+	float: left;
+	padding: 0;
+	overflow: hidden;
+}
+
+figure img {
+	width: 50px;
+}
+
+figure.facebook {
+	font-size: 0.85em;
+	padding-bottom: 2em;
+	width: 150px;
+	margin: 0;
+}
+
+figure.website {
+	font-size: 0.95em;
+	padding-bottom: 2em;
+	width: 300px;
+	margin: 0;
+}
+
+figure.twitter {
+	font-size: 0.85em;
+	padding-bottom: 2em;
+	width: 150px;
+	margin: 0;
+}
