@@ -1,0 +1,129 @@
+body {
+	background: #eee;
+	color: #333;
+	font-size: 100%;
+}
+
+div[role="main"] {
+	float: left;
+	font-family: georgia, serif;
+	font-size: 0.95em;
+	width: 570px;
+	margin: 0 0 50px 150px;
+}
+
+div[role="main"] p {
+	line-height: 1.3em;
+}
+
+p:first-letter {
+	margin: 0 0 0 1em;
+}
+
+p:first-of-type:first-letter {
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 7em;
+	margin: 0.5em 0 0 0;
+	text-transform: uppercase;
+}
+
+.purple {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	background-color: #712CA5;
+	color: #eee;
+	font-size: 7.75em;
+	margin-top: -5px;
+	padding: 0 0 10px 5px;
+	height: 115px;
+	width: 650px;
+}
+
+figcaption {
+	color: #eee;
+	margin: -110px 0 0 390px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 0.90em;
+	font-weight: bold;
+	text-align: right;
+	text-shadow: 1px 1px 3px #333; 
+	width: 160px;
+}
+
+small {
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+strong {
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 0.90em;
+}
+
+h2 {
+	margin: 65px 0 20px 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 1.333em;
+	column-span: all;
+	-moz-column-span: all;
+	-webkit-column-span: all;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	padding-bottom: 5px;
+}
+
+article {
+	width: 570px;
+	column-count: 2;
+	column-width: 250px;
+	-webkit-column-count: 2;
+	-webkit-column-width: 250px;
+	-moz-column-count: 2;
+	-moz-column-width: 250px;
+}
+
+aside {
+	height: 70px;
+	background: #338A47;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	padding: 8px 20px 15px 10px;
+	margin: 10px 0 10px 0;
+	column-break-before: avoid;
+	-webkit-column-break-before: avoid;
+	-moz-column-break-before: avoid;
+}
+
+aside h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;	
+	font-size: 2.60em;
+	text-transform: uppercase;
+	padding: 5px 20px 0 0;
+}
+
+aside p {
+	font-size: 0.80em;
+	margin: 0;
+}
+
+section {
+	float: left;
+	-moz-box-shadow: -3px 0px 8px #555; 
+	-webkit-box-shadow: -3px 0px 8px #555; 
+	box-shadow: -3px 0px 8px #555;
+	margin: 2em 0 2em 3.5em;
+}
