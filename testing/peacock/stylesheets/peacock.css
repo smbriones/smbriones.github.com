@@ -2,18 +2,17 @@ body {
 	background: #eee;
 	color: #333;
 	font-size: 100%;
+	width: 1300px;
+	margin: 0 auto;
 }
 
 div[role="main"] {
-	float: left;
-	font-family: georgia, serif;
-	font-size: 0.95em;
-	width: 570px;
-	margin: 0 0 50px 150px;
+	width: 100%;
 }
 
-div[role="main"] p {
-	line-height: 1.3em;
+#left {
+	float: left;
+	width: 650px;
 }
 
 p:first-letter {
@@ -85,6 +84,7 @@ h3 {
 }
 
 article {
+	font-family: georgia, serif;
 	width: 570px;
 	column-count: 2;
 	column-width: 250px;
@@ -92,6 +92,12 @@ article {
 	-webkit-column-width: 250px;
 	-moz-column-count: 2;
 	-moz-column-width: 250px;
+	padding: 0 40px 0 0;
+}
+
+article p {
+	line-height: 1.3em;
+	font-size: 0.90em;
 }
 
 aside {
@@ -120,10 +126,41 @@ aside p {
 	margin: 0;
 }
 
+#triangle-right {
+	margin-top: 30px;
+	left: 560px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #338A47;
+	border-bottom: 25px solid transparent;
+}
+
 section {
 	float: left;
 	-moz-box-shadow: -3px 0px 8px #555; 
 	-webkit-box-shadow: -3px 0px 8px #555; 
 	box-shadow: -3px 0px 8px #555;
-	margin: 2em 0 2em 3.5em;
+	margin-top: 2em;
+	width: 389px;
+}
+
+#folio {
+	float: left;
+	width: 260px;
+	text-transform: uppercase;
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg);
+	font-family: 'Lato', sans-serif;
+	font-size: 0.80em;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 11em 0 0 -8em;
+}
+
+.page-number {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	padding: 2em 6em 0 1.4em;
 }
