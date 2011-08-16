@@ -2,8 +2,9 @@ body {
 	background: #eee;
 	color: #333;
 	font-size: 100%;
-	width: 1300px;
+	width: 1190px;
 	margin: 0 auto;
+	
 }
 
 div[role="main"] {
@@ -12,7 +13,7 @@ div[role="main"] {
 
 #left {
 	float: left;
-	width: 650px;
+	width: 640px;
 }
 
 p:first-letter {
@@ -92,7 +93,7 @@ article {
 	-webkit-column-width: 250px;
 	-moz-column-count: 2;
 	-moz-column-width: 250px;
-	padding: 0 20px 0 0;
+	padding: 0 10px 0 0;
 }
 
 article p {
@@ -127,8 +128,6 @@ aside p {
 }
 
 #triangle-right {
-	margin-top: 30px;
-	left: 560px;
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
@@ -141,7 +140,7 @@ section {
 	-moz-box-shadow: -3px 0px 8px #555; 
 	-webkit-box-shadow: -3px 0px 8px #555; 
 	box-shadow: -3px 0px 8px #555;
-	margin-top: 2em;
+	margin: 2em 0 0 0;
 	width: 389px;
 }
 
