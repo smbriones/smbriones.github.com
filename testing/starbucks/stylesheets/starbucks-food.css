@@ -12,9 +12,10 @@ body {
 }
 
 table.nutrition {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	text-align: left;
 	font-size: 1em;
+	/*width: 50%;*/
 }
 
 table.nutrition th {
@@ -25,11 +26,7 @@ table.nutrition th {
 	-moz-transform: rotate(-45deg);
 }
 
-table.nutrition th:nth-child(2n+1) {
-	background-color: #fff;
-}
-
-table td.white {
+table td.white, table.nutrition th.white {
 	background-color: #FFF;
 }
 
