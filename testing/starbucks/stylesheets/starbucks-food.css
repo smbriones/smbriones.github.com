@@ -1,0 +1,74 @@
+body {
+	background: #eae4df;
+	font-family: arial, sans-serif;
+	width: 100%;
+}
+
+.nutrition-types {
+	height: 3em;
+	padding-top: 3em;
+	background: #eae4df;
+	margin-left: 1em
+}
+
+table.nutrition {
+	border: 1px solid red;
+	text-align: left;
+	font-size: 1em;
+}
+
+table.nutrition th {
+	color: #6A523D;
+	font-family: arial, sans serif;
+	font-size: 0.50em;
+	-webkit-transform: rotate(-45deg); 
+	-moz-transform: rotate(-45deg);
+}
+
+table.nutrition th:nth-child(2n+1) {
+	background-color: #fff;
+}
+
+table td.white {
+	background-color: #FFF;
+}
+
+.values {
+	width: 50%;
+	margin-left: 1em;
+}
+
+h1 {
+	background: #7EA829;
+	color: #3B2C10;
+	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	padding: 10px;
+}
+
+td {
+	font-size: 0.60em;
+	line-height: 1.333em;
+	text-align: center;
+	width: 4em;
+}
+
+td:first-child {
+	width: 17em;
+	text-align: left;
+	padding-top: 0.50em;
+	padding-right: 4em;
+	padding-bottom: 0.25em;
+	padding-left: 0.50em;
+}
+
+
+h2 {
+	background-color: #6A523D;
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	padding: 10px;
+	text-align: left;
+}
