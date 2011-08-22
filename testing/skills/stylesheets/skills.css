@@ -1,0 +1,208 @@
+/*
+			colors: 
+
+			red - rgba(255, 68, 25, 0.5)
+			blue - rgba(5, 204, 233, 0.5)
+			green - rgba(212, 205, 0, 0.5)
+			
+*/
+
+body {
+	background: #f4f4f4;
+	border-left: 0.60em dotted #DDDDDD;
+	font-size: 100%;
+}
+
+header {
+	border-bottom: 2px solid #DDD;
+	padding: 0 0 1em 0;
+	margin: 0em 0 2em 3em;
+	width: 50em;
+}
+
+header a {
+	color: #DDD;
+	display: block;
+	font-family: bistro-script-web, futura, sans-serif;
+	font-size: 1.777em;
+	font-style: normal;
+	font-weight: 200;
+	margin: 0 0 0.75em 0;
+	text-decoration: none;
+}
+
+header p {
+	padding: 2em 0 2em 0;
+}
+
+a:hover {
+color: #4CC5D5;
+}
+
+span {
+	color: #CCC;
+	display: block;
+	font-family: futura, sans-serif;
+	font-weight: 400;
+	font-size: 0.6em;
+	font-style: normal;
+	margin: 1em 0 0 0;
+	text-transform: uppercase;
+}
+
+header h1 {
+	color: #333;
+	font-family: futura, sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+header h3 {
+	color: #444;
+	font-family: georgia, serif;
+	font-weight: normal;
+	font-size: 1.5em;
+	font-style: italic;
+	margin: 0.25em 0 0 0;
+}
+
+div.scales h3 {
+	color: #333;
+	font-family: futura, sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin: 0 0 1.5em 3em;
+	padding: 1em 0 0 0;
+}
+
+div.scales h4 {
+	color: #333;
+	font-family: futura, sans-serif;
+	font-size: 0.75em;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin: 0 0 0.25em 4em;
+}
+
+section {
+	background: #e7e6e6;
+	display: block;
+	margin: 0 0 2em 3em;
+	width: 50em;
+	height: 3em;
+}
+
+section:last-child {
+	margin: 0 0 0 3em;
+}
+
+figure.html {
+	background: rgba(255, 68, 25, 0.5);
+	height: 3em;
+	width: 35em;
+}
+
+figure.css {
+	background: rgba(255, 68, 25, 0.5);
+	height: 3em;
+	width: 35em;
+}
+
+figure.javascript {
+	background: rgba(255, 68, 25, 0.5);
+	height: 3em;
+	width: 1em;
+}
+
+figure.usability {
+	background: rgba(255, 68, 25, 0.5);
+	height: 3em;
+	width: 30em;
+}
+
+figure.semantics {
+	background: rgba(255, 68, 25, 0.5);
+	height: 3em;
+	width: 20em;
+}
+
+figure.writing {
+	background: rgba(255, 68, 25, 0.5);
+	height: 3em;
+	width: 15em;
+}
+
+figure.creativity {
+	background: rgba(5, 204, 233, 0.5);
+	height: 3em;
+	width: 45em;
+}
+
+figure.typography {
+	background: rgba(5, 204, 233, 0.5);
+	height: 3em;
+	width: 30em;
+}
+
+figure.layout {
+	background: rgba(5, 204, 233, 0.5);
+	height: 3em;
+	width: 40em;
+}
+
+figure.graphic-design {
+	background: rgba(5, 204, 233, 0.5);
+	height: 3em;
+	width: 25em;
+}
+
+figure.print-design {
+	background: rgba(5, 204, 233, 0.5);
+	height: 3em;
+	width: 30em;
+}
+
+figure.learn {
+	background: rgba(212, 205, 0, 0.5);
+	height: 3em;
+	width: 50em;
+}
+
+figure.adapt {
+	background: rgba(212, 205, 0, 0.5);
+	height: 3em;
+	width: 45em;
+}
+
+footer {
+	background: #EEEEEE;
+	height: 10em;
+	margin: 4em 0 0 0;
+	width: 100%;
+}
+
+footer p {
+	color: #CCCCCC;
+	font-family: georgia, serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 2em 0 0 3em;
+}
+
+footer a {
+	color: #DDD;
+	display: block;
+	font-family: bistro-script-web, futura, sans-serif;
+	font-size: 1.777em;
+	font-style: normal;
+	font-weight: 200;
+	margin: 0 0 0.75em 0;
+	text-decoration: none;
+	text-transform: none;
+	text-shadow: -1px -1px 0px #BBB;
+}
