@@ -185,6 +185,10 @@ section.blogpost ul {
 	margin-bottom: 1.777em;
 }
 
+section.blogpost ol {
+	margin-bottom: 1.777em;
+}
+
 section.blogpost ul li {
 	list-style:none;
 }
