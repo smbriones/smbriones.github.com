@@ -124,6 +124,12 @@ figure.usability {
 	width: 30em;
 }
 
+figure.browser {
+	background: rgba(255, 68, 25, 0.5);
+	height: 3em;
+	width: 25em;
+}
+
 figure.semantics {
 	background: rgba(255, 68, 25, 0.5);
 	height: 3em;
