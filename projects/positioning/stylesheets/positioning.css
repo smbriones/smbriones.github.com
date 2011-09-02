@@ -1,0 +1,644 @@
+body {
+	background-color: #FCFCFC;
+	min-height: 600px;
+	width: 550em;
+}
+
+div.ribbon {
+	position: fixed;
+	left: 2em;
+	top: -6em;
+	z-index: -1;
+}
+
+p.home img {
+	position: fixed;
+	top: 0.50em;
+	left: 0.50em;
+	width: 20px;
+	z-index: 10000;
+}
+
+header {
+}
+
+header nav.slide-numbers {
+	position: fixed;
+	top: -0.5em;
+	left: 8.5em;
+}
+
+header nav.slide-numbers ul li {
+	color: #CCC;
+	display: inline-block;
+}
+
+header nav.slide-numbers a {
+	text-decoration: none;
+	color: #888;
+}
+
+header nav.slide-numbers a:hover {
+	text-decoration: underline;
+	color: #333;
+}
+
+
+/*----------- TYPOGRAPHY -------------*/
+
+
+body, p {
+	color: #666;
+	/*font-family: 'Amaranth', sans-serif;*/
+	/*font-weight: 400;*/
+	font-family: bree,sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 1em;
+}
+
+h1 {
+	color: #FFF;
+	font-family: bree,sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	/*font-family: 'Amaranth', sans-serif;*/
+	font-size: 4em;
+	/*font-weight: 400;*/
+}
+
+h2 {
+	color: #9ecdcd;
+	font-family: bree,sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	/*font-family: 'Amaranth', sans-serif;*/
+	/*font-weight: 400;*/
+	font-size: 3em;
+}
+
+h3 {
+	font-family: bree,sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	/*font-family: 'Amaranth', sans-serif;*/
+	font-size: 1.4em;
+	/*font-weight: 400;*/
+}
+
+em {
+	color: #9cbfbf;
+	/*font-family: 'Amaranth', sans-serif;
+		font-weight: 400;*/
+	font-style: normal;
+	font-family: bree,sans-serif;
+	font-style: normal;
+	font-weight: 200;
+}
+
+b {
+	color: #444;
+}
+
+/*----------- LISTS -------------*/
+
+ul li {
+	margin: 1em 0;
+}
+
+ol li {
+	margin: 1em 0;
+}
+
+/*----------- INTRO SLIDE -------------*/
+
+div.intro {
+	float: left;
+	margin: 2em 8em 0 8em;
+	padding: 1em 0;
+	position: relative;
+	height: 550px;
+}
+
+div.intro img {
+	display: block;
+	width: 300px;
+	margin: 0 5em 0 5em;
+}
+
+div.intro img.ampersand {
+	position: absolute;
+	left: -3em;
+	width: 60px;
+}
+
+div.intro img.fixed {
+	position: absolute;
+	left: 2em;
+	top: 15em;
+}
+
+div.intro img.positioning {
+	position: absolute;
+	top: 26em;
+	left: 1em;
+}
+
+div.intro p {
+	color: #DDD;
+	font-size: 0.80em;
+	font-style: italic;
+	position: absolute;
+	left: 0em;
+	bottom: 4em;
+}
+
+div.intro p a {
+	color: #CCC;
+}
+
+div.intro img.tommy {
+	position: absolute;
+	bottom: 0em;
+	left: -5em;
+	width: 120px;
+}
+
+div.intro img.assignment {
+	position: absolute;
+	top: 20em;
+	right: -10em;
+	width: 150px;
+	width: 200px;
+}
+
+/* ----------- NAVIGATION ----------- */
+
+div[role="navigation"] {
+	float: left;
+	height: 550px;
+	width: 450px;
+	padding: 1em 1em 1em 2em;
+	margin: 2em 4em 0 4em;
+	position: relative;
+}
+
+div[role="navigation"] h2 {
+	color: #9ecdcd;
+	font-family: bree,sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	/*font-family: 'Amaranth', sans-serif;*/
+	font-size: 3em;
+	/*font-weight: 400;*/
+	margin: 1em 0 1em 1em;
+}
+
+div[role="navigation"] ol {
+	margin: 2em 0 0 5em;
+}
+
+
+div[role="navigation"] ol li {
+	color: #cfe3e3;
+	font-size: 1.5em;
+}
+
+div[role="navigation"] ol li a {
+	color: #666;
+}
+
+
+/*----------- FIRST SLIDE -------------*/
+
+div.absolute {
+	float: left;
+	height: 550px;
+	width: 375px;
+	padding: 1em;
+	margin: 2em 4em 0 4em;
+	position: relative;
+}
+
+div.absolute h1 {
+	position: absolute;
+	left: -1em;
+}
+
+div.absolute img.bye {
+	float: left;
+	display: block;
+	margin-top: -5em;
+}
+
+/*----------- SECOND SLIDE -------------*/
+
+
+div.define-absolute {
+	float: left;
+	height: 550px;
+	width: 375px;
+	padding: 1em;
+	margin: 2em 4em 0 4em;
+	position: relative;
+}
+
+div.define-absolute ul {
+	list-style: none;
+}
+
+div.define-absolute ul li {
+	color: #666;
+	font-size: 2em;
+	line-height: 1.333em;
+	float: left;
+	text-align: left;
+}
+
+div.define-absolute img.arrow {
+	position: absolute;
+	left: 5em;
+	bottom: 14.75em;
+	width: 50px;
+	
+}
+
+/*----------- THIRD SLIDE -------------*/
+
+div.fixed h1 {
+	display: block;
+	position: absolute;
+	left: -1em;
+	/*z-index: -2;*/
+}
+
+div.fixed p.hide {
+	background-color: #FCFCFC;
+	position: fixed;
+	left: 0em;
+	top: 2em;
+	height: 2.5em;
+	width: 2.4em;
+	z-index: -2;
+}
+
+div.fixed {
+	float: left;
+	height: 550px;
+	width: 375px;
+	padding: 1em;
+	margin: 2em 4em 0 4em;
+	position: relative;
+}
+
+div.fixed p {
+	display: inline;
+	color: #FFF;
+	float: left;
+	font-size: 1.2em;
+	margin: 0.25em 0em 0 0;
+}
+
+div.fixed img.arrow {
+	float: left;
+	position: relative;
+	left: 1.5em;
+	width: 60px;
+	z-index: -3;
+}
+
+div.fixed img.tape {
+	float: left;
+	margin: 2em 0 0 -1em;
+}
+
+/*----------- FOURTH SLIDE -------------*/
+
+div.define-fixed {
+	float: left;
+	height: 550px;
+	width: 375px;
+	padding: 1em;
+	margin: 2em 4em 0 4em;
+	position: relative;
+	top: 0em;
+}
+
+div.define-fixed ul {
+	list-style: none;
+}
+
+div.define-fixed ul li {
+	color: #666;
+	font-size: 2em;
+	line-height: 1.333em;
+	float: left;
+}
+
+
+/*----------- FIFTH SLIDE -------------*/
+
+
+div.containing h1 {
+	position: absolute;
+	left: -1em;
+}
+
+div.containing {
+	float: left;
+	height: 550px;
+	width: 375px;
+	padding: 1em;
+	margin: 2em 4em 0 4em;
+	position: relative;
+}
+
+div.containing img.blocks {
+	width: 300px;
+	margin: 0 0 0 2em;
+}
+
+div.containing p {
+	border-left: 5px solid #EEE;
+	color: #666;
+	font-size: 3em;
+	margin: 1em 0;
+	padding-left: 1em;
+}
+
+/*----------- SIXTH SLIDE -------------*/
+
+div.tips {
+	background-color: rgba(156, 191, 191, 0.25);
+	border: 1px dashed #FFF;
+	float: left;
+	height: 550px;
+	width: 375px;
+	padding: 1em 1em 0 2em;
+	margin: 2em 4em 0 4em;
+	position: relative;
+	top: -0.10em;
+}
+
+div.tips p {
+	color: #666;
+	font-size: 2em;
+	line-height: 1.2em;
+	margin: 1em 0;
+}
+
+span {
+	color: #666;
+}
+
+
+/*----------- SEVENTH SLIDE -------------*/
+
+div.find {
+	height: 550px;
+	float: left;
+	width: 375px;
+	padding: 1em;
+	margin: 2em 7.5em 0 4em;
+	position: relative;
+}
+
+div.find img.banner {
+	margin: -1em 0 0 -4em;
+}
+
+div.find ol {
+	color: #666;
+	font-size: 1.3em;
+	line-height: 1.333em;
+}
+
+div.find ol li {
+	border-left: 5px solid #EEE;
+	padding-left: 1em;
+	margin: 1em 0 0 0.50em;
+}
+
+/*----------- EIGHTH SLIDE -------------*/
+
+div.dimensions h1 {
+	position: absolute;
+	left: -1em;
+}
+
+div.dimensions {
+	height: 550px;
+	float: left;
+	width: 375px;
+	padding: 1em;
+	margin: 2em 4em 0 4em;
+	position: relative;
+}
+
+div.dimensions h3 {
+	margin: 0 0 0 2em;
+}
+
+div.dimensions h3 em {
+	color: #666;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+
+div.dimensions p {
+	color: #666;
+	font-size: 1.5em;
+	margin: 1em 0 1em 0;
+}
+
+div.dimensions p.percentages {
+	border: 1px dashed #FFF;
+	background-color: rgba(156, 191, 191, 0.50);
+	color: #FFF;
+	padding: 1em;
+	margin: 1em 0 0 0;
+	text-shadow: 0px 0px 2px #888;
+}
+
+div.dimensions img.contents {
+	width: 375px;
+	margin: 0 0 0 0;
+}
+
+/*----------- NINTH SLIDE -------------*/
+
+div.position h1 {
+	position: absolute;
+	left: -1em;
+}
+
+div.position {
+	height: 550px;
+	float: left;
+	width: 375px;
+	padding: 1em;
+	margin: 2em 4em 0 5em;
+	position: relative;
+}
+
+div.position p {
+	color: #666;
+	font-size: 1em;
+}
+
+div.position p.browser {
+	background-color: #f3ebc8;
+	color: #444;
+	display: inline-block;
+	font-size: 1em;
+	margin: 0 0 0 0;
+	padding: 3px;
+	width: 364px;
+	text-align: center;
+}
+
+div.position img.parent {
+	margin: 1em 0 0em 0em;
+	border: 10px solid #e6ecec;
+	width: 350px;
+}
+
+/*----------- TENTH SLIDE -------------*/
+
+div.z-index h1 {
+	position: absolute;
+	left: -1em;
+}
+
+div.z-index {
+	height: 550px;
+	float: left;
+	width: 375px;
+	margin: 2em 4em 0 4em;
+	padding: 1em;
+	position: relative;
+}
+
+div.z-index img.z-index {
+	float: left;
+	width: 375px;
+	margin: 0 0 0;
+} 
+
+/*----------- ELEVENTH SLIDE -------------*/
+
+div.z-index-2 {
+	height: 550px;
+	float: left;
+	width: 375px;
+	margin: 2em 4em 0 4em;
+	padding: 1em;
+	position: relative;
+}
+
+div.z-index-2 img.renders {
+	float: left;
+	margin: 3em 0 0 0;
+	width: 375px;
+}
+
+div.z-index-2 ul {
+	float: left;
+	width: 200px;
+	list-style: none;
+	margin: 1em 0 0 0;
+}
+
+div.z-index-2 ul li.stacking {
+	border-left: 5px solid #eee;
+	padding-left: 1em;
+	margin-left: 1em;
+	position: absolute;
+	bottom: 0em;
+	left: 0em;
+	width: 200px;
+}
+
+div.z-index-2 ul li.positive,
+div.z-index-2 ul li.negative {
+	border: 10px solid #FFF;
+	float: left;
+	font-size: 1.2em;
+	padding: 1.5em 1em 1.5em 1em;
+	width: 220px;
+	-webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+div.z-index-2 ul li.positive {
+	position: absolute;
+	top: 14em;
+	background-color: #dbe7e7;
+	z-index: 1;
+	margin: 0 0 0 1.5em;
+	-webkit-transform: rotate(-10deg); 
+	-moz-transform: rotate(-10deg);
+}
+
+div.z-index-2 ul li.negative {
+	position: absolute;
+	top: 19em;
+	left: 3em;
+	background-color: #ffbca6;
+	z-index: -3;
+	margin: 0 0 0 1.5em;
+	-webkit-transform: rotate(10deg); 
+	-moz-transform: rotate(10deg);
+	text-align: right;
+}
+
+/*----------- TWELVETH SLIDE -------------*/
+
+div.values {
+	height: 550px;
+	float: left;
+	width: 375px;
+	margin: 2em 4em 0 4em;
+	padding: 1em;
+	position: relative;
+}
+
+div.values p {
+	margin-bottom: 1em;
+}
+
+div.values ul {
+	list-style: none;
+}
+
+div.values ul li {
+	background-color: #dbe7e7;
+	padding: 5px;
+}
+
+div.values ol {
+	list-style: none;
+}
+
+div.values ol li {
+	background-color: #dbe7e7;
+	padding: 5px;
+}
+
+/*----------- THIRTEENTH SLIDE -------------*/
+
+div.diagram {
+	height: 550px;
+	float: left;
+	width: 375px;
+	margin: 2em 4em 0 4em;
+	padding: 1em;
+	position: relative;
+}
+
+div.diagram img.diagram {
+	margin: 4em 0 0 -4em;
+	width: 800px;
+}
