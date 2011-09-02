@@ -49,49 +49,35 @@ header nav.slide-numbers a:hover {
 
 body, p {
 	color: #666;
-	/*font-family: 'Amaranth', sans-serif;*/
-	/*font-weight: 400;*/
-	font-family: bree,sans-serif;
-	font-style: normal;
-	font-weight: 200;
+	font-family: 'Amaranth', sans-serif;
+	font-weight: 400;
 	font-size: 1em;
 }
 
 h1 {
 	color: #FFF;
-	font-family: bree,sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	/*font-family: 'Amaranth', sans-serif;*/
+	font-family: 'Amaranth', sans-serif;
 	font-size: 4em;
-	/*font-weight: 400;*/
+	font-weight: 400;
 }
 
 h2 {
 	color: #9ecdcd;
-	font-family: bree,sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	/*font-family: 'Amaranth', sans-serif;*/
-	/*font-weight: 400;*/
+	font-family: 'Amaranth', sans-serif;
+	font-weight: 400;
 	font-size: 3em;
 }
 
 h3 {
-	font-family: bree,sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	/*font-family: 'Amaranth', sans-serif;*/
+	font-family: 'Amaranth', sans-serif;
 	font-size: 1.4em;
-	/*font-weight: 400;*/
+	font-weight: 400;
 }
 
 em {
 	color: #9cbfbf;
-	/*font-family: 'Amaranth', sans-serif;
-		font-weight: 400;*/
-	font-style: normal;
-	font-family: bree,sans-serif;
+	font-family: 'Amaranth', sans-serif;
+	font-weight: 400;
 	font-style: normal;
 	font-weight: 200;
 }
@@ -185,12 +171,9 @@ div[role="navigation"] {
 
 div[role="navigation"] h2 {
 	color: #9ecdcd;
-	font-family: bree,sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	/*font-family: 'Amaranth', sans-serif;*/
+	font-family: 'Amaranth', sans-serif;
 	font-size: 3em;
-	/*font-weight: 400;*/
+	font-weight: 400;
 	margin: 1em 0 1em 1em;
 }
 
@@ -619,7 +602,6 @@ div.values ul li {
 }
 
 div.values ol {
-	list-style: none;
 }
 
 div.values ol li {
