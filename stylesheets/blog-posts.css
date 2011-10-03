@@ -18,6 +18,13 @@ body {
 	font-weight:300;
 }
 
+::selection {
+  background: rgba(76, 197, 213, 0.35); /* Safari */
+}
+::-moz-selection {
+  background: rgba(76, 197, 213, 0.35); /* Firefox */
+}
+
 .left-column {
 	float: left;
 	margin: 0 0 0 1.625em;
