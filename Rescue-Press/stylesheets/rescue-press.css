@@ -1,0 +1,247 @@
+body {
+  background-color: #F2F2F2;
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  margin: 0 2.9em;
+}
+
+h1 {
+  color: #333;
+  font-family: 'Lato', serif;
+  font-size: 4em;
+  font-weight: 900;
+  margin: 0.25em 0 0 0;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 0px #FFFFFF;
+  width: 121px;
+}
+
+h1 a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: #CCC;
+  text-decoration:none;
+}
+
+h3 {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.777em;
+  font-weight: 400;
+  line-height: 1.333em;
+  margin-bottom: 1.5em;
+  margin-top: 1.1em;
+  text-shadow: 0px 1px 0px #FFFFFF;
+
+}
+
+h4 {
+  color: #333;
+  display: inline;
+  font-family: 'Lato', serif;
+  font-size: 0.75em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0px 1px 0px #FFFFFF;
+  width: 121px;
+}
+
+h4 a {
+  color: #333;
+  text-decoration: none;
+}
+
+h4 a:hover {
+  color: #CCC;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+cite {
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 1.333em;
+}
+
+blockquote {
+  border-left: 3px solid #e5e5e5;
+  color: #333;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.333em;
+  margin: 1.5em 0 1.5em 0;
+  padding-left: 1em;
+  text-shadow: 0px 1px 0px #FFFFFF;
+}
+
+button {
+  background-color: #333;
+  -webkit-box-shadow: 0px 0px 3px #ddd; /* Saf3-4 */
+  -moz-box-shadow: 0px 0px 3px #ddd; /* FF3.5 - 3.6 */
+  box-shadow: 0px 0px 3px #ddd; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+  float: right;
+  font-family: 'Lato', serif;
+  font-size: 0.75em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0px 1px 0px #888;
+  border: 1px solid #000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  height: 28px;
+  width: 110px;
+}
+
+button a {
+  color: #fefeef;
+}
+
+button a:hover {
+  color: #fcd8b6;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #FFF;
+}
+
+a:hover {
+  text-decoration: underline;
+  
+}
+
+div.news ul {
+  list-style: none;
+  margin-bottom: 6em;
+}
+
+div.news ul li {
+  border-left: 3px solid #e5e5e5;
+  color: #333;
+  font-size: 1.333em;
+  line-height: 1.333em;
+  margin: 1em 0;
+  padding: 5px 0 5px 1em;
+}
+
+div.purchase ul {
+  list-style: none;
+}
+
+div.purchase li {
+  margin: 3em 0 6em 0;
+  border-bottom: 1px dashed #DDD;
+}
+
+div[role=navigation] {
+  float: left;
+  width: 160px;
+}
+
+div[role=main] {
+  float: left;
+  width: 960px;
+}
+
+div.about,
+div.news,
+div.purchase {
+  float: left;
+  margin: 3em 0 0 6em;
+  width: 50%;
+}
+
+div.about p,
+div.news p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.333em;
+  font-weight: 400;
+  line-height: 1.333em;
+  margin-bottom: 2em;
+  text-shadow: 0px 1px 0px #FFFFFF;
+}
+
+nav {
+  margin: 5em 0 0 6em;
+}  
+
+nav ul li {
+  display: inline-block;
+  font-family: 'Lato', serif;
+  font-size: 0.75em;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin: 0 1.8em 0 0;
+  text-shadow: 0px 1px 0px #FFFFFF;
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #CCC;
+}
+
+aside.snippet {
+  float: left;
+  width: 250px;
+  font-family: 'Crimson Text', serif;
+  font-size: 2.3em;
+  font-weight: 400;
+  line-height: 1.333em;
+  text-shadow: 0px 1px 0px #FFFFFF;
+  margin: 1.9em 0 0 3em;
+}
+
+figure img {
+  border: 2px solid #E5E5E5;
+  margin: 1em 0;
+  width: 250px;
+}
+
+img.book {
+  border: 2px solid #E5E5E5;
+  float: left;
+  margin: 0 2em 1em 0;
+  width: 6em;
+}
+
+div.purchase p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.333em;
+  margin: 1em 0 1em 0;
+  text-shadow: 0px 1px 0px #FFFFFF;
+}
+
+blockquote span {
+  display: block;
+}
+
+div.purchase h3 {
+  color: #000;
+}
+
+div.purchase h4 {
+  line-height: 1.333em;
+}
+
+div.purchase button {
+  margin: 1em 0 0 0;
+}
+
+div.purchase cite {
+  display: inline-block;
+}
