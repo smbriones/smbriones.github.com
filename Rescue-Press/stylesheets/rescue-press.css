@@ -291,7 +291,7 @@ div.contact p {
 
 div.contact ul {
   list-style: none;
-  margin: 1em 0;
+  margin: 0 0 1em 0;
 }
 
 div.contact ul.address {
