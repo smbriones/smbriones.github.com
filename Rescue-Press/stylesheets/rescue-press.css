@@ -16,6 +16,14 @@ h1 {
   width: 121px;
 }
 
+h2 {
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  font-size: 1.333em;
+  font-style: normal;
+  text-shadow: 0px 1px 0px #FFFFFF;
+}
+
 h1 a {
   color: #333;
   text-decoration: none;
@@ -34,7 +42,6 @@ h3 {
   margin-bottom: 1.5em;
   margin-top: 1.1em;
   text-shadow: 0px 1px 0px #FFFFFF;
-
 }
 
 h4 {
@@ -60,13 +67,13 @@ h4 a:hover {
 
 a {
   color: #000;
-  text-decoration: none;
 }
 
 cite {
   color: #000;
   letter-spacing: 1px;
   line-height: 1.333em;
+  text-shadow: 0px 1px 0px #FFFFFF;
 }
 
 blockquote {
@@ -130,6 +137,7 @@ div.news ul li {
   line-height: 1.333em;
   margin: 1em 0;
   padding: 5px 0 5px 1em;
+  text-shadow: 0px 1px 0px #FFF;
 }
 
 div.purchase ul {
@@ -139,11 +147,13 @@ div.purchase ul {
 div.purchase li {
   margin: 3em 0 6em 0;
   border-bottom: 1px dashed #DDD;
+  text-shadow: 0px 1px 0px #FFF;
 }
 
 div[role=navigation] {
   float: left;
   width: 160px;
+
 }
 
 div[role=main] {
@@ -153,14 +163,21 @@ div[role=main] {
 
 div.about,
 div.news,
-div.purchase {
+div.purchase,
+div.contact,
+div.links,
+div.submissions {
   float: left;
-  margin: 3em 0 0 6em;
+  margin: 3em 0 3em 6em;
   width: 50%;
 }
 
 div.about p,
-div.news p {
+div.news p,
+div.purchase p,
+div.contact p,
+div.links p,
+div.submissions p {
   font-family: 'Crimson Text', serif;
   font-size: 1.333em;
   font-weight: 400;
@@ -230,6 +247,10 @@ blockquote span {
   display: block;
 }
 
+div.purchase button a {
+  text-decoration: none;
+}
+
 div.purchase h3 {
   color: #000;
 }
@@ -244,4 +265,112 @@ div.purchase button {
 
 div.purchase cite {
   display: inline-block;
+}
+
+div.contact h3 {
+  margin-bottom: 2.5em;
+}
+
+div.contact h4 {
+  display: block;
+  line-height: 1.333em;
+  width: 480px;
+}
+
+div.contact p {
+  font-size: 1.333em;
+  line-height: 1.333em;
+  margin: 1.5em 0;
+}
+
+div.contact ul {
+  list-style: none;
+  margin: 1em 0;
+}
+
+div.contact ul.address {
+  border-left: 3px solid #e5e5e5;
+  font-size: 1.5em;
+  margin: 1em 0;
+  padding: 0 0 0 1em;
+  text-shadow: 0px 1px 0px #FFF;
+}
+
+div.contact cite {
+  font-size: 1.333em;
+}
+
+div.links ul {
+	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	column-count: 2;
+	column-gap: 20px;
+  list-style: none;
+  margin: 1em 0 2em 0;
+
+}
+
+div.links ul li {
+  line-height: 1.333em;
+}
+
+div.links h4 {
+  margin-bottom: 1em;
+}
+
+div.links a {
+  text-decoration: none;
+}
+
+div.links a:hover {
+  color: #CCC;
+  text-decoration: underline;
+}
+
+
+div.submissions p {
+  font-size: 1.2em;
+  line-height: 1.333em;
+  margin: 1em 0;
+}
+
+div.submissions h4 {
+  display: block;
+  width: 480px;
+}
+
+div.submissions h2 {
+  line-height: 1.333em;
+  margin-top: 1.3em;
+}
+
+div.submissions em.closed {
+  color: #CCC;
+}
+
+h4.event {
+  font-size: 1.333em;
+  margin: 0.25em 0;
+}
+
+div.ribbon {
+  border: 5px solid transparent;
+  border-top: 5px solid #333;
+  border-bottom: 5px solid #333;
+  border-left: 0 solid transparent;
+  position: relative;
+  top: 5.4em;
+  left: -2em;
+  width: 31px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+div.submissions article h4 {
+  margin-bottom: 0.25em;
 }
