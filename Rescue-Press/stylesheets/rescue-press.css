@@ -280,10 +280,16 @@ div.purchase cite {
 
 div.books {
   margin-top: 1.8em;
-  /* margin-bottom: 1em;*/
   height: 360px;
   width: 480px;
   position: relative;
+}
+
+div.books figure {
+  float:left;
+  display:block;
+  margin:0px;
+  padding:0px;
 }
 
 div.books figure img {
@@ -291,6 +297,7 @@ div.books figure img {
   float: left;
   margin: 0.5em 1.5em 1em 0;
   width: 80px;
+  max-height: 120px;
 }
 
 div.books figure a img {
