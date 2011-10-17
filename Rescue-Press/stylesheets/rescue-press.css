@@ -165,7 +165,8 @@ div.news,
 div.purchase,
 div.contact,
 div.links,
-div.submissions {
+div.submissions,
+div.authors {
   float: left;
   margin: 3em 20px 3em 1em;
   width: 460px;
@@ -279,7 +280,7 @@ div.purchase cite {
 }
 
 div.books {
-  margin-top: 1.8em;
+  margin-top: 3.1em;
   height: 360px;
   width: 480px;
   position: relative;
@@ -470,6 +471,35 @@ a.top {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 3px;
-  /* text-decoration: underline;*/
   text-shadow: 0px 1px 0px white;
+}
+
+img.author-image {
+  border: 2px solid #AAA;
+  float: left;
+  margin: 0 1em 0.5em 0;
+  width: 100px;
+}
+
+div.authors ul {
+  list-style: none;
+}
+
+div.authors ul li {
+  margin: 2em 0;
+}
+
+div.authors h4 {
+  display: inline-block;
+  line-height: 1.333em;
+  width: 300px;
+}
+
+div.authors p {
+  line-height: 1.333em;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 0.5em 0;
+  text-shadow: 0px 1px 0px #FFFFFF;
 }
