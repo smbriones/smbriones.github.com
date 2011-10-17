@@ -1,0 +1,144 @@
+div.menu {
+  border: 1px solid #EEEEEE;
+  margin: 3em;
+  padding: 1em 0.75em 1em 1em;
+  width: 400px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-size: 0.75em;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 900;
+  line-height: 1.2em;
+  width: 380px;
+}
+
+h1, h2, h3 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 900;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 900;
+}
+
+h1 {
+  float: left;
+  font-size: 2.5em;
+  letter-spacing: -2px;
+  line-height: 0.75em;
+  width: 4em;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 1.8em;
+  letter-spacing: -1px;
+  margin: 1.5em 0 0.25em 0;
+  width: 100%;
+}
+
+h2.title {
+  float: left;
+  font-size: 1.9em;
+  height: 1em;
+  line-height: 1.333em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-align: right;
+  text-transform: lowercase;
+  width: 240px;
+
+}
+
+ul.social-links {
+  float: left;
+  text-align: right;
+  width: 240px;
+}
+
+ul.social-links li {
+  width: 240px;
+}  
+
+a {
+  color: #000000;
+  font-family: 'Chivo', sans-serif;
+  font-size: 1.1em;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+
+h3.menu-item {
+  float: left;
+  letter-spacing: -1px;
+  margin: 1em 0 0.25em 0;
+  width: 90%;
+}
+
+ul li h3.menu-item {
+  float: left;
+  font-size: 1.3em;
+  letter-spacing: -1px;
+  margin: 1em 0 0.25em 0;
+  width: 100%;
+}
+
+h2.extras,
+h2.sides {
+  float: left;
+  width: 28%;
+}
+
+p.included {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 900;
+  font-size: 0.75em;
+  float: left;
+  margin: 4.6em 0 0.25em 0;
+  width: 70%;
+}
+
+h3.sides-price {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 900;
+  float: left;
+  margin: 3em 0 0.25em 0;
+  text-align: right;
+  width: 70%;
+}
+
+h3.social {
+  float: right;
+  text-align: right;
+  width: 240px;
+}
+
+h3.price {
+  float: left;
+  margin: 1em 0 0 0;
+  width: 10%;
+  text-align: right;
+}
+
+div[role=navigation] {
+  margin: 1em 0 0 3em;
+  width: 400px;
+}
+
+a.styles-off {
+  font-size: 1em;
+  color: #EEEEEE;
+}
+
+ul li p {
+  display: inline-block;
+  width: 380px;
+}
