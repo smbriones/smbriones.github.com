@@ -1,14 +1,6 @@
-body {
-  background-color: #EFEFEF;
-}
-
 div.menu {
-  background-color: #FFFFFF;  
-  border: 1px solid #E5E5E5;
-  -webkit-box-shadow: 0px 1px 4px #CCC; /* Saf3-4 */
-  -moz-box-shadow: 0px 1px 4px #CCC; /* FF3.5 - 3.6 */
-  box-shadow: 0px 1px 4px #CCC; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
-  margin: 3em 3em 1em 3em;
+  border: 1px solid #EEEEEE;
+  margin: 3em;
   padding: 1em 0.75em 1em 1em;
   width: 400px;
 }
@@ -125,7 +117,6 @@ h3.sides-price {
 
 h3.social {
   float: right;
-  margin: 0 10px 0 0;
   text-align: right;
   width: 240px;
 }
@@ -144,20 +135,10 @@ div[role=navigation] {
 
 a.styles-off {
   font-size: 1em;
-  color: #FFFFFF;
+  color: #EEEEEE;
 }
 
 ul li p {
   display: inline-block;
   width: 380px;
-}
-
-footer {
-  color: #DDDDDD;
-  font-family: futura, sans-serif;
-  font-size: 0.80em;
-  font-weight: normal;
-  margin: 0 0 2em 4em;
-  text-transform: uppercase;
-  width: 400px;
 }
