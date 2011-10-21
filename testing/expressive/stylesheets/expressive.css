@@ -106,7 +106,7 @@ p.included {
   width: 70%;
 }
 
-h3.sides-price {
+p.sides-price {
   font-family: 'Chivo', sans-serif;
   font-weight: 900;
   float: left;
@@ -122,6 +122,8 @@ h3.social {
 }
 
 p.price {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 900;
   float: left;
   margin: 1em 0 0 0;
   width: 10%;
