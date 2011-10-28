@@ -1,27 +1,58 @@
+
+/* _____            _____     */
+/* |  __ \     _    |  __ \   */
+/* | |__) |  _| |_  | |__) |  */
+/* |  _  /  |_   _| |  ___/   */
+/* | | \ \    |_|   | |       */
+/* |_|  \_\         |_|       */
+
+/* R E S C U E    P R E S S   */
+
+/* - - - - - - - - - - - - -  */
+
+/* Stephanie Briones
+/* stephanie@8thlight.com     */
+/* @smbriones                 */
+/* October 28, 2011           */
+
+/* - - - - - - - - - - - - -  */
+
+
 body {
   background-color: rgba(160, 223, 245, 0.35);
+  
   font-family: 'Crimson Text', serif;
   font-weight: 400;
+  
   margin: 0 2.9em;
   min-width: 1200px;
 }
 
+div[role=main] {
+  float: left;
+  width: 960px;
+}
+
+/* - - - - - T Y P O G R A P H Y - - - - - */
+
 h1 {
   color: #333;
+  
   font-family: 'Lato', serif;
   font-size: 4em;
   font-weight: 900;
-  margin: 0.25em 0 0 0;
-  text-transform: uppercase;
   text-shadow: 0px 1px 0px #FFFFFF;
+  text-transform: uppercase;
+
+  margin: 0.25em 0 0 0;
   width: 121px;
 }
 
 h2 {
   font-family: 'Crimson Text', serif;
-  font-weight: 400;
   font-size: 1.333em;
   font-style: normal;
+  font-weight: 400;
   text-shadow: 0px 1px 0px #FFFFFF;
 }
 
@@ -32,7 +63,7 @@ h1 a {
 
 h1 a:hover {
   color: #90DDF9;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 h3 {
@@ -40,20 +71,23 @@ h3 {
   font-size: 1.777em;
   font-weight: 400;
   line-height: 1.333em;
+  text-shadow: 0px 1px 0px #FFFFFF;
+
   margin-bottom: 1.5em;
   margin-top: 1.1em;
-  text-shadow: 0px 1px 0px #FFFFFF;
 }
 
 h4 {
   color: #333;
-  display: inline;
+
   font-family: 'Lato', serif;
   font-size: 0.75em;
   font-weight: 900;
-  text-transform: uppercase;
   letter-spacing: 3px;
+  text-transform: uppercase;
   text-shadow: 0px 1px 0px #FFFFFF;
+
+  display: inline;
   width: 121px;
 }
 
@@ -70,43 +104,87 @@ a {
   color: #000;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 cite {
   color: #000;
+
   letter-spacing: 1px;
   line-height: 1.333em;
   text-shadow: 0px 1px 0px #FFFFFF;
 }
 
 blockquote {
-  border-left: 3px solid #DDD;
   color: #333;
+
   font-family: 'Crimson Text', serif;
   font-size: 1.1em;
   font-style: italic;
   font-weight: 400;
   line-height: 1.333em;
+  text-shadow: 0px 1px 0px #FFFFFF;
+
+  border-left: 3px solid #DDD;
   margin: 1.5em 0 1.5em 0;
   padding-left: 1em;
+}
+
+blockquote span {
+  display: block;
+}
+
+div.about p,
+div.news p,
+div.purchase p,
+div.contact p,
+div.links p,
+div.submissions p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.333em;
+  font-weight: 400;
+  line-height: 1.333em;
   text-shadow: 0px 1px 0px #FFFFFF;
+
+  margin-bottom: 1.333em;
+  margin-top: 1.8em;
+}
+
+div.about a:hover,
+div.news a:hover,
+div.contact a:hover {
+  color: #90DDF9;
+}
+
+/* - - - - - N A V I G A T I O N - - - - - */
+
+div[role=navigation] {
+  float: left;
+  width: 160px;
 }
 
 button {
-  background-color: #333;
-  -webkit-box-shadow: 0px 0px 3px #ddd; /* Saf3-4 */
-  -moz-box-shadow: 0px 0px 3px #ddd; /* FF3.5 - 3.6 */
-  box-shadow: 0px 0px 3px #ddd; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
-  float: right;
   font-family: 'Lato', serif;
   font-size: 0.75em;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-shadow: 0px 1px 0px #888;
-  border: 1px solid #000;
+
+  background-color: #333;
+
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+
+  -webkit-box-shadow: 0px 0px 3px #ddd; /* Saf3-4 */
+  -moz-box-shadow: 0px 0px 3px #ddd; /* FF3.5 - 3.6 */
+  box-shadow: 0px 0px 3px #ddd; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+  border: 1px solid #000;
+
+  float: right;
   height: 28px;
   width: 110px;
 }
@@ -118,46 +196,6 @@ button a {
 button a:hover {
   color: #90DDF9;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-div.news ul {
-  list-style: none;
-  margin-bottom: 6em;
-}
-
-div.news ul li {
-  border-left: 3px solid #DDD;
-  color: #333;
-  font-size: 1.333em;
-  line-height: 1.333em;
-  margin: 1em 0;
-  padding: 5px 0 5px 1em;
-  text-shadow: 0px 1px 0px #FFF;
-}
-
-div.purchase ul {
-  list-style: none;
-}
-
-div.purchase li {
-  margin: 3em 0 6em 0;
-  border-bottom: 1px dashed #BBB;
-  text-shadow: 0px 1px 0px #FFF;
-}
-
-div[role=navigation] {
-  float: left;
-  width: 160px;
-
-}
-
-div[role=main] {
-  float: left;
-  width: 960px;
 }
 
 div.about,
@@ -172,40 +210,20 @@ div.authors {
   width: 460px;
 }
 
-div.about p,
-div.news p,
-div.purchase p,
-div.contact p,
-div.links p,
-div.submissions p {
-  font-family: 'Crimson Text', serif;
-  font-size: 1.333em;
-  font-weight: 400;
-  line-height: 1.333em;
-  margin-bottom: 1.333em;
-  margin-top: 1.8em;
-  text-shadow: 0px 1px 0px #FFFFFF;
-}
-
-div.about a:hover,
-div.news a:hover,
-div.contact a:hover {
-  color: #90DDF9;
-}
-
 nav {
   margin: 5em 0 0 1em;
 }  
 
 nav ul li {
-  display: inline-block;
   font-family: 'Lato', serif;
   font-size: 0.75em;
   font-weight: 900;
   letter-spacing: 3px;
-  margin: 0 2.8em 0 0;
   text-shadow: 0px 1px 0px #FFFFFF;
   text-transform: uppercase;
+
+  display: inline-block;
+  margin: 0 2.8em 0 0;
 }
 
 nav ul li a {
@@ -217,25 +235,38 @@ nav ul li a:hover {
   color: #90DDF9;
 }
 
-aside.snippet {
-  float: left;
-  width: 350px;
-  font-family: 'Crimson Text', serif;
-  font-size: 2.3em;
-  font-weight: 400;
+/* - - - - - N E W S  P A G E - - - - - */
+
+
+div.news ul {
+  list-style: none;
+  margin-bottom: 6em;
+}
+
+div.news ul li {
+  color: #333;
+
+  font-size: 1.333em;
   line-height: 1.333em;
-  text-shadow: 0px 1px 0px #FFFFFF;
-  margin: 1.9em 0 0 1em;
-}
+  text-shadow: 0px 1px 0px #FFF;
 
-aside.snippet p {
-  width: 310px;
-}
-
-figure img {
-  border: 2px solid #CCC;
+  border-left: 3px solid #DDD;
   margin: 1em 0;
-  width: 350px;
+  padding: 5px 0 5px 1em;
+}
+
+
+/* - - - - - P U R C H A S E  P A G E - - - - - */
+
+div.purchase ul {
+  list-style: none;
+}
+
+div.purchase li {
+  text-shadow: 0px 1px 0px #FFF;
+
+  border-bottom: 1px dashed #BBB;
+  margin: 3em 0 6em 0;
 }
 
 img.book {
@@ -250,12 +281,9 @@ div.purchase p {
   font-size: 1.1em;
   font-weight: 400;
   line-height: 1.333em;
-  margin: 1em 0 1em 0;
   text-shadow: 0px 1px 0px #FFFFFF;
-}
 
-blockquote span {
-  display: block;
+  margin: 1em 0 1em 0;
 }
 
 div.purchase button a {
@@ -280,25 +308,26 @@ div.purchase cite {
 }
 
 div.books {
-  margin-top: 3.1em;
   height: 360px;
   width: 480px;
+  
+  margin-top: 3.1em;
   position: relative;
 }
 
 div.books figure {
-  float:left;
-  display:block;
-  margin:0px;
-  padding:0px;
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
 }
 
 div.books figure img {
   border: 2px solid #AAA;
   float: left;
   margin: 0.5em 1.5em 1em 0;
-  width: 80px;
   max-height: 120px;
+  width: 80px;
 }
 
 div.books figure a img {
@@ -317,13 +346,16 @@ div.books figure a:focus img {
 div.books figcaption {
   display: none;
   opacity: 0;
+  
   margin: 0;
   padding: 5px;
+  
   position: absolute;
   bottom: 0em;
   left: 0em;
   width: 440px;
   z-index: 2;
+
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
   -o-transition: opacity 0.2s ease-in-out;
@@ -332,18 +364,21 @@ div.books figcaption {
 
 div.books figcaption h4 {
   color: #333;
-  display: block;
+
   font-family: 'Lato', serif;
   font-size: 0.75em;
   font-weight: 900;
-  text-transform: uppercase;
   letter-spacing: 3px;
   text-shadow: 0px 1px 0px white;
+  text-transform: uppercase;
+  
+  display: block;
   width: 460px;
 }
 
 div.books figcaption cite {
   color: #888;
+
   letter-spacing: 1px;
   line-height: 1.333em;
   text-shadow: 0px 1px 0px #FFFFFF;
@@ -354,20 +389,49 @@ div.books figure:hover figcaption {
   opacity: 1;
 }
 
+/* - - - - - G L O B A L  A S I D E - - - - - */
+
+aside.snippet {
+  font-family: 'Crimson Text', serif;
+  font-size: 2.3em;
+  font-weight: 400;
+  line-height: 1.333em;
+  text-shadow: 0px 1px 0px #FFFFFF;
+  
+  float: left;
+  margin: 1.9em 0 0 1em;
+  width: 350px;
+}
+
+aside.snippet p {
+  width: 310px;
+}
+
+figure img {
+  border: 2px solid #CCC;
+  margin: 1em 0;
+  width: 350px;
+}
+
+/* - - - - -  C O N T A C T  P A G E  - - - - - */
+
+
 div.contact h3 {
   margin-top: 1em;
   margin-bottom: 1.5em;
 }
 
 div.contact h4 {
-  display: block;
   line-height: 1.333em;
+  
+  display: block;
   width: 480px;
 }
 
 div.contact p {
   font-size: 1.333em;
   line-height: 1.333em;
+
   margin: 1.5em 0;
 }
 
@@ -377,27 +441,32 @@ div.contact ul {
 }
 
 div.contact ul.address {
-  border-left: 3px solid #DDD;
   font-size: 1.5em;
+  text-shadow: 0px 1px 0px #FFF;
+
+  border-left: 3px solid #DDD;
   margin: 1em 0;
   padding: 0 0 0 1em;
-  text-shadow: 0px 1px 0px #FFF;
 }
 
 div.contact cite {
   font-size: 1.333em;
 }
 
+/* - - - - - L I N K S  P A G E  - - - - - */
+
 div.links ul {
+  list-style: none;
+
 	-moz-column-count: 2;
 	-moz-column-gap: 20px;
 	-webkit-column-count: 2;
 	-webkit-column-gap: 20px;
+
 	column-count: 2;
 	column-gap: 20px;
-  list-style: none;
-  margin: 1em 0 2em 0;
 
+  margin: 1em 0 2em 0;
 }
 
 div.links ul li {
@@ -417,11 +486,21 @@ div.links a:hover {
   text-decoration: underline;
 }
 
+/* - - - - -  S U B M I S S I O N S  P A G E  - - - - - */
+
+h4.event {
+  font-size: 1.333em;
+  margin: 0.25em 0;
+}
 
 div.submissions p {
   font-size: 1.2em;
   line-height: 1.333em;
   margin: 1em 0;
+}
+
+div.submissions article h4 {
+  margin-bottom: 0.25em;
 }
 
 div.submissions h4 {
@@ -438,20 +517,17 @@ div.submissions em.closed {
   color: #AAA;
 }
 
-h4.event {
-  font-size: 1.333em;
-  margin: 0.25em 0;
-}
-
 div.ribbon {
   border: 5px solid transparent;
   border-top: 5px solid #333;
   border-bottom: 5px solid #333;
   border-left: 0 solid transparent;
+
   position: relative;
-  top: 5.4em;
   left: -2em;
+  top: 5.4em;
   width: 31px;
+
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -459,19 +535,19 @@ div.ribbon {
   transform: rotate(90deg);
 }
 
-div.submissions article h4 {
-  margin-bottom: 0.25em;
-}
+/* - - - - -  A U T H O R S  P A G E  - - - - - */
 
 a.top {
   color: #333;
-  display: block;
+
   font-family: 'Lato', serif;
   font-size: 0.75em;
   font-weight: 900;
-  text-transform: uppercase;
   letter-spacing: 3px;
   text-shadow: 0px 1px 0px white;
+  text-transform: uppercase;
+
+  display: block;
 }
 
 img.author-image {
@@ -496,10 +572,11 @@ div.authors h4 {
 }
 
 div.authors p {
-  line-height: 1.333em;
   font-family: 'Crimson Text', serif;
   font-size: 1.1em;
   font-weight: 400;
-  margin: 0.5em 0;
+  line-height: 1.333em;
   text-shadow: 0px 1px 0px #FFFFFF;
+
+  margin: 0.5em 0;
 }
