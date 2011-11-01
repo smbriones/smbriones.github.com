@@ -246,7 +246,6 @@ footer {
   color: #EEE;
 
   margin: 0 auto;
-  padding: 0 2em;
   width: 100%;
 }
 
@@ -258,8 +257,8 @@ footer h3 {
   text-align: left;
 
   float: left;
-  padding: 0 2.5em 2em 0;
-  width: 15.333333333em;
+  padding: 0 2em 2em 2em;
+  width: 13.333333333em;
 }
 
 .column img {
