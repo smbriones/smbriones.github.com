@@ -1,14 +1,10 @@
 ---
-layout: blog-post
+layout: new-blog
 title: "Week One at 8th Light: My Design Apprenticeship"
 snippet: "It isn't quite enough to say that I learn something new every day while at 8th Light, it's more like every 20 minutes."
+date_string: July 11, 2011
 ---
 
-<p class="date">July 11, 2011</p>
-
-# {{ page.title }}
-
-## {{ page.snippet }}
 
 I first learned about the design apprenticeship at 8th Light after sending out a message 
 on Twitter. I was hoping to find an entry-level web design job, internship, or apprenticeship. 
