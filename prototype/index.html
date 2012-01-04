@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Speedometer</title>
+  <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+  <link type="text/css" href="css/speedometer.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+		
+  <script type="text/javascript">
+    $(function() {
+      $( "#slider" ).slider({
+      	range: "max",
+      	min: -90,
+      	max: 90,
+      	value: -90,
+      	step: 2,
+      	slide: function( event, ui ) {
+      $( "#amount" ).val( ui.value );
+      	console.log("Rotated " + ui.value + " degrees!");
+      $('#box').css({
+      	WebkitTransform: 'rotate(' + ui.value + 'deg)',
+      	MozTransform: 'rotate(' + ui.value + 'deg)'
+      	});
+      }
+    });
+      	$(".ui-slider-handle").focus();
+      	});
+  </script>
+		
+  </head>
+  <body>
+    <div role="main">
+      <div class="numbers">
+        <img class="cover" src="images/cover.png">        
+        <img class="speedometer-numbers" src="images/speedometer-dots.png" alt="Speedometer numbers">
+        <img class="speedometer-title" src="images/speedometer.png" alt="Speed-O-Meter">        
+        <!-- <ol>
+        <li class="mph-0">0</li>
+        <li class="mph-10">10</li>
+        <li class="mph-20">20</li>
+        <li class="mph-30">30</li>                                                         
+        <li class="mph-40">40</li>
+        <li class="mph-50">50</li>
+        <li class="mph-60">60</li>
+        <li class="mph-70">70</li>
+        <li class="mph-80">80</li> 
+        </ol> -->
+      </div>    
+      <div id="speedometer">
+        <div id="box">
+          <p class="point"></p>
+        </div>
+        <div id="slider"></div>
+        <!-- <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;" /> -->
+      </div>
+    </div>
+  </body>
+</html>
