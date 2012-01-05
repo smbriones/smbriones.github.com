@@ -23,23 +23,29 @@
         $('#box').css({
       	  WebkitTransform: 'rotate(' + value + 'deg)',
       	  MozTransform: 'rotate(' + value + 'deg)'
-        });
+          });
+        $("#slider").slider({value: current_amount});
       };
+    }
+
+    function decelerate(){
+      if (!isAccelerating){
+        setSpeedometer(current_amount - speed);
+      }
     }
 
     $(function() {
       $("body").keydown(
         function(event){
-        if (event.which == 32){
-        isAccelerating = true;
-        setSpeedometer(current_amount + speed);
-        $("#slider").slider({value: current_amount});
+        if (event.which == 32 || event.which == 39){
+          isAccelerating = true;
+          setSpeedometer(current_amount + speed);
         }
       }); 
       
       $("body").keyup(
         function(event){
-        if (event.which == 32){
+        if (event.which == 32 || event.which == 39){
           isAccelerating = false;
         }
       }); 
@@ -53,16 +59,10 @@
         slide: function( event, ui ) {
           setSpeedometer(ui.value);
         }
-      });
-      
-      $(".ui-slider-handle").focus();
-      
-      function decelerate(){
-        if (!isAccelerating){
-          setSpeedometer(current_amount - speed);
-          $("#slider").slider({value: current_amount});
-        }
-      }
+        });
+
+      $(".ui-slider-handle").unbind("keydown");
+
       setInterval (decelerate, 100);
     });
              
