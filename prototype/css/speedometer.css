@@ -1,6 +1,31 @@
-div.speedometer ol {
-  list-style: none;
-}
+/*
+
+--- SPEED-O-METER -------------------
+
+
+table of contents:
+
+1. S T R U C T U R E
+2. M A I N  I M A G E S
+3. F U N C T I O N A L
+4. S A V E D  P I E C E S
+
+
+
+colors:
+
+#D33C07 -- Base Red for Needle
+#EF5120 -- Light Red in Gradient
+#C13414 -- Dark Red in Gradient
+#EAEAEA -- Slider Background Color
+
+
+--------------------------------------
+
+*/
+
+/*  1. S T R U C T U R E  */
+
 
 html {
   background-color: #EAEAEA;
@@ -18,6 +43,22 @@ div[role=main] {
   width: 100%;
 }
 
+div.numbers {
+  margin: 8em auto 1em auto;
+  position: relative;  
+  height: 300px;  
+  width: 550px;
+}
+
+div#speedometer {
+  margin: -18.9em auto 1em auto;
+  position: relative;
+  z-index: 100;
+}
+
+/*  2. M A I N  I M A G E S  */
+
+
 img.speedometer-title {
   position: absolute;
   left: 8em;
@@ -33,13 +74,6 @@ img.cover {
   top: 0em;
 }
 
-div.numbers {
-  margin: 8em auto 1em auto;
-  position: relative;  
-  height: 300px;  
-  width: 550px;
-}
-
 img.speedometer-numbers {
   margin: 0 0 0 4px;
   opacity: 1;
@@ -47,11 +81,8 @@ img.speedometer-numbers {
   z-index: 0;
 }
 
-div#speedometer {
-  margin: -18.9em auto 1em auto;
-  position: relative;
-  z-index: 100;
-}
+/*  3. F U N C T I O N A L  */
+
 
 #box {
   background: #D33C07;
@@ -97,9 +128,9 @@ p.point {
 #slider {
   margin: 0 auto;
   width: 300px;
-  background: #D33C07;
+  background: #EAEAEA;
   background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#EAEAEA));
-  background: -moz-linear-gradient(top, #EF5120, #C13414);
+  background: -moz-linear-gradient(top, #FFF, #EAEAEA);
 }
 
 .ui-slider .ui-slider-handle {
@@ -110,6 +141,13 @@ p.point {
   outline: none;
   width: 8px;
 }
+
+
+/*  4. S A V E D  P I E C E S  */
+
+
+/* Value input, displays the angle of the needle. 
+ * Not wanted right now. */
 
 /*input#amount {
   background: transparent;
@@ -125,7 +163,14 @@ p.point {
 /* - - - - - SAVED NUMBER POSITIONING CODE - - - - - */
 
 
-/*div.numbers ol li {
+/*
+  
+  div.speedometer ol {
+  list-style: none;
+}
+ 
+
+  div.numbers ol li {
   color: #333;
   display: inline-block;
   font-size: 3.5em;
