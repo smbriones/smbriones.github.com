@@ -6,9 +6,10 @@
 table of contents:
 
 1. S T R U C T U R E
+2. T Y P O G R A P H Y
 2. M A I N  I M A G E S
-3. F U N C T I O N A L
-4. S A V E D  P I E C E S
+4. F U N C T I O N A L
+5. S A V E D  P I E C E S
 
 
 
@@ -39,7 +40,7 @@ body {
 }
 
 div[role=main] {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -56,7 +57,63 @@ div#speedometer {
   z-index: 100;
 }
 
-/*  2. M A I N  I M A G E S  */
+div[role=contentinfo] {
+  margin: 12em auto;
+  padding-bottom: 10em;
+  width: 550px;
+
+  -moz-column-width: 16em; 
+  -webkit-column-width: 16em; 
+  -moz-column-gap: 2em; 
+  -webkit-column-gap: 2em;
+  -webkit-column-rule: 1px solid #DDD;
+  -moz-column-rule: 1px solid #DDD;
+  
+}
+
+/*  2. T Y P O G R A P H Y   */
+
+h3 {
+  color: #444;
+  font-family: "ronnia",sans-serif;
+  font-size: 1.1em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+div[role=contentinfo] p {
+  color: #444;
+  font-family: "ronnia",sans-serif;
+  font-size: 1em;  
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.777em;
+  padding: 0;
+}
+
+div[role=contentinfo] p:last-child {
+  padding-left: 1.5em;
+}
+
+cite {
+  color: #888;
+  display: block;
+  font-size: 0.9em;
+  padding-top: 5px;
+  text-align: right;
+}
+
+a {
+  color: #A82C11;
+}
+
+a:hover {
+  color: #888;
+}
+
+/*  3. M A I N  I M A G E S  */
 
 
 img.speedometer-title {
@@ -81,7 +138,7 @@ img.speedometer-numbers {
   z-index: 0;
 }
 
-/*  3. F U N C T I O N A L  */
+/*  4. F U N C T I O N A L  */
 
 
 #box {
@@ -143,7 +200,7 @@ p.point {
 }
 
 
-/*  4. S A V E D  P I E C E S  */
+/*  5. S A V E D  P I E C E S  */
 
 
 /* Value input, displays the angle of the needle. 
