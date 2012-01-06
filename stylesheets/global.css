@@ -221,6 +221,10 @@ figure img {
   border: 2px solid #EEE;
 }
 
+figure.dark img {
+  border: 2px solid #DDD;
+}
+
 figcaption {
   color: #AAA;
   font-size: 0.75em;
