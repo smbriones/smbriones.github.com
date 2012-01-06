@@ -1,0 +1,151 @@
+---
+layout: new-blog
+title: "Speed-O-Meter: An assignment in CSS transitions and jQuery"
+snippet: "Before the holidays, I was given the mission to create a working speedometer using HTML, CSS, and jQuery."
+date_string: January 5, 2012
+---
+
+<p>
+The inspiration was drawn from <a href="http://annyas.com/chevrolet-speedometer-design">this</a> 
+collection of Chevrolet speedometers from between 1941 and 2011. It's 
+amazing how something as simple as a speedometer on a dashboard, when shown in a different light, 
+can be so interesting.
+</p>
+
+<figure>
+  <a href="http://annyas.com/chevrolet-speedometer-design"><img 
+    src="/images/blog/speedometer/chevy-speedometer.png" alt="Collection 
+    of Chevrolet Speedometers from 1941-2011"></a>
+  <figcaption>
+    Collection of Chevrolet Speedometers from 1941-2011.
+  </figcaption>
+</figure>
+
+<p>
+The simple black and white without all the frills allows one to focus on 
+the typography and creativity of the placement. With the older ones, it looks as if a lot of thought 
+and care went into the selection of the typefaces and the layout. The 
+needles were much more interesting. Here are some good examples:
+<a href="/images/blog/speedometer/dodge332.png">1</a>
+<a href="/images/blog/speedometer/red-needle.png">2</a>
+<a href="/images/blog/speedometer/1949-Nash.png">3</a>
+</p>
+<p>
+First order: figure out how to manipulate a <em>div</em> with the jQuery UI slider. Getting a slider on the 
+page was simple enough, but the part that I didn't know how to do was 
+connect it to the <em>div</em> so that 
+when it was toggled, the <em>div</em> rotated using CSS transitions.
+</p>
+<p>
+Thanks to <a href="http://www.8thlight.com/our-team/billy-whited">Billy</a>, that was working pretty 
+quickly. I was able to start resizing the <em>div</em> (needle) and some adding numbers to the page for it to point to.
+</p>
+<p>
+My next step was to find the right typeface. I really like the speedometers from the 40's and 50's the 
+most. Most of them seem to use a squarish, bold, geometric typeface. 
+</p>
+
+<figure>
+  <img src="/images/blog/speedometer/kimberley-font.png" alt="screenshot of Kimberley typeface on MyFonts">
+  <figcaption>
+    Kimberley Regular <a href="http://new.myfonts.com/fonts/larabie/kimberley/">example from MyFonts.com</a>.
+  </figcaption>
+</figure>
+
+<p>
+<a href="http://new.myfonts.com/fonts/larabie/kimberley/">Kimberley Regular</a> seems a good choice for 
+that. It has a vintage feel and the characteristics that I was looking for. I used Illustrator to rotate 
+the numbers clock-wise. (I positioned them all with CSS first, but the transforms skewed the numbers in 
+a way that was inconsistent, so an image it is.)
+</p>
+
+<p>
+For a bit of a fun touch, I wanted to pair Kimberley with a scripty mid-century looking font. 
+<a href="http://new.myfonts.com/fonts/fontdiner/air-conditioner/">Air Conditioner</a> seems to fit that 
+criteria pretty well.
+</p>
+
+<figure>
+  <img src="/images/blog/speedometer/air-conditioner.png" alt="screenshot of Air Conditioner typeface on MyFonts">
+  <figcaption>
+    Air Conditioner Regular <a href="http://new.myfonts.com/fonts/fontdiner/air-conditioner/">example from MyFonts.com</a>.
+  </figcaption>
+</figure>
+
+<p>
+Next, we wanted to have the dots, (below each number) turn red as the needle passed by. Doing 
+that in jQuery is quite beyond my abilities, so with a crescent-shaped image with holes cut out where 
+the dots should be, I was halfway there. 
+</p>
+<p>
+The other part making it work is an HTML element attached to the needle div. That crescent-shaped 
+image that is the same color as the background of the page, has a really high z-index, putting it above 
+the needle and the attached HTML element that forms the little red circle.
+</p>
+
+<figure>
+  <a href="http://stephaniebriones.com/speedometer/"><img 
+     src="/images/blog/speedometer/speedometer-screenshot.png" 
+     alt="screenshot of speedometer"></a>
+  <figcaption>
+    When the needle makes it's way around, the only time you see the red dot is when the needle points 
+    directly at a number on the speedometer.
+</figcaption>
+</figure>
+
+<p>
+Another idea that we wanted to implement was the possibility of having the spacebar control acceleration 
+as well as the arrows and mouse clicks. For this I searched all over. 
+</p>
+<p>
+I was pretty sure I needed to use <em>keypress</em>, or <em>keyup</em> and <em>keydown</em>, 
+but could not figure out how to get more than an alert to pop up when the spacebar was pressed. I knew what 
+I needed, but just didn't know how to move forward. 
+</p>
+<p>
+I went to Myles, a fellow resident apprentice at <a href="http://www.8thlight.com">8th Light</a>, and he 
+was able to help me get the spacebar to control the acceleration. Playing with it more, I really wanted it 
+to decelerate on <em>keyup</em>. Billy worked with me again and we were able to get it to decelerate as 
+well, however, not very gracefully. It would just jump back down to -90 instantly, not slowly, like the 
+needle.
+</p>
+<p>
+Myles came up with a new variable called <em>isAccelerating</em> which is set to <em>false</em>, 
+applied that to the <em>keydown</em> and <em>keyup</em> events. <em>keydown</em> was set to 
+<em>isAccelerating = true;</em> and <em>keydown</em>, <em>false</em>. 
+</p>
+
+<figure>
+  <img src="/images/blog/speedometer/isaccelerating.png" alt="screenshot of jQuery isAccelerating function">
+  <figcaption> 
+  </figcaption>
+</figure>
+
+<p>
+Therefore the speedometer is always decelerating unless the spacebar is pressed down. When the spacebar 
+is pressed, the deceleration is interrupted. Then he added <em>setInterval (decelerate, 100);</em> to ease the 
+deceleration and let the slider handle fall gracefully back to it's -90 position. We applied everything 
+to the right arrow as well so they would both act the same way. 
+</p>
+<p>
+I'm really glad that I'm surrounded by smart people that can help me with this kind of thing. I definitely 
+feel like I have learned a lot by doing this exercise and that wouldn't have been possible without the 
+guidance of some really smart guys. I look forward to learning a lot more.
+</p>
+<p>
+Some things that were helpful to me:
+</p>
+<ol>
+  <li>
+    <a href="http://www.codeschool.com/courses/jquery-air-first-flight">
+    jQuery Air, First Flight - Code School</a>
+  </li>
+  <li>  
+    <a href="http://stackoverflow.com/questions/7936396/jquery-rotate-transform">
+    jQuery Rotate/Transform - Stack Overflow</a>
+  </li>
+  <li>
+    <a href="http://www.w3.org/TR/2011/WD-css3-2d-transforms-20111215/#transform-origin-property">
+    The "transform-origin" Property - W3C</a>
+  </li>
+</ol>
