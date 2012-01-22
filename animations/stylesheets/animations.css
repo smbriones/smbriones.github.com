@@ -1,0 +1,1787 @@
+/* C S S 3  A N I M A T I O N S  A S S I G N M E N T */
+/* J A N U A R Y  20, 2012 */
+
+
+
+/* T A B L E  O F  C O N T E N T S  
+ *
+ * 1. Global 
+ * 2. Header
+ * 3. Diffusion
+ * 4. Negative/Positive
+ * 5. Overlapping
+ * 6. Footer
+ *
+ * */
+
+
+
+/* - - - - -  G L O B A L  - - - - - */
+
+
+body {
+  background-color: #fafafa;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAPUlEQVQYGWP89evXfwYCgImAPMPHjx9n4VUEUsDPz5/GSLZ1IBOQnYFhHcwKZEWkWYduBbJJYOuwWYGsCAC4viIeBsOoWAAAAABJRU5ErkJggg==);
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+}
+
+h2, h3 {
+  font-family: "ronnia",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+p.dark {
+  color: #111;
+  font-family: "ronnia",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+p.light {
+  color: #FAFAFA;
+  font-family: "ronnia",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* - - - - -  H E A D E R  - - - - - */
+
+header {
+  background-color: #FAFAFA;
+  margin-bottom: 2em;
+  padding: 0.25em 0;
+}
+
+header h3 {
+  color: #BBB;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  padding: 5px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+header h3 span a {
+  border-left: 1px dashed #CCC;  
+  color: #BBB;
+  font-family: bistro-script-web;
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 200;
+  padding: 0 0.5em;
+  text-decoration: none;
+  text-transform: none;
+}
+
+header h3 span a:hover {
+  color: #888;
+}
+
+aside {
+  opacity: 0;
+  margin-left: 3em;
+
+  transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+  -moz-transition: all .5s ease-in;
+  -webkit-transition: all .5s ease-in;
+
+  height: 400px;
+  position: relative;
+  z-index: 1;
+}
+
+aside:hover {
+  opacity: 1;
+  position: relative;
+}
+
+aside p {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.333em;
+  margin: 2.4em 0 0 1.6em;  
+  width: 320px;
+}
+
+/* - - - - - D I F F U S I O N - - - - - */
+
+#diffusion h2 { 
+  color: #111;
+  font-size: 1.5em;
+  padding-top: 2em;
+  padding-left: 3em;
+}
+
+#dots-container {
+  height: 400px;
+  margin: -25em auto 0 auto;
+  padding: 6em auto 0 auto;
+  position: relative;
+  width: 500px;
+  z-index: 300;
+}
+
+span.dot {
+  background-color: #111;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;  
+
+  transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -webkit-transition: all .4s ease-out;
+}
+
+#diffusion span:hover {
+  background-color: #111;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  display: inline-block;
+  height: 50px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  width: 50px;
+}
+
+/* - - - ROW 1 - - - */
+
+p.row-1 {
+  display: inline-block;
+  position: absolute;
+  top: 2em;
+  width: 450px;
+}
+
+p.row-1 span.dot.one {
+  position: absolute;
+  top: -25px;
+  left: -5px;
+  height: 15px;
+  width: 15px;
+}
+
+p.row-1 span.dot.two {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  height: 10px;
+  width: 10px;
+}
+
+p.row-1 span.dot.three {
+  margin-bottom: 3px;
+  position: absolute;
+  bottom: 0px;
+  left: 35px;
+}
+
+p.row-1 span.dot.four {
+  position: absolute;
+  bottom: -6px;
+  left: 58px;
+}
+
+p.row-1 span.dot.five {
+  height: 15px;
+  position: absolute;
+  bottom: 6px;
+  left: 80px;
+  width: 15px;
+}
+
+p.row-1 span.dot.six {
+  position: absolute;
+  bottom: 3px;
+  left: 100px;
+}
+
+p.row-1 span.dot.seven {
+  position: absolute;
+  bottom: 0px;
+  left: 122px;
+}
+
+p.row-1 span.dot.eight {
+  position: absolute;
+  bottom: -4px;
+  left: 143px;
+}
+
+p.row-1 span.dot.nine {
+  position: absolute;
+  bottom: 1px;
+  left: 166px;
+}
+
+p.row-1 span.dot.ten {
+  position: absolute;
+  bottom: 6px;
+  left: 188px;
+}
+
+p.row-1 span.dot.eleven {
+  position: absolute;
+  bottom: -2px;
+  left: 210px;
+}
+
+p.row-1 span.dot.twelve {
+  position: absolute;
+  bottom: 8px;
+  left: 232px;
+}
+
+p.row-1 span.dot.thirteen {
+  position: absolute;
+  bottom: -2px;
+  left: 255px;
+}
+
+p.row-1 span.dot.fourteen {
+  position: absolute;
+  bottom: 5px;
+  left: 276px;
+}
+
+p.row-1 span.dot.fifteen {
+  position: absolute;
+  bottom: 8px;
+  left: 302px;
+}
+
+p.row-1 span.dot.sixteen {
+  position: absolute;
+  bottom: -3px;
+  left: 320px;
+}
+
+p.row-1 span.dot.seventeen {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  bottom: 8px;
+  left: 342px;
+}
+
+p.row-1 span.dot.eighteen {
+  position: absolute;
+  bottom: 8px;
+  left: 356px;  
+}
+
+p.row-1 span.dot.nineteen {
+  position: absolute;
+  bottom: 0;
+  left: 380px;
+}
+
+p.row-1 span.dot.twenty {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  bottom: 15px;
+  left: 410px;
+}
+
+/* - - - ROW 2 - - - */
+
+p.row-2 { 
+  position: absolute;
+  top: 3.5em;
+  display: inline-block;
+  width: 450px;
+}
+
+p.row-2 span.dot.one {
+  position: absolute;
+  top: -15px;
+  left: -10px;
+  height: 13px;
+  width: 13px;
+}
+
+p.row-2 span.dot.two {
+  position: absolute;
+  bottom: 9px;
+  left: 16px;
+  height: 14px;
+  width: 14px;
+}
+
+p.row-2 span.dot.three {
+  margin-bottom: 3px;
+  position: absolute;
+  bottom: 2px;
+  left: 31px;
+}
+
+p.row-2 span.dot.four {
+  position: absolute;
+  bottom: -5px;
+  left: 52px;
+}
+
+p.row-2 span.dot.five {
+  height: 15px;
+  position: absolute;
+  bottom: 6px;
+  left: 76px;
+  width: 15px;
+}
+
+p.row-2 span.dot.six {
+  position: absolute;
+  bottom: 6px;
+  left: 96px;
+}
+
+p.row-2 span.dot.seven {
+  position: absolute;
+  bottom: 0px;
+  left: 119px;
+}
+
+p.row-2 span.dot.eight {
+  position: absolute;
+  bottom: -3px;
+  left: 141px;
+}
+
+p.row-2 span.dot.nine {
+  position: absolute;
+  bottom: 3px;
+  left: 164px;
+}
+
+p.row-2 span.dot.ten {
+  position: absolute;
+  bottom: 1px;
+  left: 186px;
+}
+
+p.row-2 span.dot.eleven {
+  position: absolute;
+  bottom: -5px;
+  left: 211px;
+}
+
+p.row-2 span.dot.twelve {
+  position: absolute;
+  bottom: 2px;
+  left: 236px;
+}
+
+p.row-2 span.dot.thirteen {
+  position: absolute;
+  bottom: -2px;
+  left: 259px;
+}
+
+p.row-2 span.dot.fourteen {
+  position: absolute;
+  bottom: 7px;
+  left: 280px;
+}
+
+p.row-2 span.dot.fifteen {
+  position: absolute;
+  bottom: -2px;
+  left: 300px;
+}
+
+p.row-2 span.dot.sixteen {
+  position: absolute;
+  bottom: -3px;
+  left: 324px;
+}
+
+p.row-2 span.dot.seventeen {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  bottom: 10px;
+  left: 345px;
+}
+
+p.row-2 span.dot.eighteen {
+  position: absolute;
+  bottom: 6px;
+  left: 360px;  
+}
+
+p.row-2 span.dot.nineteen {
+  position: absolute;
+  bottom: 0;
+  left: 380px;
+}
+
+p.row-2 span.dot.twenty {
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  bottom: 12px;
+  left: 404px;
+}
+
+/* - - - ROW 3 - - - */
+
+p.row-3 { 
+  position: absolute;
+  top: 5em;
+  width: 450px;
+  display: inline-block;
+  width: 450px;
+
+}
+
+p.row-3 span.dot.one {
+  position: absolute;
+  top: -21px;
+  left: -0.9px;
+  height: 12px;
+  width: 12px;
+}
+
+p.row-3 span.dot.two {
+  position: absolute;
+  bottom: 15px;
+  left: 12px;
+  height: 15px;
+  width: 15px;
+}
+
+p.row-3 span.dot.three {
+  margin-bottom: 3px;
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+}
+
+p.row-3 span.dot.four {
+  position: absolute;
+  bottom: -3px;
+  left: 55px;
+}
+
+p.row-3 span.dot.five {
+  height: 15px;
+  position: absolute;
+  bottom: 7px;
+  left: 80px;
+  width: 15px;
+}
+
+p.row-3 span.dot.six {
+  position: absolute;
+  bottom: 3px;
+  left: 100px;
+}
+
+p.row-3 span.dot.seven {
+  position: absolute;
+  bottom: -1px;
+  left: 126px;
+}
+
+p.row-3 span.dot.eight {
+  position: absolute;
+  bottom: -0.9px;
+  left: 149px;
+}
+
+p.row-3 span.dot.nine {
+  position: absolute;
+  bottom: 5px;
+  left: 172px;
+}
+
+p.row-3 span.dot.ten {
+  position: absolute;
+  bottom: 5px;
+  left: 194px;
+}
+
+p.row-3 span.dot.eleven {
+  position: absolute;
+  bottom: -5px;
+  left: 213px;
+}
+
+p.row-3 span.dot.twelve {
+  position: absolute;
+  bottom: 5px;
+  left: 232px;
+}
+
+p.row-3 span.dot.thirteen {
+  position: absolute;
+  bottom: 1px;
+  left: 254px;
+}
+
+p.row-3 span.dot.fourteen {
+  position: absolute;
+  bottom: 5px;
+  left: 276px;
+}
+
+p.row-3 span.dot.fifteen {
+  position: absolute;
+  bottom: -0.9px;
+  left: 299px;
+}
+
+p.row-3 span.dot.sixteen {
+  position: absolute;
+  bottom: -4px;
+  left: 321px;
+}
+
+p.row-3 span.dot.seventeen {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  bottom: 14px;
+  left: 343px;
+}
+
+p.row-3 span.dot.eighteen {
+  position: absolute;
+  bottom: 9px;
+  height: 16px;
+  left: 363px;
+  width: 16px;
+}
+
+p.row-3 span.dot.nineteen {
+  position: absolute;
+  height: 16px;  
+  bottom: 5px;
+  left: 386px;
+  width: 16px;
+}
+
+p.row-3 span.dot.twenty {
+  height: 16px;
+  position: absolute;
+  bottom: 16px;
+  left: 408px;
+  width: 16px;  
+}
+
+/* - - - ROW 4 - - - */
+
+p.row-4 { 
+  position: absolute;
+  top: 6.5em;
+  display: inline-block;
+  width: 450px;
+}
+
+p.row-4 span.dot.one {
+  position: absolute;
+  top: -27px;
+  left: 0.9px;
+  height: 15px;
+  width: 15px;
+}
+
+p.row-4 span.dot.two {
+  position: absolute;
+  bottom: 18px;
+  left: 19px;
+  height: 10px;
+  width: 10px;
+}
+
+p.row-4 span.dot.three {
+  height: 14px;
+  position: absolute;
+  bottom: 6px;
+  left: 30px;
+  width: 14px;
+}
+
+p.row-4 span.dot.four {
+  position: absolute;
+  bottom: -1px;
+  left: 46px;
+}
+
+p.row-4 span.dot.five {
+  position: absolute;
+  bottom: 6px;
+  left: 74px;
+}
+
+p.row-4 span.dot.six {
+  position: absolute;
+  bottom: 6px;
+  left: 98px;
+}
+
+p.row-4 span.dot.seven {
+  position: absolute;
+  bottom: 2px;
+  left: 120px;
+}
+
+p.row-4 span.dot.eight {
+  position: absolute;
+  bottom: 3px;
+  left: 143px;
+}
+
+p.row-4 span.dot.nine {
+  position: absolute;
+  bottom: 7px;
+  left: 165px;
+}
+
+p.row-4 span.dot.ten {
+  position: absolute;
+  bottom: 5px;
+  left: 188px;
+}
+
+p.row-4 span.dot.eleven {
+  height: 15px;  
+  position: absolute;
+  bottom: 1px;
+  left: 211px;
+  width: 15px;
+}
+
+p.row-4 span.dot.twelve {
+  position: absolute;
+  bottom: 6px;
+  left: 234px;
+
+}
+
+p.row-4 span.dot.thirteen {
+  position: absolute;
+  bottom: -1px;
+  left: 255px;
+}
+
+p.row-4 span.dot.fourteen {
+  position: absolute;
+  bottom: 5px;
+  left: 276px;
+}
+
+p.row-4 span.dot.fifteen {
+  position: absolute;
+  bottom: 0.7px;
+  left: 297px;
+}
+
+p.row-4 span.dot.sixteen {
+  position: absolute;
+  bottom: -3px;
+  left: 320px;
+}
+
+p.row-4 span.dot.seventeen {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  bottom: 10px;
+  left: 339px;
+}
+
+p.row-4 span.dot.eighteen {
+  position: absolute;
+  bottom: 12px;
+  left: 354px;  
+}
+
+p.row-4 span.dot.nineteen {
+  position: absolute;
+  bottom: 5px;
+  left: 376px;
+}
+
+p.row-4 span.dot.twenty {
+  position: absolute;
+  bottom: 14px;
+  left: 400px;
+}
+
+/* - - - ROW 5 - - - */
+
+p.row-5 { 
+  position: absolute;
+  top: 8em;
+  display: inline-block;
+  width: 450px;
+}
+
+p.row-5 span.dot.one {
+  position: absolute;
+  top: -32px;
+  left: -5px;
+}
+
+p.row-5 span.dot.two {
+  height: 13px;  
+  position: absolute;
+  bottom: 17px;
+  left: 19px;
+  width: 13px;
+}
+
+p.row-5 span.dot.three {
+  margin-bottom: 3px;
+  position: absolute;
+  bottom: 0px;
+  left: 36px;
+}
+
+p.row-5 span.dot.four {
+  position: absolute;
+  bottom: 6px;
+  left: 60px;
+}
+
+p.row-5 span.dot.five {
+  height: 15px;
+  position: absolute;
+  bottom: 13px;
+  left: 83px;
+  width: 15px;
+}
+
+p.row-5 span.dot.six {
+  position: absolute;
+  bottom: 6px;
+  left: 102px;
+}
+
+p.row-5 span.dot.seven {
+  position: absolute;
+  bottom: 5px;
+  left: 127px;
+} 
+
+p.row-5 span.dot.eight {
+  position: absolute;
+  bottom: 9px;
+  left: 156px;
+}
+
+p.row-5 span.dot.nine {
+  position: absolute;
+  bottom: 11px;
+  left: 177px;
+  
+}
+
+p.row-5 span.dot.ten {
+  position: absolute;
+  bottom: 6px;
+  left: 199px;
+}
+
+p.row-5 span.dot.eleven {
+  position: absolute;
+  bottom: 12px;
+  left: 224px;
+}
+
+p.row-5 span.dot.twelve {
+  position: absolute;
+  bottom: 5px;
+  left: 244px;
+}
+
+p.row-5 span.dot.thirteen {
+  position: absolute;
+  bottom: 6px;
+  left: 270px;
+}
+
+p.row-5 span.dot.fourteen {
+  height: 15px;  
+  position: absolute;
+  bottom: 7px;
+  left: 294px;
+  width: 15px;
+}
+
+p.row-5 span.dot.fifteen {
+  position: absolute;
+  bottom: 1px;
+  left: 312px;
+}
+
+p.row-5 span.dot.sixteen {
+  position: absolute;
+  bottom: 6px;
+  left: 336px;
+}
+
+p.row-5 span.dot.seventeen {
+  height: 15px;
+  position: absolute;
+  bottom: 20px;
+  left: 353px;
+  width: 15px;  
+}
+
+p.row-5 span.dot.eighteen {
+  position: absolute;
+  bottom: 8px;
+  left: 367px;  
+}
+
+p.row-5 span.dot.nineteen {
+  position: absolute;
+  bottom: 8px;
+  left: 395px;
+}
+
+p.row-5 span.dot.twenty {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 418px;
+}
+
+/* - - - ROW 6 - - - */
+
+p.row-6 { 
+  position: absolute;
+  top: 9.5em;
+  display: inline-block;
+  width: 450px;
+}
+
+p.row-6 span.dot.one {
+  position: absolute;
+  top: -20px;
+  left: -4px;
+  height: 13px;
+  width: 13px;
+}
+
+p.row-6 span.dot.two {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+}
+
+p.row-6 span.dot.three {
+  margin-bottom: 3px;
+  position: absolute;
+  bottom: 1px;
+  left: 39px;
+}
+
+p.row-6 span.dot.four {
+  position: absolute;
+  bottom: 8px;
+  left: 63px;
+}
+
+p.row-6 span.dot.five {
+  height: 15px;
+  position: absolute;
+  bottom: 17px;
+  left: 84px;
+  width: 15px;
+}
+
+p.row-6 span.dot.six {
+  position: absolute;
+  bottom: 3px;
+  left: 100px;
+}
+
+p.row-6 span.dot.seven {
+  position: absolute;
+  bottom: 7px;
+  left: 122px;
+}
+
+p.row-6 span.dot.eight {
+  position: absolute;
+  bottom: 13px;
+  left: 143px;
+}
+
+p.row-6 span.dot.nine {
+  position: absolute;
+  bottom: 13px;
+  left: 168px;
+}
+
+p.row-6 span.dot.ten {
+  position: absolute;
+  bottom: 9px;
+  left: 192px;
+}
+
+p.row-6 span.dot.eleven {
+  position: absolute;
+  bottom: 15px;
+  left: 215px; 
+}
+
+p.row-6 span.dot.twelve {
+  position: absolute;
+  bottom: 9px;
+  left: 236px;
+}
+
+p.row-6 span.dot.thirteen {
+  position: absolute;
+  bottom: 12px;
+  left: 258px;
+}
+
+p.row-6 span.dot.fourteen {
+  position: absolute;
+  bottom: 10px;
+  left: 282px;
+}
+
+p.row-6 span.dot.fifteen {
+  position: absolute;
+  bottom: 4px;
+  left: 305px;
+}
+
+p.row-6 span.dot.sixteen {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  bottom: 3px;
+  left: 300px;
+}
+
+p.row-6 span.dot.sixteen {
+  position: absolute;
+  bottom: 15px;
+  left: 330px;
+}
+
+p.row-6 span.dot.seventeen {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  bottom: 16px;
+  left: 352px;
+}
+
+p.row-6 span.dot.eighteen {
+  position: absolute;
+  bottom: 9px;
+  left: 370px;
+    
+}
+
+p.row-6 span.dot.nineteen {
+  position: absolute;
+  bottom: 14px;
+  left: 394px;
+  height: 14px;
+  width: 14px;
+}
+
+p.row-6 span.dot.twenty {
+  height: 11px;
+  position: absolute;
+  bottom: 21px;
+  left: 415px;
+  width: 11px;
+}
+
+/* - - - ROW 7 - - - */
+
+p.row-7 { 
+  position: absolute;
+  top: 11em;
+  display: inline-block;
+  width: 450px;
+}
+
+p.row-7 span.dot.one {
+  position: absolute;
+  top: -29px;
+  left: 2px;
+  height: 15px;
+  width: 15px;
+}
+
+p.row-7 span.dot.two {
+  position: absolute;
+  bottom: 15px;
+  left: 19px;
+  height: 19px;
+  width: 19px;
+}
+
+p.row-7 span.dot.three {
+  position: absolute;
+  bottom: 6px;
+  left: 41px;
+}
+
+p.row-7 span.dot.four {
+  position: absolute;
+  bottom: 10px;
+  left: 63px;
+}
+
+p.row-7 span.dot.five {
+  height: 15px;
+  position: absolute;
+  bottom: 19px;
+  left: 83px;
+  width: 15px;
+}
+
+p.row-7 span.dot.six {
+  position: absolute;
+  bottom: 3px;
+  left: 100px;
+}
+
+p.row-7 span.dot.seven {
+  position: absolute;
+  bottom: 8px;
+  left: 123px;
+}
+
+p.row-7 span.dot.eight {
+  position: absolute;
+  bottom: 14px;
+  left: 145px;
+}
+
+p.row-7 span.dot.nine {
+  position: absolute;
+  bottom: 15px;
+  left: 169px;
+}
+
+p.row-7 span.dot.ten {
+  position: absolute;
+  bottom: 8px;
+  left: 191px;
+}
+
+p.row-7 span.dot.eleven {
+  position: absolute;
+  bottom: 17px;
+  left: 211px;
+}
+
+p.row-7 span.dot.twelve {
+  position: absolute;
+  bottom: 11px;
+  left: 233px;
+}
+
+p.row-7 span.dot.thirteen {
+  position: absolute;
+  bottom: 13px;
+  left: 256px
+}
+
+p.row-7 span.dot.fourteen {
+  position: absolute;
+  bottom: 12px;
+  left: 279px;
+}
+
+p.row-7 span.dot.fifteen {
+  position: absolute;
+  bottom: 7px;
+  left: 300px;
+}
+
+p.row-7 span.dot.sixteen {
+  position: absolute;
+  bottom: 14px;
+  left: 325px;
+}
+
+p.row-7 span.dot.seventeen {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  bottom: 23px;
+  left: 347px;
+}
+
+p.row-7 span.dot.eighteen {
+  position: absolute;
+  bottom: 10px;
+  left: 360px;  
+}
+
+p.row-7 span.dot.nineteen {
+  position: absolute;
+  bottom: 14px;
+  left: 383px;
+}
+
+p.row-7 span.dot.twenty {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  bottom: 24px;
+  left: 405px;
+}
+
+/* - - - ROW 8 - - - */
+
+p.row-8 { 
+  position: absolute;
+  top: 12.5em;
+  display: inline-block;
+  width: 450px;
+}
+
+p.row-8 span.dot.one {
+  position: absolute;
+  top: -30px;
+  left: -5px;
+  height: 15px;
+  width: 15px;
+}
+
+p.row-8 span.dot.two {
+  height: 13px;  
+  position: absolute;
+  bottom: 19px;
+  left: 16px;
+  width: 13px;
+}
+
+p.row-8 span.dot.three {
+  position: absolute;
+  bottom: 8px;
+  left: 32px;
+}
+
+p.row-8 span.dot.four {
+  position: absolute;
+  bottom: 11px;
+  left: 56px;
+}
+
+p.row-8 span.dot.five {
+  height: 15px;
+  position: absolute;
+  bottom: 22px;
+  left: 80px;
+  width: 15px;
+}
+
+p.row-8 span.dot.six {
+  position: absolute;
+  bottom: 6px;
+  left: 93px;
+}
+
+p.row-8 span.dot.seven {
+  position: absolute;
+  bottom: 11px;
+  left: 116px;  
+}
+
+p.row-8 span.dot.eight {
+  position: absolute;
+  bottom: 16px;
+  left: 139px;
+}
+
+p.row-8 span.dot.nine {
+  position: absolute;
+  bottom: 17px;
+  left: 163px;
+}
+
+p.row-8 span.dot.ten {
+  position: absolute;
+  bottom: 11px;
+  left: 184px;
+}
+
+p.row-8 span.dot.eleven {
+  position: absolute;
+  bottom: 18px;
+  left: 208px;
+}
+
+p.row-8 span.dot.twelve {
+  position: absolute;
+  bottom: 13px;
+  left: 230px;
+}
+
+p.row-8 span.dot.thirteen {
+  position: absolute;
+  bottom: 15px;
+  left: 252px;
+}
+
+p.row-8 span.dot.fourteen {
+  position: absolute;
+  bottom: 15px;
+  left: 273px;
+}
+
+p.row-8 span.dot.fifteen {
+  position: absolute;
+  bottom: 8px;
+  left: 295px;
+}
+
+p.row-8 span.dot.sixteen {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  bottom: 21px;
+  left: 318px;
+}
+
+p.row-8 span.dot.sixteen {
+  position: absolute;
+  bottom: 20px;
+  left: 318px;
+}
+
+p.row-8 span.dot.seventeen {
+  position: absolute;
+  bottom: 18px;
+  left: 336px;
+}
+
+p.row-8 span.dot.eighteen {
+  position: absolute;
+  bottom: 11px;
+  left: 359px;  
+}
+
+p.row-8 span.dot.nineteen {
+  position: absolute;
+  bottom: 15px;
+  left: 382px;
+}
+
+p.row-8 span.dot.twenty {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  bottom: 27px;
+  left: 413px;
+}
+
+/* - - - ROW 9 - - - */
+
+p.row-9 { 
+  position: absolute;
+  top: 14em;
+  display: inline-block;
+  width: 450px;
+}
+
+p.row-9 span.dot.one {
+  position: absolute;
+  top: -31px;
+  left: -0.8px;
+  height: 12px;
+  width: 12px;
+}
+
+p.row-9 span.dot.two {
+  position: absolute;
+  bottom: 23px;
+  left: 16px;
+  height: 14px;
+  width: 14px;
+}
+
+p.row-9 span.dot.three {
+  margin-bottom: 3px;
+  position: absolute;
+  bottom: 4px;
+  left: 31px;
+}
+
+p.row-9 span.dot.four {
+  height: 17px;
+  position: absolute;
+  bottom: 16px;
+  left: 52px;
+  width: 17px;
+}
+
+p.row-9 span.dot.five {
+  height: 17px;
+  position: absolute;
+  bottom: 23px;
+  left: 74px;
+  width: 17px;
+}
+
+p.row-9 span.dot.six {
+  position: absolute;
+  bottom: 7px;
+  left: 88px;
+}
+
+p.row-9 span.dot.seven {
+  position: absolute;
+  bottom: 13px;
+  left: 110px;
+}
+
+p.row-9 span.dot.eight {
+  position: absolute;
+  bottom: 24px;
+  left: 135px;
+  height: 14px;
+  width: 14px;
+}
+
+p.row-9 span.dot.nine {
+  position: absolute;
+  bottom: 19px;
+  left: 153px;
+}
+
+p.row-9 span.dot.ten {
+  position: absolute;
+  bottom: 14px;
+  left: 175px;
+}
+
+p.row-9 span.dot.eleven {
+  position: absolute;
+  bottom: 21px;
+  left: 202px;
+}
+
+p.row-9 span.dot.twelve {
+  position: absolute;
+  bottom: 15px;
+  left: 224px;
+}
+
+p.row-9 span.dot.thirteen {
+  position: absolute;
+  bottom: 18px;
+  left: 246px;
+}
+
+p.row-9 span.dot.fourteen {
+  position: absolute;
+  bottom: 17px;
+  left: 269px;
+}
+
+p.row-9 span.dot.fifteen {
+  position: absolute;
+  bottom: 9px;
+  left: 291px;
+}
+
+p.row-9 span.dot.sixteen {
+  position: absolute;
+  bottom: 19px;
+  left: 315px;
+}
+
+p.row-9 span.dot.seventeen {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  bottom: 26px;
+  left: 338px;
+}
+
+p.row-9 span.dot.eighteen {
+  position: absolute;
+  bottom: 13px;
+  left: 351px;  
+}
+
+p.row-9 span.dot.nineteen {
+  position: absolute;
+  bottom: 12px;
+  left: 379px;
+}
+
+p.row-9 span.dot.twenty {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  bottom: 26px;
+  left: 405px;
+}
+
+/* - - - ROW 10 - - - */
+
+p.row-10 { 
+  position: absolute;
+  top: 15.5em;
+  display: inline-block;
+  width: 450px;
+}
+
+p.row-10 span.dot.one {
+  position: absolute;
+  top: -19px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+}
+
+p.row-10 span.dot.two {
+  position: absolute;
+  top: -31px;
+  left: 13px;
+  height: 10px;
+  width: 10px;
+}
+
+p.row-10 span.dot.three {
+  position: absolute;
+  bottom: 7px;
+  left: 24px;
+}
+
+p.row-10 span.dot.four {
+  position: absolute;
+  bottom: 18px;
+  left: 49px;
+  height: 15px;
+  width: 15px;
+}
+
+p.row-10 span.dot.five {
+  position: absolute;
+  bottom: 13px;
+  left: 68px;
+}
+
+p.row-10 span.dot.six {
+  position: absolute;
+  bottom: 5px;
+  left: 91px;
+}
+
+p.row-10 span.dot.seven {
+  position: absolute;
+  bottom: 12px;
+  left: 115px;
+}
+
+p.row-10 span.dot.eight {
+  position: absolute;
+  bottom: 22px;
+  left: 138px;
+}
+
+p.row-10 span.dot.nine {
+  position: absolute;
+  bottom: 15px;
+  left: 162px;
+}
+
+p.row-10 span.dot.ten {
+  position: absolute;
+  bottom: 18px;
+  left: 188px;
+}
+
+p.row-10 span.dot.eleven {
+  position: absolute;
+  bottom: 22px;
+  left: 210px;
+}
+
+p.row-10 span.dot.twelve {
+  position: absolute;
+  bottom: 17px;
+  left: 233px;
+}
+
+p.row-10 span.dot.thirteen {
+  position: absolute;
+  bottom: 21px;
+  left: 256px;
+}
+
+p.row-10 span.dot.fourteen {
+  position: absolute;
+  bottom: 13px;
+  left: 278px;
+}
+
+p.row-10 span.dot.fifteen {
+  position: absolute;
+  bottom: 8px;
+  left: 303px;
+}
+
+p.row-10 span.dot.sixteen {
+  position: absolute;
+  bottom: 20px;
+  left: 325px;
+}
+
+p.row-10 span.dot.seventeen {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  bottom: 21px;
+  left: 349px;
+}
+
+p.row-10 span.dot.eighteen {
+  position: absolute;
+  bottom: 14px;
+  left: 365px;  
+}
+
+p.row-10 span.dot.nineteen {
+  height: 15px;  
+  position: absolute;
+  bottom: 13px;
+  left: 391px;
+  width: 15px;
+}
+
+p.row-10 span.dot.twenty {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  bottom: 25px;
+  left: 415px;
+}
+
+
+/* - - - - -  N E G A T I V E / P O S I T I V E  - - - - - */
+
+#positive {
+  background-color: #111;
+  height: 480px;
+  width: 100%;
+}
+
+#positive h2 {
+  color: #FFF;
+  font-size: 1.5em;
+  padding-top: 5em;
+  padding-left: 3em;
+}
+
+#negative {
+  height: 250px;
+  width: 100%;
+}
+
+img.white-circle {
+  height: 10em;
+  margin: 6em auto 6em auto;  
+  position: relative;
+  width: 10em;  
+}
+
+img.black-circle {
+  height: 10em;
+  position: relative;
+  margin: 0 auto 0 auto;
+  width: 10em;  
+}
+
+#positive-negative {
+  -webkit-animation-name: rotateThis;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  display: block;
+  height: 10em;
+  margin: -23em auto 0 auto;
+  width: 10em;
+  
+  -webkit-transform-origin: 40% 65px;
+  -webkit-transform-origin-x: 40%;
+  -webkit-transform-origin-y: 65px;
+}
+
+@-webkit-keyframes rotateThis {
+  from {-webkit-transform:scale(1) rotate(0deg);}
+  to {-webkit-transform:scale(1) rotate(360deg);}
+}
+
+/* - - - - -  O V E R L A P P I N G  - - - - - */
+
+#overlap {
+  height: 400px;
+  margin: 6em 0 0 0;
+  position: relative;
+  width: auto;
+}
+
+#overlap h2 { 
+  color: #FF322B;
+  font-size: 1.5em;
+  padding-top: 2em;
+  padding-left: 3em;
+}
+
+#overlap section {
+  position: relative;
+  top: -32em;
+}
+
+.red {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration:.8s;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-delay:0s;
+  -webkit-animation-iteration-count:infinite;
+  -moz-animation-name: bounce;
+
+  background-color: #FF322B;
+  -moz-border-radius: 5em;
+  -webkit-border-radius: 5em;
+  border-radius: 5em;
+  height: 10em;  
+  margin: 5em auto 0 auto;
+  opacity: 0.9;  
+  position: relative;
+  width: 10em;
+  z-index: 500;
+}
+
+@-webkit-keyframes bounce {
+       from{ -webkit-transform: translate(0px,-30px); }
+       to { -webkit-transform: translate(0px,0px); }  
+}
+
+@-moz-keyframes bounce {
+       from{ -moz-transform: translate(0px,-30px); }
+       to { -moz-transform: translate(0px,0px); }  
+}
+
+.black {
+  -webkit-animation-name: hop;
+  -webkit-animation-duration:.8s;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-delay:0s;
+  -webkit-animation-iteration-count:infinite;
+  -moz-animation-name: hop;
+
+  background-color: #000;
+  -moz-border-radius: 5em;
+  -webkit-border-radius: 5em;
+  border-radius: 5em;
+  height: 10em;
+  margin: -2em auto 0 auto;
+  opacity: 0.9;  
+  position: relative;
+  width: 10em;
+}
+
+@-webkit-keyframes hop {
+       from { -webkit-transform: translate(0px,0px); }
+       to { -webkit-transform: translate(0px,-30px); }  
+}
+
+@-moz-keyframes hop {
+       from { -moz-transform: translate(0px,0px); }
+       to { -moz-transform: translate(0px,-30px); }  
+}
+
+/* - - - - -  F O O T E R  - - - - - */
+
+footer {
+  background-color: #FF322B;
+  height: 200px;
+  padding: 4.5em;
+  width: 100%;
+}
+
+footer p {
+  color: #FFF;
+  float: left;
+  font-family: "ronnia",sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5em;
+  padding: 0.5em 0 0 2em;
+  width: 50%;
+}
+
+cite {
+  display: block;  
+  font-size: 0.7em;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.5em; 
+  padding: 1em 0 0 0;
+  text-transform: uppercase;
+  text-shadow: none;
+  width: 50%;
+}
+
+cite a {
+  color: #b81d1d;
+  text-decoration: none;
+}
+
+em a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+cite a:hover { 
+  color: #FFF;
+}
+
+em a:hover {
+  text-decoration: underline;
+}
+
+figure img {
+  border: 3px solid #e82d26;
+  float: left;
+  opacity: 100;
+
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;	
+  transition: opacity 0.5s ease-in-out;
+}
+
+figure img:hover {
+  border: 3px solid #e82d26;
+  opacity: 0.6;
+}
+
+p.foot {
+  height: 3em;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAATklEQVQYGWP8b6T9n4EIwIKs5s6Pv3CuCgcznA1iwBWCFCFLovOZQKrRBUFiIE3INrBgUwRSCAJwxYxAq5Gtg0ijkjB5sNWoUth5RCsEAI5nF9K4BhLTAAAAAElFTkSuQmCC);
+}
