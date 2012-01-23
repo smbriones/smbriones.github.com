@@ -108,6 +108,10 @@ aside p {
 
 /* - - - - - D I F F U S I O N - - - - - */
 
+#diffusion {
+  min-width: 1250px;
+}
+
 #diffusion h2 { 
   color: #111;
   font-size: 1.5em;
@@ -120,7 +124,7 @@ aside p {
   margin: -25em auto 0 auto;
   padding: 6em auto 0 auto;
   position: relative;
-  width: 500px;
+  width: 430px;
   z-index: 300;
 }
 
@@ -1615,6 +1619,11 @@ img.black-circle {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 
+  -moz-animation-name: rotateThis;
+  -moz-animation-duration: 8s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
   display: block;
   height: 10em;
   margin: -23em auto 0 auto;
@@ -1623,12 +1632,23 @@ img.black-circle {
   -webkit-transform-origin: 40% 65px;
   -webkit-transform-origin-x: 40%;
   -webkit-transform-origin-y: 65px;
+
+  -moz-transform-origin: 40% 65px;
+  -moz-transform-origin-x: 40%;
+  -moz-transform-origin-y: 65px;
+
 }
 
 @-webkit-keyframes rotateThis {
   from {-webkit-transform:scale(1) rotate(0deg);}
   to {-webkit-transform:scale(1) rotate(360deg);}
 }
+
+@-moz-keyframes rotateThis {
+  from {-moz-transform:scale(1) rotate(0deg);}
+  to {-moz-transform:scale(1) rotate(360deg);}
+}
+
 
 /* - - - - -  O V E R L A P P I N G  - - - - - */
 
@@ -1658,7 +1678,13 @@ img.black-circle {
   -webkit-animation-timing-function:linear;
   -webkit-animation-delay:0s;
   -webkit-animation-iteration-count:infinite;
+
   -moz-animation-name: bounce;
+  -moz-animation-duration:.8s;
+  -moz-animation-direction:alternate;
+  -moz-animation-timing-function:linear;
+  -moz-animation-delay:0s;
+  -moz-animation-iteration-count:infinite;
 
   background-color: #FF322B;
   -moz-border-radius: 5em;
@@ -1689,7 +1715,13 @@ img.black-circle {
   -webkit-animation-timing-function:linear;
   -webkit-animation-delay:0s;
   -webkit-animation-iteration-count:infinite;
+
   -moz-animation-name: hop;
+  -moz-animation-duration:.8s;
+  -moz-animation-direction:alternate;
+  -moz-animation-timing-function:linear;
+  -moz-animation-delay:0s;
+  -moz-animation-iteration-count:infinite;
 
   background-color: #000;
   -moz-border-radius: 5em;
@@ -1716,7 +1748,7 @@ img.black-circle {
 
 footer {
   background-color: #FF322B;
-  height: 200px;
+  overflow: hidden;
   padding: 4em 0;
   width: 100%;
 }
@@ -1733,6 +1765,14 @@ footer p {
   width: 50%;
 }
 
+footer span.note {
+  color: #b81d1d;
+  display: block;
+  font-size: 0.7em;
+  font-style: italic;
+  margin: 0.5em 0 0 0;
+}
+
 cite {
   display: block;  
   font-size: 0.7em;
@@ -1743,7 +1783,6 @@ cite {
   padding: 1em 0 0 0;
   text-transform: uppercase;
   text-shadow: none;
-  width: 50%;
 }
 
 cite a {
@@ -1767,7 +1806,7 @@ em a:hover {
 figure img {
   border: 3px solid #e82d26;
   float: left;
-  margin: 0 2em 0 4.5em;
+  margin: 0 1.5em 0 4.5em;
   opacity: 100;
 
   -webkit-transition: opacity 0.5s ease-in-out;
