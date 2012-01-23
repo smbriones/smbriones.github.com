@@ -1717,7 +1717,7 @@ img.black-circle {
 footer {
   background-color: #FF322B;
   height: 200px;
-  padding: 4.5em;
+  padding: 4em 0;
   width: 100%;
 }
 
@@ -1767,6 +1767,7 @@ em a:hover {
 figure img {
   border: 3px solid #e82d26;
   float: left;
+  margin: 0 2em 0 4.5em;
   opacity: 100;
 
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -1784,4 +1785,5 @@ figure img:hover {
 p.foot {
   height: 3em;
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAATklEQVQYGWP8b6T9n4EIwIKs5s6Pv3CuCgcznA1iwBWCFCFLovOZQKrRBUFiIE3INrBgUwRSCAJwxYxAq5Gtg0ijkjB5sNWoUth5RCsEAI5nF9K4BhLTAAAAAElFTkSuQmCC);
+  width: 100%;
 }
