@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html itemscope itemtype="http://schema.org/BlogPosting">
 <!-- /ht Paul Irish - http://front.ie/j5OMXi -->
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
@@ -7,8 +7,7 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }} // Stephanie Briones</title>
-<meta name="description" content="">
-<meta name="author" content="">
+<meta itemprop="author" content="Stephanie Briones">
 
 <!-- /ht Andy Clarke - http://front.ie/lkCwyf -->
 <meta http-equiv="cleartype" content="on">
@@ -37,7 +36,9 @@
   <header>
     <div class="container">
       <h2 class="title">
-        <a href="/index.html">Stephanie Briones</a>
+        <a href="/index.html" 
+           itemprop="author" 
+           content="Stephanie Briones">Stephanie Briones</a>
       </h2>
       <section>
         <p class="date">
@@ -75,8 +76,8 @@
     <div class="column">
       <h3>Previous Posts</h3>
         {% for post in site.posts limit:5 %}
-			<a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-			  {% endfor %}
+	<a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+	{% endfor %}
     </div>
     <div class="column">
       <h3>About Me</h3>

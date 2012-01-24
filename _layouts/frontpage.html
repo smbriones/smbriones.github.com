@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html itemscope itemtype="http://schema.org/Blog">
 <!-- /ht Paul Irish - http://front.ie/j5OMXi -->
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
@@ -7,8 +7,8 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }} Stephanie Briones</title>
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="A blog site of a Web Design Apprentice.">
+<meta itemprop="author" content="Stephanie Briones">
 
 <!-- /ht Andy Clarke - http://front.ie/lkCwyf -->
 <meta http-equiv="cleartype" content="on">
@@ -35,9 +35,24 @@
 </head>
 <body>
   <header>
-    <h2 class="title"><a href="/index.html">Stephanie Briones</a></h2>
+    <h2 class="title">
+    <a href="/index.html" 
+       itemprop="author" 
+       content="Stephanie Briones">Stephanie Briones</a>
+   </h2>
   </header>
   <article>
+    <section>
+        <p class="date">
+          {{ page.date_string }}
+        </p>
+        <h1 class="post-title">
+          {{ page.title }}
+        </h1> 
+        <h2>
+          {{ page.snippet }}
+        </h2>
+      </section>
     {{ content }}	
   </article>
   <footer class="clearfix">
@@ -45,7 +60,7 @@
       <div class="column">
         <h3>Find Me</h3>
         <a href="http://twitter.com/smbriones"><img src="/images/twitter.png"></a>
-			  <a href="http://smbriones.tumblr.com"><img src="/images/tumblr.png"></a>
+	<a href="http://smbriones.tumblr.com"><img src="/images/tumblr.png"></a>
         <a href="http://pinterest.com/smbriones/"><img src="/images/pinterest.png"></a>
         <a href="http://stephaniebriones.com/atom.xml"><img src="/images/rss.png"></a>
       </div>
