@@ -17,8 +17,12 @@
 <link rel="shortcut icon" href="/link/to/favicon.ico">
 <link rel="apple-touch-icon" href="/link/to/apple-touch-icon.png">
 
+<!-- Stylesheets -->
+<link rel="stylesheet" href="/stylesheets/base.css" media="all">
+<link rel="stylesheet" href="/stylesheets/module.css" media="all">
+<link rel="stylesheet" href="/stylesheets/state.css" media="all">
+
 <!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
-<link rel="stylesheet" href="/stylesheets/global.css" media="all">
 <link rel="stylesheet" href="/stylesheets/layout.css" media="all and (min-width: 33.236em)">
 <!-- 30em + (1.618em * 2) = 33.236em / Eliminates potential of horizontal scrolling in most cases -->
 
@@ -46,19 +50,19 @@
 <body>
   <header>
     <div class="container">
-      <h2 class="title">
+      <h2 class="m-site-title">
         <a href="/index.html" 
            itemprop="author" 
            content="Stephanie Briones">Stephanie Briones</a>
       </h2>
       <section>
-        <p class="date">
+        <p class="m-post-date">
           {{ page.date_string }}
         </p>
-        <h1 class="post-title">
+        <h1 class="m-post-title">
           {{ page.title }}
         </h1> 
-        <h2>
+        <h2 class="m-post-subtitle">
           {{ page.snippet }}
         </h2>
       </section>
@@ -80,7 +84,7 @@
       <div class="column">
         <h3>Find Me</h3>
         <a href="http://twitter.com/smbriones"><img src="/images/twitter.png"></a>
-			  <a href="http://smbriones.tumblr.com"><img src="/images/tumblr.png"></a>
+	<a href="http://smbriones.tumblr.com"><img src="/images/tumblr.png"></a>
         <a href="http://pinterest.com/smbriones/"><img src="/images/pinterest.png"></a>
         <a href="http://stephaniebriones.com/atom.xml"><img src="/images/rss.png"></a>
       </div>

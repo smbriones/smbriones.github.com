@@ -18,8 +18,12 @@
 <link rel="shortcut icon" href="/link/to/favicon.ico">
 <link rel="apple-touch-icon" href="/link/to/apple-touch-icon.png">
 
+<!-- Stylesheets -->
+<link rel="stylesheet" href="/stylesheets/base.css" media="all">
+<link rel="stylesheet" href="/stylesheets/module.css" media="all">
+<link rel="stylesheet" href="/stylesheets/state.css" media="all">
+
 <!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
-<link rel="stylesheet" href="/stylesheets/global.css" media="all">
 <link rel="stylesheet" href="/stylesheets/layout.css" media="all and (min-width: 33.236em)">
 <link rel="alternate" type="application/atom+xml" title="Subscribe to Stephanie Briones' blog." href="/atom.xml"/>
 <!-- 30em + (1.618em * 2) = 33.236em / Eliminates potential of horizontal scrolling in most cases -->
@@ -46,17 +50,17 @@
 </head>
 <body>
   <header>
-    <h2 class="title"><a href="/index.html">Stephanie Briones</a></h2>
+    <h2 class="m-site-title"><a href="/index.html">Stephanie Briones</a></h2>
   </header>
   <article>
     <section>
-        <p class="date">
+        <p class="m-post-date">
           {{ page.date_string }}
         </p>
-        <h1 class="post-title">
+        <h1 class="m-post-title">
           {{ page.title }}
         </h1> 
-        <h2>
+        <h2 class="m-post-subtitle">
           {{ page.snippet }}
         </h2>
       </section>
