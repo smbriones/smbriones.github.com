@@ -12,9 +12,20 @@
 
 .m-nav-item {
   display: inline-block;
-  font-size: 0.79em;
+  font-size: 0.889em;
   font-weight: 600;
   float: left;
   margin-top: 0.79em;
   width: 25%;
+}
+
+.m-nav-item a {
+  color: #333;
+  display: inline-block;
+  height: 1.5em;
+  text-decoration: none;
+}
+
+.m-nav-item a:hover {
+  color: #CCC;
 }
