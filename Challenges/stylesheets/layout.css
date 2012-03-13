@@ -1,0 +1,12 @@
+/* - - - L A Y O U T - - - */
+
+div[role=main] {
+  margin: 0 auto;
+  max-width: 748px;
+  width: 90%;
+}
+
+nav[role=navigation] {
+  margin: 0;
+  padding: 0;
+}

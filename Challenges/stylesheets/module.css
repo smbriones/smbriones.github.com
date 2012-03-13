@@ -1,0 +1,19 @@
+/* - - - M O D U L E - - - */
+
+.m-top-nav {
+  background-color: #EEE;
+  height: 1.602em;
+  list-style: none;
+  margin: 0 auto;  
+  width: 66%;
+}
+
+.m-nav-item {
+  display: inline-block;
+  font-size: 0.702em;
+  font-weight: 600;
+  float: left;
+  margin-top: 0.346em;
+  text-align: center;
+  width: 24.25%;
+}

@@ -1,0 +1,52 @@
+/* - - - B A S E - - - */
+
+body {
+  font-family: "omnes-pro",sans-serif;  
+  font-size: 112.5%; /* 18px @ 1:1.125 */
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.333em;
+  margin: 1.333em 0;
+}
+
+h1 {
+  font-size: 2.281em;
+  font-weight: 600;
+  line-height: 1.333em;
+  margin: 0.584em 0;
+}
+
+h2 {
+  font-size: 1.602em;
+  line-height: 0.832em;
+  margin: 0.832em 0;
+}
+
+h3 {
+  font-size: 1.266em;
+  line-height: 1.053em;
+  margin: 1.053em;
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.185em;
+  margin: 1.185em;
+}
+
+h5 {
+  font-size: 1em;
+  line-height: 1.333em;
+  margin: 1.333em;
+}
+
+h6 { 
+  font-size: 0.889em;
+  line-height: 1.5em;
+  margin: 1.5em;
+}
