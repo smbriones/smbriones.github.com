@@ -2,6 +2,11 @@
 
 @media only screen and (max-width: 640px) {
   .m-top-nav {
-    width: 94%;
+    height: 2em;    
+    width: 96%;
+  }
+  
+  .m-nav-item {
+    font-size: 0.889em;
   }
 }
