@@ -8,5 +8,5 @@ div[role=main] {
 
 nav[role=navigation] {
   margin: 0;
-  padding: 0;
+  padding: 0 1em;
 }
