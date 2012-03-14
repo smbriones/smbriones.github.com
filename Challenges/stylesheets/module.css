@@ -3,6 +3,11 @@
 
 /* - - navigation - - */
 
+nav[role=navigation] {
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #F5F5F5;
+}
+
 .m-top-nav {
   height: 1.602em;
   list-style: none;
