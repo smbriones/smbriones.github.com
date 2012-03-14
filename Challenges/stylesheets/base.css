@@ -25,30 +25,49 @@ h1 {
 
 h2 {
   font-size: 1.602em;
+  font-weight: 400;
   line-height: 0.832em;
   margin: 0.832em 0;
 }
 
 h3 {
   font-size: 1.266em;
+  font-weight: 400;  
   line-height: 1.053em;
-  margin: 1.053em;
+  margin: 1.053em 0;
 }
 
 h4 {
   font-size: 1.125em;
+  font-weight: 500;
   line-height: 1.185em;
-  margin: 1.185em;
+  margin: 1.7775em 0 0.5925em 0;
 }
 
 h5 {
   font-size: 1em;
   line-height: 1.333em;
-  margin: 1.333em;
+  margin: 1.333em 0;
 }
 
 h6 { 
   font-size: 0.889em;
   line-height: 1.5em;
-  margin: 1.5em;
+  margin: 1.5em 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px dotted #CCC;
+}
+
+a:hover {
+  color: #CCC;
+  text-decoration: none;
+  border-bottom: 1px dotted #CCC;
+}
+
+li { 
+  list-style: none;
 }

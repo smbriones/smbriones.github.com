@@ -12,3 +12,9 @@ nav[role=navigation] {
   padding: 0;
   width: 100%;
 }
+
+#syllabus {
+  margin: 0 auto;  
+  max-width: 748px;
+  width: 100%;
+}
