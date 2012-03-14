@@ -40,6 +40,56 @@ nav[role=navigation] {
 
 /* - - Syllabus List Styles - - */
 
+.m-syllabus-list {
+  overflow: hidden;
+}
+
+.m-syllabus-section,
+.m-current-section {
+  font-size: 0.702em;
+  float: left;
+  margin: 0.346em 0.346em 0.346em 0;
+  padding: 3px 4px;
+  
+  border-radius: 5px;
+
+}
+
+.m-current-section {
+  background-color: #BBB;
+  border: 1px solid #999;
+}
+
+.m-current-section a { 
+  color: #333;
+}
+
+.m-syllabus-section a:hover {
+  color: #CCC;
+}
+
+.m-syllabus-section {
+  background-color: #EEE;
+  border: 1px solid #DDD;
+}
+
+.m-syllabus-section a,
+.m-current-section a {
+  border: none;
+  line-height: 1.5em;
+}
+
 .m-sub-list {
   margin-left: 1em;
 }
+
+.m-author-name,
+.m-subject-name {
+  color: #AAA;
+  display: inline-block;
+  font-size: 0.624em;
+  letter-spacing: 1px;
+  margin-left: 0.438em;
+  text-transform: uppercase;
+}
+
