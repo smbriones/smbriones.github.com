@@ -7,10 +7,9 @@ div[role=main] {
 }
 
 nav[role=navigation] {
-  height: 2.281em;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  margin: 0 auto;
+  max-width: 748px;
+  width: 95%;
 }
 
 #syllabus {

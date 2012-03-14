@@ -3,34 +3,30 @@
 
 /* - - navigation - - */
 
-nav[role=navigation] {
-  background-color: #FAFAFA;
-  border-bottom: 1px solid #F5F5F5;
-}
-
 .m-top-nav {
-  height: 1.602em;
-  list-style: none;
-  margin: 0 auto;  
-  width: 40%;
+  list-style-type: none;
+  margin: 1em auto 0 auto;
+  overflow: hidden;
 }
 
 .m-nav-item {
-  display: inline-block;
-  font-size: 0.79em;
-  font-weight: 600;
   float: left;
-  margin-top: 0.274em;
-  width: 25%;
 }
 
 .m-nav-item a {
+  background-color: #EEE;
   border: none;
   color: #333;
   display: inline-block;
-  line-height: 2.5em;
+  font-size: 0.79em;
+  font-weight: 600;
+  line-height: 1.602em;
+  margin: 0.346em 0.346em 0.346em 0;
+  padding: 3px 15px;
   text-decoration: none;
-  width: 70%;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .m-nav-item a:hover {
@@ -44,43 +40,47 @@ nav[role=navigation] {
   overflow: hidden;
 }
 
-.m-syllabus-section,
-.m-current-section {
-  font-size: 0.702em;
-  float: left;
-  margin: 0.346em 0.346em 0.346em 0;
-  padding: 3px 4px;
-  
-  border-radius: 5px;
-
-}
-
-.m-current-section {
-  background-color: #BBB;
-  border: 1px solid #999;
-}
-
-.m-current-section a { 
-  color: #333;
-}
-
-.m-syllabus-section a:hover {
-  color: #CCC;
+.m-sub-list {
+  margin-left: 1em;
 }
 
 .m-syllabus-section {
   background-color: #EEE;
   border: 1px solid #DDD;
+  font-size: 0.702em;
+  float: left;
+  margin: 0.346em 0.346em 0.346em 0;
+  padding: 3px 4px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
-.m-syllabus-section a,
+.m-current-section {
+  background-color: #BBB;
+  border: 1px solid #999;
+  color: #333;
+  font-size: 0.702em;
+  float: left;
+  margin: 0.346em 0.346em 0.346em 0;
+  padding: 3px 4px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
 .m-current-section a {
   border: none;
   line-height: 1.5em;
 }
 
-.m-sub-list {
-  margin-left: 1em;
+.m-syllabus-section a {
+  border: none;
+  line-height: 1.5em;
+}
+
+.m-syllabus-section a:hover {
+  color: #CCC;  
 }
 
 .m-author-name,
