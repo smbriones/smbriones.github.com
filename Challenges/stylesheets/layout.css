@@ -7,6 +7,9 @@ div[role=main] {
 }
 
 nav[role=navigation] {
+  background-color: #FAFAFA;
+  height: 2.281em;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
