@@ -1,5 +1,8 @@
 /* - - - S T A T E - - - */
 
+
+/* iPhone */
+
 @media only screen and (max-width: 640px) {
   .m-top-nav {
     height: 2em;    
@@ -7,6 +10,13 @@
   }
   
   .m-nav-item {
-    margin-top: 1em;    
+    margin-top: 0.702em;    
   }
+
+  nav[role=navigation] { 
+    height: 2.887em;
+  }
+
 }
+
+
