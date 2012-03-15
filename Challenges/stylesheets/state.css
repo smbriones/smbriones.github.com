@@ -35,7 +35,7 @@
   }
 
   .m-project {
-    background-color: blue;
+    background-color: black;
     height: 118px;
     width: auto;
   }
@@ -77,7 +77,7 @@
   }
 
   .m-project {
-    background-color: blue;
+    background-color: black;
     height: 118px;
     width: auto;
   }
@@ -85,5 +85,28 @@
   .m-project-title {
     width: 100%;
   }
+
+}
+
+/* Minimized size on Desktop */
+
+@media only screen and (min-device-width: 695px) and (max-width: 786px) {
+
+  .m-project-container {
+    background-clip: border-box;
+    margin-right: 20px;
+    width: 100%;
+  }
+
+  .m-project {
+    background-color: black;
+    height: 118px;
+    width: auto;
+  }
+
+  .m-project-title {
+    width: 100%;
+  }
+
 
 }

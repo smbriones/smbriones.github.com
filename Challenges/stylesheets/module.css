@@ -104,7 +104,8 @@
 }
 
 .m-project {
-  background-color: blue;
+  background-color: black;
+  border: 2px solid #EEE;
   height: 118px;
   width: 229px;
 }
