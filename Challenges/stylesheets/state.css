@@ -28,6 +28,17 @@
   }
 
 
+  /* Syllabus text size increase */
+
+  #syllabus li {
+    font-size: 1.125em;
+  }
+
+  #syllabus h3 {
+    font-size: 1.424em;    
+  }
+
+
   /* Projects */
   
   .m-project-container {
@@ -44,6 +55,7 @@
   .m-project-title {
     width: 100%;
   }
+
 
 }
 
@@ -89,6 +101,16 @@
 
   .m-project-title {
     width: 100%;
+  }
+
+  /* Syllabus text size increase */
+
+  #syllabus li {
+    font-size: 1.125em;
+  }
+
+  #syllabus h3 {
+    font-size: 1.424em;    
   }
 
 }

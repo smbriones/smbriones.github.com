@@ -46,8 +46,8 @@
 
 .m-syllabus-section {
   background-color: #EEE;
-  border: 1px solid #DDD;
   font-size: 0.702em;
+  font-weight: 500;
   float: left;
   margin: 0.346em 0.346em 0.346em 0;
   padding: 3px 4px;
@@ -58,12 +58,12 @@
 
 .m-current-section {
   background-color: #BBB;
-  border: 1px solid #999;
   color: #333;
   font-size: 0.702em;
+  font-weight: 500;  
   float: left;
   margin: 0.346em 0.346em 0.346em 0;
-  padding: 3px 4px;
+  padding: 3px 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -71,6 +71,12 @@
 
 .m-current-section a {
   border: none;
+  line-height: 1.5em;
+}
+
+.m-current-section a:hover {
+  border: none;
+  color: #FFF;
   line-height: 1.5em;
 }
 

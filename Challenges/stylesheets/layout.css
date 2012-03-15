@@ -3,6 +3,7 @@
 div[role=main] {
   margin: 0 auto 8em auto;
   max-width: 748px;
+  overflow: hidden;
   width: 95%;
 }
 
