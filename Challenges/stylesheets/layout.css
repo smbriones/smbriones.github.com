@@ -12,6 +12,10 @@ nav[role=navigation] {
   width: 95%;
 }
 
+#intro {
+  width: 70%;
+}
+
 #syllabus {
   margin: 0 auto;  
   max-width: 748px;

@@ -24,6 +24,17 @@
     padding: 3px 15px;
   }
 
+
+  /* Projects */
+  
+  .m-project-container {
+    background-clip: border-box;
+    width: 100%;    
+  } 
+  
+  .m-project-title {
+    width: 100%;
+  }
 }
 
 

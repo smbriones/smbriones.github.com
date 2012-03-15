@@ -5,7 +5,7 @@
 
 .m-top-nav {
   list-style-type: none;
-  margin: 1em auto 0 auto;
+  margin: 1em auto 2em auto;
   overflow: hidden;
 }
 
@@ -91,5 +91,25 @@
   letter-spacing: 1px;
   margin-left: 0.438em;
   text-transform: uppercase;
+}
+
+/* - - Project - - */
+
+.m-project-container {
+  background-clip: border-box;
+  display: inline;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+  width: 229px;
+}
+
+.m-project-title {
+  display: inline-block;
+  float: left;
+  font-weight: 500;
+  height: auto;
+  margin: 0 0 1em 0;
+  width: 229px;
 }
 

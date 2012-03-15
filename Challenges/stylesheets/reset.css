@@ -35,4 +35,7 @@ ul {
   padding: 0 !important;
 }
 
-
+figure {
+  margin: 0;
+  padding: 0;
+}
