@@ -96,11 +96,16 @@
 /* - - Project - - */
 
 .m-project-container {
-  background-clip: border-box;
   display: inline;
   float: left;
   margin-right: 20px;
-  overflow: hidden;
+  height: auto;
+  width: 229px;
+}
+
+.m-project {
+  background-color: blue;
+  height: 118px;
   width: 229px;
 }
 

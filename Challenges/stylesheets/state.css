@@ -30,11 +30,35 @@
   .m-project-container {
     background-clip: border-box;
     width: 100%;    
-  } 
-  
+  }
+
+  .m-project {
+    background-color: blue;
+    height: 118px;
+    width: auto;
+  }
+
   .m-project-title {
     width: 100%;
   }
+
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  { 
+  
+  .m-project-container {
+    background-clip: border-box;
+    width: 100%;    
+  }
 
+  .m-project {
+    background-color: blue;
+    height: 118px;
+    width: auto;
+  }
+
+  .m-project-title {
+    width: 100%;
+  }
+
+}
