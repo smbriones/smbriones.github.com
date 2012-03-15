@@ -16,7 +16,8 @@
     margin-top: 0; 
   } 
   
-  .m-nav-item a {
+  .m-nav-item a,
+  .m-current a {
     font-size: 1.125em;
   }
   
