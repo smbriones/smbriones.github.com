@@ -5,6 +5,7 @@
 
 @media only screen and (max-width: 640px) {
   
+
   /* Main Navigation */
  
   .m-nav-item {
@@ -15,6 +16,7 @@
     font-size: 1.125em;
   }
   
+
   /* Syllabus Navigation */  
   
   .m-syllabus-section,
@@ -44,7 +46,30 @@
 
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  { 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+  /* Main Navigation */
+ 
+  .m-nav-item {
+    margin-top: 0; 
+  } 
+  
+  .m-nav-item a {
+    font-size: 1.125em;
+  }
+
+  
+  /* Syllabus Navigation */  
+  
+  .m-syllabus-section,
+  .m-current-section {
+    font-size: 1.125em;
+    margin: 0 0.346em 0.346em 0;
+    padding: 3px 15px;
+  }
+
+
+  /* Projects */
   
   .m-project-container {
     background-clip: border-box;
