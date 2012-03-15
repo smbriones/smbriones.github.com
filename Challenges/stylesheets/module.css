@@ -33,6 +33,12 @@
   color: #DDD;
 }
 
+/* - - Home - - */
+
+#intro h2 {
+  line-height: 
+}
+
 
 /* - - Syllabus List Styles - - */
 
@@ -160,6 +166,38 @@
 .m-reading-container .m-author-name {
   display: block;
   font-size: 0.79em;
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 0.243em;
+}
+
+.m-exp-container {
+  float: left;
+  height: auto;
+  margin-bottom: 1.5em;
+  margin-right: 20px;
+  position: relative;  
+  width: 229px;
+}
+
+.m-exp {
+  background-color: #EEE;
+  border-radius: 115px;
+  height: 229px;
+  width: 229px;
+}
+
+.m-exp-title {
+  background-color: #FFF;  
+  font-size: 0.889em;
+  font-weight: 600;
+  margin: 0.493em 0;
+  text-align: center;
+}
+
+.m-exp-title .m-author-name {
+  display: block;
+  font-size: 0.79em;  
   font-weight: 500;
   margin-left: 0;
   margin-top: 0.243em;

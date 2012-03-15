@@ -19,14 +19,14 @@ p {
 h1 {
   font-size: 2.281em;
   font-weight: 600;
-  line-height: 1.333em;
-  margin: 0.584em 0;
+  line-height: 1em;
+  margin: 0.584em 0 1.602em 0;
 }
 
 h2 {
   font-size: 1.602em;
   font-weight: 400;
-  line-height: 0.832em;
+  line-height: 1.125em;
   margin: 0.832em 0;
 }
 
