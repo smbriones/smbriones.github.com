@@ -46,7 +46,8 @@
   
   .m-project-container {
     background-clip: border-box;
-    width: 100%;    
+    margin-bottom: 0;
+    width: 100%;
   }
 
   .m-project {
@@ -109,6 +110,8 @@
   
   .m-exp {
     background-color: #EEE;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
     border-radius: 150px;
     height: 300px;
     width: 300px;
@@ -151,7 +154,8 @@
   
   .m-project-container {
     background-clip: border-box;
-    width: 100%;    
+    margin-bottom: 0;
+    width: 100%;
   }
 
   .m-project {
@@ -162,6 +166,7 @@
   }
 
   .m-project-title {
+    font-size: 0.889em; 
     width: 100%;
   }
 
@@ -180,7 +185,7 @@
   
   .m-reading-container {
     background-clip: border-box;
-    width: 100%;    
+    width: 100%;   
   }
 
   .m-reading {
@@ -191,7 +196,13 @@
   }
 
   .m-reading-title {
+    font-size: 1em;
+    margin-bottom: 0;    
     width: 100%;
+  }
+
+  .m-reading-container .m-author-name {
+    margin-top: 0;
   }
 
   /* Experiences */
@@ -209,6 +220,8 @@
   
   .m-exp {
     background-color: #EEE;
+    -webkit-border-radius: 160px;
+    -moz-border-radius: 160px;
     border-radius: 160px;
     height: 320px;
     width: 320px;
@@ -255,9 +268,14 @@
   }
 
   .m-reading-title {
+    font-size: 1em;
+    margin: 0.5em 0 0 0;
     width: 100%;
   }
 
+  .m-reading-container .m-author-name {
+    margin-top: 0;
+  }
 
   /* Experiences */  
 
@@ -271,6 +289,8 @@
   
   .m-exp {
     background-color: #EEE;
+    -webkit-border-radius: 160px;
+    -moz-border-radius: 160px;
     border-radius: 160px;
     height: 320px;
     width: 320px;

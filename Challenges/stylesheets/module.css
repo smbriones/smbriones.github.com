@@ -30,10 +30,35 @@
 }
 
 .m-nav-item a:hover {
-  color: #DDD;
+  color: #FFF;
+}
+
+.m-current a {
+  background-color: #BBB;
+  border: none;
+  color: #333;
+  display: inline-block;
+  float: left;
+  font-size: 0.79em;
+  font-weight: 600;
+  line-height: 1.602em;
+  margin: 0.346em 0.346em 0.346em 0;
+  padding: 3px 15px;
+  text-decoration: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.m-current a:hover {
+  color: #FFF;
 }
 
 /* - - Home - - */
+
+#intro h1 {
+  margin: 1.602em 0 0.584em 0;
+}
 
 #intro h2 {
   line-height: 
@@ -56,10 +81,10 @@
   font-weight: 500;
   float: left;
   margin: 0.346em 0.346em 0.346em 0;
-  padding: 3px 4px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  padding: 5px 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .m-current-section {
@@ -69,10 +94,10 @@
   font-weight: 500;  
   float: left;
   margin: 0.346em 0.346em 0.346em 0;
-  padding: 3px 10px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  padding: 5px 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .m-current-section a {
@@ -92,7 +117,7 @@
 }
 
 .m-syllabus-section a:hover {
-  color: #CCC;  
+  color: #FFF;  
 }
 
 .m-author-name,
@@ -110,17 +135,17 @@
 .m-project-container {
   display: inline;
   float: left;
-  margin-right: 20px;
   height: auto;
+  margin-bottom: 1em;
+  margin-right: 20px;
   width: 229px;
 }
 
 .m-project {
   background-color: rgba(0, 0, 0, 0.1);
-  background-color: #EEE;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  border-color: #CCC;
+  background-color: #EEE; 
   height: 118px;
+  overflow: hidden;
   width: 229px;
 }
 
@@ -140,17 +165,16 @@
 .m-reading-container {
   display: inline;
   float: left;
+  height: auto;  
   margin-right: 33px;
-  height: auto;
   width: 216px;
 }
 
 .m-reading {
   background-color: rgba(0, 0, 0, 0.1);
   background-color: #EEE;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  border-color: #CCC;
   height: 229px;
+  overflow: hidden;  
 }
 
 .m-reading-title {
@@ -185,8 +209,11 @@
 
 .m-exp {
   background-color: #EEE;
+  -webkit-border-radius: 115px;
+  -moz-border-radius: 115px;
   border-radius: 115px;
   height: 229px;
+  overflow: hidden;
   width: 229px;
 }
 
