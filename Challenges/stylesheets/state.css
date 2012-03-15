@@ -48,6 +48,7 @@
 
   .m-project {
     background-color: rgba(0, 0, 0, 0.1);
+    background-color: #EEE;
     height: 118px;
     width: auto;
   }
@@ -56,6 +57,40 @@
     width: 100%;
   }
 
+  /* Readings */
+  
+  .m-reading-container {
+    background-clip: border-box;
+    width: 100%;    
+  }
+
+  .m-reading-container a:hover { 
+    color: #CCC;
+  }
+
+  .m-reading {
+    display: none; 
+  }
+
+  .m-reading-title {
+    background-color: #EEE;
+    font-weight: 600;
+    height: 38px;
+    margin: 2px 0;
+    padding: 0.5em 2%;
+    width: 96%;
+  }
+
+  .m-reading-title:hover {
+    background-color: #444;
+  }
+
+  .m-reading-container .m-author-name {
+    color: #BBB;
+    display: block;
+    margin-left: 0;
+    margin-top: 0.243em;
+  }
 
 }
 
@@ -113,12 +148,33 @@
     font-size: 1.424em;    
   }
 
+
+  /* Readings */
+  
+  .m-reading-container {
+    background-clip: border-box;
+    width: 100%;    
+  }
+
+  .m-reading {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #EEE;
+    height: 229px;
+    width: auto;
+  }
+
+  .m-reading-title {
+    width: 100%;
+  }
+
 }
 
 /* - - - - - - - - D E S K T O P   M I N I M I Z E D - - - - - - - - */
 
 
 @media only screen and (min-device-width: 695px) and (max-width: 786px) {
+
+  /* Projects */
 
   .m-project-container {
     background-clip: border-box;
@@ -137,5 +193,21 @@
     width: 100%;
   }
 
+  /* Readings */
+  
+  .m-reading-container {
+    background-clip: border-box;
+    width: 100%;    
+  }
 
+  .m-reading {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #EEE;
+    height: 229px;
+    width: auto;
+  }
+
+  .m-reading-title {
+    width: 100%;
+  }
 }

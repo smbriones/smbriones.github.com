@@ -99,7 +99,7 @@
   text-transform: uppercase;
 }
 
-/* - - Project - - */
+/* - - Projects - - */
 
 .m-project-container {
   display: inline;
@@ -128,3 +128,38 @@
   width: 229px;
 }
 
+
+/* - - Readings - - */
+
+.m-reading-container {
+  display: inline;
+  float: left;
+  margin-right: 33px;
+  height: auto;
+  width: 216px;
+}
+
+.m-reading {
+  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #EEE;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-color: #CCC;
+  height: 229px;
+}
+
+.m-reading-title {
+  display: inline-block;
+  float: left;
+  font-weight: 600;
+  font-size: 0.79em;
+  height: 3.5em;
+  margin: 0.243em 0 1.333em 0;
+  width: 216px;
+}
+
+.m-reading-container .m-author-name {
+  display: block;
+  font-size: 0.79em;
+  font-weight: 500;
+  margin-left: 0;  
+}
