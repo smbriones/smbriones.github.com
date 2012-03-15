@@ -77,7 +77,7 @@
   }
 
   .m-project {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.1);
     height: 118px;
     width: auto;
   }
@@ -99,7 +99,7 @@
   }
 
   .m-project {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.1);
     height: 118px;
     width: auto;
   }
