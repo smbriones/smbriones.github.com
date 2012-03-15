@@ -171,12 +171,15 @@
   margin-top: 0.243em;
 }
 
+
+/* - - Experiences -- */
+
+
 .m-exp-container {
   float: left;
   height: auto;
   margin-bottom: 1.5em;
   margin-right: 20px;
-  position: relative;  
   width: 229px;
 }
 

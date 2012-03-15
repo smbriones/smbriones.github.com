@@ -95,6 +95,26 @@
     margin-top: 0.243em;
   }
 
+
+  /* Experiences */
+
+  .m-exp-container {
+    /*margin: 0 12% 1.5em 12%;*/
+    float: left;
+    height: auto;
+    margin-bottom: 1.5em;
+    margin-right: 20px;
+    width: 300px;
+  }
+  
+  .m-exp {
+    background-color: #EEE;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+  }
+
+  
 }
 
 /* - - - - - - - - i P a d - - - - - - - - */
@@ -174,6 +194,26 @@
     width: 100%;
   }
 
+  /* Experiences */
+
+  .s-page-title {
+    display: none; 
+  }
+
+  .m-exp-container {
+    float: left;
+    height: auto;
+    margin: 0 22px 1.5em 20px !important;
+    width: 320px;
+  }
+  
+  .m-exp {
+    background-color: #EEE;
+    border-radius: 160px;
+    height: 320px;
+    width: 320px;
+  }
+
 }
 
 /* - - - - - - - - D E S K T O P   M I N I M I Z E D - - - - - - - - */
@@ -217,4 +257,23 @@
   .m-reading-title {
     width: 100%;
   }
+
+
+  /* Experiences */  
+
+  .m-exp-container {
+    float: left;
+    height: auto;
+    margin-bottom: 1.5em;
+    margin: 0 10px 1.5em 10px;
+    width: 320px;
+  }
+  
+  .m-exp {
+    background-color: #EEE;
+    border-radius: 160px;
+    height: 320px;
+    width: 320px;
+  }
+
 }
