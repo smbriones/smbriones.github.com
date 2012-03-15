@@ -1,7 +1,8 @@
 /* - - - S T A T E - - - */
 
 
-/* iPhone */
+/* - - - - - - - - i P h o n e - - - - - - - - */
+
 
 @media only screen and (max-width: 640px) {
   
@@ -46,6 +47,9 @@
 
 }
 
+/* - - - - - - - - i P a d - - - - - - - - */
+
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
 
   /* Main Navigation */
@@ -88,7 +92,8 @@
 
 }
 
-/* Minimized size on Desktop */
+/* - - - - - - - - D E S K T O P   M I N I M I Z E D - - - - - - - - */
+
 
 @media only screen and (min-device-width: 695px) and (max-width: 786px) {
 
