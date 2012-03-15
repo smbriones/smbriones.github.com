@@ -105,7 +105,9 @@
 
 .m-project {
   background-color: rgba(0, 0, 0, 0.1);
+  background-color: #EEE;
   border: 2px solid rgba(0, 0, 0, 0.1);
+  border-color: #CCC;
   height: 118px;
   width: 229px;
 }

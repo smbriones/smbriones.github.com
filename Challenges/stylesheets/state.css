@@ -82,6 +82,7 @@
 
   .m-project {
     background-color: rgba(0, 0, 0, 0.1);
+    background-color: #EEE;    
     height: 118px;
     width: auto;
   }
@@ -105,6 +106,7 @@
 
   .m-project {
     background-color: rgba(0, 0, 0, 0.1);
+    background-color: #EEE;
     height: 118px;
     width: auto;
   }
