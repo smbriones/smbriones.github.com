@@ -72,3 +72,7 @@ a:hover {
 li { 
   list-style: none;
 }
+
+strong {
+  font-weight: 600;
+}
