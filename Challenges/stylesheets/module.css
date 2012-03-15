@@ -114,8 +114,9 @@
   display: inline-block;
   float: left;
   font-weight: 500;
+  font-size: 0.79em;
   height: auto;
-  margin: 0 0 1em 0;
+  margin: 0.243em 0 1em 0;
   width: 229px;
 }
 
