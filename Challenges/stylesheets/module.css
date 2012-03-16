@@ -26,8 +26,8 @@
   border-bottom: 3px solid transparent;
   color: #555;
   display: inline-block;
-  font-size: 0.624em;
-  font-weight: 600;
+  font-size: 0.79em;
+  font-weight: 500;
   letter-spacing: 1px;  
   line-height: 1.602em;
   margin: 0 12px;  
@@ -42,8 +42,8 @@
   border-bottom: 3px solid #222;
   color: #222;
   display: inline-block;
-  font-size: 0.624em;
-  font-weight: 600;
+  font-size: 0.79em;
+  font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.602em;
   margin: 0 12px;
@@ -141,11 +141,14 @@
 }
 
 .m-project {
-  background-color: rgba(0, 0, 0, 0.1);
-  background-color: #EEE; 
+  border: 1px solid #EEE;
   height: 118px;
   overflow: hidden;
   width: 229px;
+}
+
+.m-project img:hover { 
+  opacity: 0.5;
 }
 
 .m-project-title {
@@ -159,6 +162,10 @@
   width: 229px;
 }
 
+.m-small {
+  margin-top: -1em;
+  max-width: 746px;
+}
 
 /* - - Readings - - */
 
@@ -231,4 +238,76 @@
   font-weight: 500;
   margin-left: 0;
   margin-top: 0.243em;
+}
+
+/* Project Page */
+
+.m-project-tags {
+  margin-top: -1.125em;
+}
+
+.m-tag {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #FFF;
+  display: inline-block;
+  font-size: 0.555em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 0.624em;
+  padding: 5px;  
+  text-transform: uppercase;
+}
+
+.ux {
+  background-color: blue;
+}
+
+.organization {
+  background-color: green;
+}
+
+.type {
+  background-color: red;
+}
+
+.html {
+  background-color: orange;
+}
+
+.css {
+  background-color: aqua;
+}
+
+.access { 
+  background-color: purple;
+}
+
+.seo {
+  background-color: pink;
+}
+
+.m-project-image {
+  height: 300px;
+  margin: 2em 0;
+  max-width: 748px;
+  overflow: hidden;
+}
+
+.m-project-image img {
+  margin-top: -6.5em;
+  max-width: 748px;
+}
+
+.m-medium-border {
+  border: 1px solid #CCC;  
+}
+
+.m-light-border {
+  border: 1px solid #EEE;  
+}
+
+.snippets-container h6 {
+  margin: 3em 0 0 0;
 }

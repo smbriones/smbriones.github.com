@@ -14,9 +14,11 @@
   /* Main Navigation */
 
   nav[role=navigation] {
-    background: #EEE;
+    background: #FFF;
+    border-bottom: 5px solid #EEE;
     margin-bottom: 1.602em;
     padding: 0.5em 0;
+    position: fixed;
     width: 100%;
   }
   
@@ -38,6 +40,11 @@
     padding: 5px 2px 5px 0;
   }
   
+  /* Home Page */
+
+  #intro h1 { 
+    margin-top: 3em;
+  }
 
   /* Syllabus Navigation */  
   
@@ -143,8 +150,21 @@
   }
 
   .s-page-title {
-    display: none; 
+    color: transparent;
+    margin-bottom: 1.125em;
   }
+
+
+  /* Project Page */
+
+  .m-project-name {
+    margin-top: 3em;
+  }
+
+  .m-project-image {
+    display: none;
+  }
+  
 }
 
 /* - - - - - - - - i P a d - - - - - - - - */
@@ -261,6 +281,14 @@
   .m-exp-title {
     font-size: 1em;
   }
+
+  /* Project Page */
+  
+  .m-tag {
+    font-size: 0.624em;
+    font-weight: 600;
+  }
+  
 }
 
 /* - - - - - - - - D E S K T O P   M I N I M I Z E D - - - - - - - - */
