@@ -22,3 +22,10 @@ nav[role=navigation] {
   max-width: 748px;
   width: 100%;
 }
+
+#readings-container {
+  margin: 0 auto 1em auto;
+  max-width: 748px;
+  overflow: hidden;
+  width: 100%;
+}

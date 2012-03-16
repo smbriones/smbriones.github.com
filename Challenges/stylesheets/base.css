@@ -4,6 +4,7 @@ body {
   background-color: #FFF;
   font-family: "omnes-pro",sans-serif;  
   font-size: 112.5%; /* 18px @ 1:1.125 */
+  line-height: 1.333em;  
   margin: 0;
   padding: 0;
   width: 100%;
@@ -75,4 +76,9 @@ li {
 
 strong {
   font-weight: 600;
+}
+
+em {
+  font-style: italic;
+  font-weight: 500;
 }

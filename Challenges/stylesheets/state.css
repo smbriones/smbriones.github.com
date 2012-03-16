@@ -8,17 +8,34 @@
   
   div[role=main] {
     margin-bottom: 8px;
-  }
+    width: 92%;
+  } 
 
   /* Main Navigation */
- 
-  .m-nav-item {
+
+  nav[role=navigation] {
+    background: #EEE;
+    margin-bottom: 1.602em;
+    padding: 0.5em 0;
+    width: 100%;
+  }
+  
+  .m-top-nav {
+    margin: 0 1em 0 1em;
+  }
+
+  .m-nav-item,
+  .m-current {
+    margin-bottom: 0.5em;
     margin-top: 0; 
   } 
   
   .m-nav-item a,
   .m-current a {
-    font-size: 1.125em;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 5px 2px 5px 0;
   }
   
 
@@ -36,6 +53,8 @@
 
   #syllabus li {
     font-size: 1.125em;
+    line-height: 1.5em;  
+    
   }
 
   #syllabus h3 {
@@ -59,6 +78,8 @@
   }
 
   .m-project-title {
+    line-height: 1.424em;
+    margin-top: 0.493em !important;  
     width: 100%;
   }
 
@@ -79,11 +100,12 @@
 
   .m-reading-title {
     background-color: #EEE;
+    font-size: 0.79em !important;
     font-weight: 600;
     height: 38px;
-    margin: 2px 0;
-    padding: 0.5em 2%;
-    width: 96%;
+    margin: 2px 0 !important;
+    padding: 0.5em 3%;
+    width: 94%;
   }
 
   .m-reading-title:hover {
@@ -101,24 +123,28 @@
   /* Experiences */
 
   .m-exp-container {
-    /*margin: 0 12% 1.5em 12%;*/
-    float: left;
     height: auto;
     margin-bottom: 1.5em;
-    margin-right: 20px;
-    width: 300px;
+    margin-left: 0.438em;
+    width: 280px;
   }
   
   .m-exp {
     background-color: #EEE;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    border-radius: 150px;
-    height: 300px;
-    width: 300px;
+    -webkit-border-radius: 140px;
+    -moz-border-radius: 140px;
+    border-radius: 140px;
+    height: 280px;
+    width: 280px;
   }
 
-  
+  .m-exp-title {
+    font-size: 1em;      
+  }
+
+  .s-page-title {
+    display: none; 
+  }
 }
 
 /* - - - - - - - - i P a d - - - - - - - - */
@@ -136,8 +162,10 @@
     margin-top: 0; 
   } 
   
-  .m-nav-item a {
+  .m-nav-item a,
+  .m-current a {
     font-size: 1.125em;
+    font-weight: 500;
   }
 
   
@@ -168,6 +196,7 @@
 
   .m-project-title {
     font-size: 0.889em; 
+    margin-top: 0.493em;
     width: 100%;
   }
 
@@ -175,6 +204,7 @@
 
   #syllabus li {
     font-size: 1.125em;
+    line-height: 1.5em;
   }
 
   #syllabus h3 {
@@ -215,7 +245,7 @@
   .m-exp-container {
     float: left;
     height: auto;
-    margin: 0 22px 1.5em 20px !important;
+    margin: 1em 22px 1.5em 20px !important;
     width: 320px;
   }
   
@@ -228,6 +258,9 @@
     width: 320px;
   }
 
+  .m-exp-title {
+    font-size: 1em;
+  }
 }
 
 /* - - - - - - - - D E S K T O P   M I N I M I Z E D - - - - - - - - */
@@ -239,6 +272,7 @@
 
   .m-project-container {
     background-clip: border-box;
+    margin-bottom: 0.308em;
     margin-right: 20px;
     width: 100%;
   }
@@ -251,6 +285,7 @@
   }
 
   .m-project-title {
+    margin-top: 0.493em;
     width: 100%;
   }
 
@@ -271,7 +306,7 @@
   .m-reading-title {
     font-size: 1em;
     margin: 0.5em 0 0 0;
-    width: 100%;
+    width: 94%;
   }
 
   .m-reading-container .m-author-name {

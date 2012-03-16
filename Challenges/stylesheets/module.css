@@ -9,55 +9,54 @@
   overflow: hidden;
 }
 
-.m-nav-item {
+.m-nav-item, 
+.m-current {
   float: left;
+}
+
+.m-nav-item a:first-child,
+.m-current a:first-child {
+  margin-left: 2px;
+  margin-right: 10px;
 }
 
 .m-nav-item a {
-  background-color: #EEE;
+  background: transparent;
   border: none;
-  color: #333;
+  border-bottom: 3px solid transparent;
+  color: #555;
   display: inline-block;
-  font-size: 0.79em;
+  font-size: 0.624em;
   font-weight: 600;
+  letter-spacing: 1px;  
   line-height: 1.602em;
-  margin: 0.346em 0.346em 0.346em 0;
-  padding: 3px 15px;
+  margin: 0 12px;  
+  padding: 2px 0;
   text-decoration: none;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-}
-
-.m-nav-item a:hover {
-  color: #FFF;
+  text-transform: uppercase;
 }
 
 .m-current a {
-  background-color: #BBB;
+  background: transparent;
   border: none;
-  color: #333;
+  border-bottom: 3px solid #222;
+  color: #222;
   display: inline-block;
-  float: left;
-  font-size: 0.79em;
+  font-size: 0.624em;
   font-weight: 600;
+  letter-spacing: 1px;
   line-height: 1.602em;
-  margin: 0.346em 0.346em 0.346em 0;
-  padding: 3px 15px;
+  margin: 0 12px;
+  padding: 2px 0;
   text-decoration: none;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
+  text-transform: uppercase;
 }
 
-.m-current a:hover {
-  color: #FFF;
-}
 
 /* - - Home - - */
 
 #intro h1 {
-  margin: 1.602em 0 0.584em 0;
+  margin: 0.584em 0 0.584em 0;
 }
 
 #intro h2 {
@@ -155,6 +154,7 @@
   font-weight: 500;
   font-size: 0.79em;
   height: auto;
+  line-height: 1.333em;
   margin: 0.243em 0 1em 0;
   width: 229px;
 }
@@ -221,7 +221,7 @@
   background-color: #FFF;  
   font-size: 0.889em;
   font-weight: 600;
-  margin: 0.493em 0;
+  margin: 0.624em 0;
   text-align: center;
 }
 
