@@ -14,13 +14,13 @@
   /* Home */
 
   .m-left-info {
-    margin-right: 1.5em !important;
-    width: 48%;
+    margin-right: 1em !important;
+    width: 51%;
   } 
 
   .m-right-info {
     margin-right: 0;    
-    width: 42%;
+    width: 41%;
   }
 
   .m-left-info img,
@@ -57,9 +57,8 @@
 
   nav[role=navigation] {
     background: #FFF;
-    border-bottom: 5px solid #EEE;
-    margin-bottom: 1.602em;
-    padding: 0.5em 0;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 0.624em 0 0 0;
     position: fixed;
     width: 100%;
   }
@@ -169,13 +168,16 @@
     margin-top: 0.243em;
   }
 
+  .m-title-small {
+    margin-bottom: 0.438em !important;
+  }
 
   /* Experiences */
 
   .m-exp-container {
     height: auto;
     margin-bottom: 1.5em;
-    margin-left: 0.438em;
+    margin-left: 0.216em;
     width: 280px;
   }
   
@@ -218,6 +220,27 @@
   div[role=main] {
     margin-bottom: 1em;
   }
+
+  /* Home */
+
+
+  .m-resource-list {
+    min-height: 100px;
+  }
+
+  .m-left-info .m-resource-list li,
+  .m-right-info .m-resource-list li {
+    font-size: 1em;
+    font-weight: 500;
+    width: 300px;    
+  }
+   
+  .m-resource-list .m-subject-name,
+  .m-resource-list .m-author-name {
+    font-size: 0.79em;
+    font-weight: 500 !important;    
+  }
+
 
   /* Main Navigation */
  
@@ -348,7 +371,18 @@
     float: left;
     margin: 1em 1em 1em 0;
     width: 150px;
-}
+  }
+
+  .m-left-info .m-resource-list li,
+  .m-right-info .m-resource-list li {
+    font-size: 1em;
+    font-weight: 500;
+    width: 300px;    
+  }
+
+  .m-resource-list {
+    min-height: 100px;
+  }
 
   /* Projects */
 
