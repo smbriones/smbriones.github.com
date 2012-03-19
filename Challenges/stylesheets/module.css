@@ -133,18 +133,23 @@
 
 /* - - Syllabus List Styles - - */
 
-.m-syllabus-list {
-  margin: 0;
-  overflow: hidden;
-}
-
 .m-sub-list {
   line-height: 1.424em;
   margin-left: 1em;
 }
 
+.m-syllabus-list {
+  margin: 0;
+  overflow: hidden;
+}
+
+.m-syllabus-list a {
+  border: none;
+}
+
 .m-syllabus-section {
   background-color: #F8F8F8; 
+  color: #222;  
   font-size: 0.889em;
   font-weight: 500;
   float: left;
@@ -157,6 +162,7 @@
 
 .m-current-section {
   background-color: #E70000;
+  color: #FFF !important;  
   font-size: 0.889em;
   font-weight: 500;  
   float: left;
@@ -167,35 +173,14 @@
   border-radius: 4px;
 }
 
-.m-current-section a {
-  color: #FFF;  
-  border: none;
-  line-height: 1.5em;
-}
-
-.m-current-section a:hover {
-  border: none;
+.m-syllabus-section:hover {
+  background-color: #20A0D0;
   color: #FFF;
-  line-height: 1.5em;
 }
 
-.m-syllabus-section a {
-  border: none;
-  line-height: 1.5em;
-}
-
-.m-syllabus-section a:hover {
-  color: #444;  
-}
-
-.m-author-name,
-.m-subject-name {
-  color: #AAA;
-  display: inline-block;
-  font-size: 0.624em;
-  letter-spacing: 1px;
-  margin-left: 0.438em;
-  text-transform: uppercase;
+.m-current-section:hover {
+  background-color: #C90000;
+  color: #FFF;
 }
 
 /* - - Projects - - */
@@ -216,10 +201,6 @@
   width: 229px;
 }
 
-.m-project img:hover { 
-  opacity: 0.5;
-}
-
 .m-project-title {
   display: inline-block;
   float: left;
@@ -229,6 +210,16 @@
   line-height: 1.333em;
   margin: 0.493em 0 1em 0;
   width: 229px;
+}
+
+.m-author-name,
+.m-subject-name {
+  color: #AAA;
+  display: inline-block;
+  font-size: 0.624em;
+  letter-spacing: 1px;
+  margin-left: 0.438em;
+  text-transform: uppercase;
 }
 
 .m-small {
@@ -319,6 +310,10 @@
 }
 
 /* Project Page */
+
+.m-back-link { 
+  margin-top: 6em;
+}
 
 .m-project-tags {
   margin-top: -1.125em;
