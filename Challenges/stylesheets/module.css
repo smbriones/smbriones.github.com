@@ -138,6 +138,10 @@
   margin-left: 1em;
 }
 
+.m-sub-list li { 
+  font-size: 1em;  
+}
+
 .m-syllabus-list {
   margin: 0;
   overflow: hidden;
