@@ -67,14 +67,14 @@
   float: left;
   margin: 3em 0 2em 0;  
   overflow: hidden;
-  width: 51%;
+  width: 50%;
 }
 
 .m-right-info {
   float: right;
   margin: 3em 0 2em 0;  
   overflow: hidden;
-  width: 43%;
+  width: 46%;
 }
 
 .m-left-info img,
@@ -86,7 +86,7 @@
 
 .m-resource-list {
   float: left;
-  max-width: 230px;
+  max-width: 254px;
   min-height: 60px;
   margin: 0.75em 0 0.5em 0; 
 }
@@ -262,49 +262,6 @@
   margin-top: 0.243em;
 }
 
-
-/* - - Experiences -- */
-
-
-.m-exp-container {
-  float: left;
-  height: auto;
-  margin-bottom: 1.5em;
-  margin-right: 20px;
-  width: 229px;
-}
-
-.m-exp {
-  background-color: #EEE;
-  -webkit-border-radius: 115px;
-  -moz-border-radius: 115px;
-  border-radius: 115px;
-  height: 229px;
-  overflow: hidden;
-  width: 229px;
-}
-
-.m-exp img { 
-  margin-top: -2em;
-  margin-left: -2.75em
-}
-
-.m-exp-title {
-  background-color: #FFF;  
-  font-size: 0.889em;
-  font-weight: 600;
-  margin: 0.624em 0;
-  text-align: center;
-}
-
-.m-exp-title .m-author-name {
-  display: block;
-  font-size: 0.79em;  
-  font-weight: 500;
-  margin-left: 0;
-  margin-top: 0.243em;
-}
-
 /* Project Page */
 
 .m-project-tags {
@@ -369,7 +326,6 @@
 }
 
 .m-project-image img {
-  margin-top: -6.5em;
   max-width: 748px;
 }
 
@@ -383,4 +339,50 @@
 
 .snippets-container h6 {
   margin: 3em 0 0 0;
+}
+
+.snippets-container ul {
+  margin: 0.438em 0;
+}
+
+/* - - Experiences -- */
+
+
+.m-exp-container {
+  float: left;
+  height: auto;
+  margin-bottom: 1.5em;
+  margin-right: 20px;
+  width: 229px;
+}
+
+.m-exp {
+  background-color: #EEE;
+  -webkit-border-radius: 115px;
+  -moz-border-radius: 115px;
+  border-radius: 115px;
+  height: 229px;
+  overflow: hidden;
+  width: 229px;
+}
+
+.m-exp img { 
+  margin-top: -2em;
+  margin-left: -2.75em
+}
+
+.m-exp-title {
+  background-color: #FFF;  
+  font-size: 0.889em;
+  font-weight: 600;
+  margin: 0.624em 0;
+  text-align: center;
+}
+
+.m-exp-title .m-author-name {
+  display: block;
+  font-size: 0.79em;  
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 0.243em;
 }

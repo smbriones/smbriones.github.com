@@ -19,12 +19,12 @@
 
   .m-left-info {
     margin-right: 1em !important;
-    width: 50%;
+    width: 49%;
   } 
 
   .m-right-info {
     margin-right: 0;    
-    width: 43%;
+    width: 44%;
   }
 
   .m-left-info img,
@@ -60,8 +60,8 @@
   /* Main Navigation */
 
   nav[role=navigation] {
-    background-color: #333;
     background: url(/images/classy-fabric.png);
+    background-color: #333;
     border-bottom: 1px solid #222;
     padding: 0.624em 0 0 0;
     position: fixed;
@@ -111,6 +111,11 @@
     color: #222;
   }
 
+  .m-top-link {
+    color: #E70000;
+    font-weight: 500;
+  }
+
   /* Syllabus text size increase */
 
   #syllabus li {
@@ -146,6 +151,7 @@
   }
 
   .m-back-link { 
+    color: #222;    
     margin-top: 6em;
   }
 
@@ -396,11 +402,11 @@
   .m-right-info .m-resource-list li {
     font-size: 1em;
     font-weight: 500;
-    width: 180px;    
+    width: 175px;    
   }
 
   .m-resource-list {
-    min-height: 100px;
+    min-height: 125px;
   }
 
   .m-resource-list .m-subject-name,
