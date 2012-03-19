@@ -223,7 +223,6 @@
 }
 
 .m-small {
-  margin-top: -1em;
   max-width: 746px;
 }
 
@@ -233,19 +232,16 @@
   display: inline;
   float: left;
   height: auto;  
-  margin-right: 33px;
-  width: 216px;
+  margin-bottom: 1.5em;
+  margin-right: 20px;
+  width: 229px;
 }
 
 .m-reading {
   background-color: #FFF;
   border: 1px solid #EEE;
-  height: 229px;
+  height: 120px;
   overflow: hidden;  
-}
-
-.m-reading img:hover {
-  opacity: 0.5;
 }
 
 .m-reading-title {
