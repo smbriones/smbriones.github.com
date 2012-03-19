@@ -52,6 +52,10 @@
   text-transform: uppercase;
 }
 
+.m-top-link {
+  border: none;  
+  color: transparent;
+}
 
 /* - - Home - - */
 

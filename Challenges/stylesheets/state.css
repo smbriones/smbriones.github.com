@@ -112,6 +112,7 @@
   }
 
   .m-top-link {
+    border-bottom: 1px dotted #E70000; 
     color: #E70000;
     font-weight: 500;
   }
