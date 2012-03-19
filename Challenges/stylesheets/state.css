@@ -60,8 +60,8 @@
   /* Main Navigation */
 
   nav[role=navigation] {
+    background-image: url(/images/classy-fabric.png);    
     background-color: #333;    
-    background: url(/images/classy-fabric.png);
     border-bottom: 1px solid #222;
     padding: 0.624em 0 0 0;
     position: fixed;
