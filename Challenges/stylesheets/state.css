@@ -145,6 +145,10 @@
     width: 100%;
   }
 
+  .m-back-link { 
+    margin-top: 6em;
+  }
+
   /* Readings */
   
   .m-reading-container {
