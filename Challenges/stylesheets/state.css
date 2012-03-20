@@ -23,6 +23,10 @@
 
   /* Home */
 
+  #intro {
+    width: 85%;
+  }
+
   .m-left-info {
     margin-right: 1em !important;
     width: 49%;
@@ -180,6 +184,7 @@
   }
 
   .m-reading-title {
+    color: #20A0D0;
     background-color: #FFF;
     border-bottom: 1px dotted #EEE;
     font-size: 0.79em !important;
@@ -197,7 +202,7 @@
   }
 
   .m-reading-container .m-author-name {
-    color: #CCC;
+    color: #333;
     display: block;
     margin-left: 0;
     margin-top: 0.243em;
@@ -254,6 +259,13 @@
 
   /* Home */
 
+  #intro {
+    width: 95%;
+  }
+
+  #intro h1 {
+    width: 70%;
+  }
 
   .m-resource-list {
     min-height: 100px;
