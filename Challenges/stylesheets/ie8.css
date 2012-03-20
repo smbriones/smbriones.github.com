@@ -28,7 +28,7 @@ nav[role=navigation] {
 .ie-small-stretch-b {
   border: none;
   display: block;
-  min-width: 275px;
+  min-width: 300px;
 }
 
 /* Readings */
