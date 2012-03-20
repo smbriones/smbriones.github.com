@@ -1,6 +1,21 @@
 /* - - - M O D U L E - - - */
 
 
+.m-8th-light-tag {
+  margin-right: -1px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.m-8th-light-tag a {
+  border: 0;
+}
+
+.m-8th-light-tag img { 
+  border: 1px solid #EFEEEE;
+}
+
 /* - - navigation - - */
 
 .m-top-nav {

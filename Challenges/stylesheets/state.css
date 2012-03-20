@@ -6,6 +6,10 @@
 
 @media only screen and (max-width: 640px) {
   
+  .m-8th-light-tag {
+    display: none;
+  }
+
   div[role=main] {
     margin-bottom: 8px;
     width: 90%;
