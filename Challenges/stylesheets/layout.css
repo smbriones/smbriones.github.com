@@ -10,7 +10,7 @@ div[role=main] {
 nav[role=navigation] {
   margin: 0 auto;
   max-width: 748px;
-  width: 95%;
+  overflow: hidden;  
 }
 
 #intro {

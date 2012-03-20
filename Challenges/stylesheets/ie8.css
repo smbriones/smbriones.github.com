@@ -1,0 +1,38 @@
+/* IE8 Styles */
+
+.ie-wide-stretch {
+  min-width: 900px !important;
+}
+
+/* Home Page */
+
+.ie-hide {
+  display: none;
+}
+
+nav[role=navigation] {
+  margin: 0 auto;
+}
+
+.ie-inline {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.ie-small-stretch {
+  margin-right: 1.2em;
+  width: 200px;
+}
+
+.ie-small-stretch-b {
+  border: none;
+  display: block;
+  min-width: 275px;
+}
+
+/* Readings */
+
+.ie-span-inline {
+  display: inline !important;
+}

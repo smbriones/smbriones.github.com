@@ -13,32 +13,36 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/state.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/hashgrid.css" />
-  <script src="javascripts/modernizr-2.5.3.js"></script>
+  <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="stylesheets/ie8.css" />
+  <![endif]-->
   <script type="text/javascript" src="http://use.typekit.com/nfx5pej.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-</head>
+  </head>
 <body>
-  <nav role="navigation">
-    <ul class="m-top-nav">
-      <li class="m-current"><a href="index.html">Home</a></li>      
-      <li class="m-nav-item"><a href="syllabus-environment.html">Syllabus</a></li>
-      <li class="m-nav-item"><a href="projects.html">Projects</a></li>
-      <li class="m-nav-item"><a href="readings.html">Readings</a></li>
-      <li class="m-nav-item"><a href="experiences.html">Experiences</a></li>
-    </ul>
-  </nav>
-  <div role="main">
+  
+  <div role="main" class="ie-wide-stretch">
+    <nav role="navigation">
+      <ul class="m-top-nav">
+        <li class="m-current"><a href="index.html">Home</a></li>      
+        <li class="m-nav-item"><a href="syllabus-environment.html">Syllabus</a></li>
+        <li class="m-nav-item"><a href="projects.html">Projects</a></li>
+        <li class="m-nav-item"><a href="readings.html">Readings</a></li>
+        <li class="m-nav-item"><a href="experiences.html">Experiences</a></li>
+      </ul>
+    </nav>
     <section id="intro">
       <h1>UX Design Apprenticeship at 8th Light</h1>
       <h2>Syllabus, Projects, &amp; Guidelines</h2>
 
 
       <section class="m-left-info">
-        <h6>
+        <h6 class="ie-inline">
           Reminders
         </h6>
-        <img src="images/icons/weekly-bloging.png" alt="weekly blogging icon" />
-        <ul class="m-resource-list"> 
+        <img src="images/icons/weekly-bloging.png" alt="weekly blogging 
+        icon" class="ie-hide"/>
+        <ul class="m-resource-list ie-small-stretch"> 
           <li>
             Each week write a blog post about something you've learned.
           <span class="m-subject-name">
@@ -47,8 +51,8 @@
           </li> 
         </ul>
 
-        <img src="images/icons/reading.png" alt="weekly reading icon" />
-        <ul class="m-resource-list"> 
+        <img src="images/icons/reading.png" alt="weekly reading icon" class="ie-hide" />
+        <ul class="m-resource-list ie-small-stretch"> 
           <li>
             You'll be assigned reading each week, be prepared to discuss 
             each Monday.
@@ -58,8 +62,9 @@
           </li> 
         </ul>
 
-        <img src="images/icons/lightning.png" alt="monthly lightning talk icon" />
-        <ul class="m-resource-list"> 
+        <img src="images/icons/lightning.png" alt="monthly lightning 
+        talk icon" class="ie-hide" />
+        <ul class="m-resource-list ie-small-stretch"> 
           <li>
             Give a lightning talk once a month about something you've 
             learned.
@@ -69,8 +74,9 @@
           </li> 
         </ul>
 
-        <img src="images/icons/projects.png" alt="assigned projects icon" />
-        <ul class="m-resource-list"> 
+        <img src="images/icons/projects.png" alt="assigned projects 
+        icon" class="ie-hide" />
+        <ul class="m-resource-list ie-small-stretch"> 
           <li>
             You will be assigned projects and experiments to complete each week.
             <span class="m-subject-name">
@@ -82,11 +88,12 @@
       </section>
 
       <section class="m-right-info">
-         <h6>
+         <h6 class="ie-inline">
           Useful Tools
         </h6>
-        <img src="images/icons/coding.png" alt="coding resource list icon"/>        
-        <ul class="m-resource-list"> 
+        <img src="images/icons/coding.png" alt="coding resource list 
+        icon" class="ie-hide"/>        
+        <ul class="m-resource-list ie-small-stretch-b"> 
           <li>
             <a href="http://html5doctor.com/html-5-reset-stylesheet/">
             CSS Reset</a>
@@ -102,8 +109,9 @@
           </li> 
         </ul>
  
-        <img src="images/icons/design.png" alt="design resource list icon"/>
-        <ul class="m-resource-list"> 
+        <img src="images/icons/design.png" alt="design resource list 
+        icon" class="ie-hide"/>
+        <ul class="m-resource-list ie-small-stretch-b"> 
           <li>
             <a href="http://modularscale.com">
               Modular Scale
@@ -120,8 +128,9 @@
           </li>
         </ul>
 
-        <img src="images/icons/craftsmanship.png" alt="tools list icon"/>
-        <ul class="m-resource-list"> 
+        <img src="images/icons/craftsmanship.png" alt="tools list icon" 
+        class="ie-hide"/>
+        <ul class="m-resource-list ie-small-stretch-b"> 
           <li>
             <a href="http://artisan.8thlight.com">
               Project Storyboard

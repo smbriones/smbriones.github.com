@@ -53,8 +53,9 @@
 }
 
 .m-top-link {
-  border: none;  
+  border: none;
   color: transparent;
+  color: #FFF;  
 }
 
 /* - - Home - - */
