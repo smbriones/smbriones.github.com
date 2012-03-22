@@ -230,7 +230,6 @@
 /* - - 4. Projects - - */
 
 .m-project-container {
-  display: inline;
   float: left;
   height: auto;
   margin-bottom: 1.889em;
@@ -246,7 +245,6 @@
 }
 
 .m-project-title {
-  display: inline-block;
   float: left;
   font-weight: 500;
   font-size: 0.79em;
@@ -273,7 +271,6 @@
 /* - - 5. Readings - - */
 
 .m-reading-container {
-  display: inline;
   float: left;
   height: auto;  
   margin-bottom: 1.5em;
@@ -289,7 +286,6 @@
 }
 
 .m-reading-title {
-  display: inline-block;
   float: left;
   font-weight: 600;
   font-size: 0.79em;
