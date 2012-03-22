@@ -115,7 +115,7 @@
 }
 
 .m-right-info .m-resource-list {
-  margin: 0.555em 0 0.5em 0;   
+  margin: 0.889em 0 0.5em 0;   
 }
 
 
@@ -399,8 +399,7 @@
 }
 
 .m-exp img { 
-  margin-top: -2em;
-  margin-left: -2.75em
+  width: 235px;
 }
 
 .m-exp-title {

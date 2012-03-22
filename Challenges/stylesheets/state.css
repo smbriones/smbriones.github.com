@@ -6,19 +6,45 @@
 
 @media only screen and (max-width: 640px) {
   
-  .m-8th-light-tag {
-    display: none;
-  }
 
   div[role=main] {
     margin-bottom: 8px;
     width: 90%;
-  }  
+  } 
+
+  /* Main Navigation */
 
   nav[role=navigation] {
+    background-image: url(../images/classy-fabric.png);    
+    background-color: #333;    
+    border-bottom: 1px solid #222;
     margin-left: -0.9em;
-    max-width: 748px;
-    overflow: hidden;  
+    padding: 0.624em 0 0 0;
+    position: fixed;
+    width: 102%;
+  }
+  
+  .m-top-nav {
+    margin: 0 1em 0 1em;
+  }
+
+  .m-nav-item,
+  .m-current {
+    margin-bottom: 0.5em;
+    margin-top: 0; 
+  } 
+  
+  .m-nav-item a,
+  .m-current a {
+    color: #EEE;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 5px 2px 5px 0;
+  }
+
+  .m-current a {
+    border-bottom: 3px solid #20A0D0;
   }
 
   .m-title-small {
@@ -27,8 +53,16 @@
 
   /* Home */
 
+  .m-8th-light-tag {
+    display: none;
+  }
+
   #intro {
     width: 85%;
+  }
+
+  #intro h1 { 
+    margin-top: 3em;
   }
 
   .m-left-info {
@@ -67,50 +101,10 @@
   
   .m-resource-list {
     margin: 0;
-    min-height: 100px;
+    min-height: 125px;
     width: 125px;    
-  }
-
-  /* Main Navigation */
-
-  nav[role=navigation] {
-    background-image: url(../images/classy-fabric.png);    
-    background-color: #333;    
-    border-bottom: 1px solid #222;
-    padding: 0.624em 0 0 0;
-    position: fixed;
-    width: 100%;
-    mid-width: 500px;
-  }
-  
-  .m-top-nav {
-    margin: 0 1em 0 1em;
-  }
-
-  .m-nav-item,
-  .m-current {
-    margin-bottom: 0.5em;
-    margin-top: 0; 
   } 
-  
-  .m-nav-item a,
-  .m-current a {
-    color: #EEE;
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 1em;
-    padding: 5px 2px 5px 0;
-  }
 
-  .m-current a {
-    border-bottom: 3px solid #20A0D0;
-  }
-
-  /* Home Page */
-
-  #intro h1 { 
-    margin-top: 3em;
-  }
 
   /* Syllabus Navigation */  
   
@@ -237,6 +231,10 @@
   .s-page-title {
     color: transparent;
     margin-bottom: 1.125em;
+  }
+
+  .m-exp img { 
+    width: 100%;
   }
 
 
@@ -391,6 +389,10 @@
     font-size: 1em;
   }
 
+  .m-exp img { 
+    width: 100%;
+  }
+
   /* Project Page */
   
   .m-tag {
@@ -503,4 +505,8 @@
     width: 320px;
   }
 
+  .m-exp img { 
+    width: 100%;
+  }
+ 
 }
