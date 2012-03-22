@@ -1,5 +1,17 @@
 /* - - - M O D U L E - - - */
 
+/* Table of Contents
+ *-------------------------
+ *
+ * 1. Navigation
+ * 2. Home
+ * 3. Syllabus List Styles
+ * 4. Projects
+ * 5. Readings
+ * 6. Project Page
+ * 7. Experiences
+ *
+ * */
 
 .m-8th-light-tag {
   margin-right: -1px;
@@ -16,7 +28,7 @@
   border: 1px solid #EFEEEE;
 }
 
-/* - - navigation - - */
+/* - - 1. Navigation - - */
 
 .m-top-nav {
   list-style-type: none;
@@ -73,7 +85,7 @@
   color: #FFF;  
 }
 
-/* - - Home - - */
+/* - - 2. Home - - */
 
 #intro h1 {
   margin: 1.125em 0 0 0;
@@ -159,7 +171,7 @@
 }
 
 
-/* - - Syllabus List Styles - - */
+/* - - 3. Syllabus List Styles - - */
 
 .m-sub-list {
   line-height: 1.424em;
@@ -215,7 +227,7 @@
   color: #FFF;
 }
 
-/* - - Projects - - */
+/* - - 4. Projects - - */
 
 .m-project-container {
   display: inline;
@@ -258,7 +270,7 @@
   max-width: 746px;
 }
 
-/* - - Readings - - */
+/* - - 5. Readings - - */
 
 .m-reading-container {
   display: inline;
@@ -294,7 +306,7 @@
   margin-top: 0.243em;
 }
 
-/* Project Page */
+/* 6. Project Page */
 
 .m-project-tags {
   margin-top: -1.125em;
@@ -377,7 +389,7 @@
   margin: 0.438em 0;
 }
 
-/* - - Experiences -- */
+/* - - 7. Experiences -- */
 
 
 .m-exp-container {
