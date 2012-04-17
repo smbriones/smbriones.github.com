@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   margin: 0 auto;
   width: 660px;
@@ -6,7 +11,7 @@ header {
 h1 {
   color: #3c54ce;
   border-bottom: 1px solid #EEE;
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
   font-size: 12px;
   font-weight: normal;
   letter-spacing: 1px;
@@ -18,7 +23,7 @@ h1 {
 h2 {
   border-bottom: 1px solid #EEE;
   color: #202E59;  
-  font-family: 'Graduate', cursive;
+  font-family: 'Graduate', sans-serif;
   font-size: 4em;
   margin: 0;
   padding: 0 0 8px 0;
@@ -27,7 +32,7 @@ h2 {
 
 h3 {
   color: #3c54ce;
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
   font-size: 12px;
   font-weight: normal;
   letter-spacing: 1px;  
@@ -51,4 +56,87 @@ h3 {
   left: 10px;
   right: 10px;
   bottom: 10px;
+}
+
+.fat-footer {
+  background-color: #202E59;  
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAO0lEQVQYV2NU0Iv8z0AAMBJSxMMnxIBXEUjBl0/v8CuCuQKrSTATcCpCVwBSSNDhKIqwmYBiHT4FIIUAv0oeDMG5qygAAAAASUVORK5CYII=);
+  overflow: hidden;
+}
+
+.other-images {
+  margin: 0 auto;
+  width: 660px;
+}
+
+h4 {
+  color: rgba(255, 255, 255, 0.2);
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;  
+  margin: 1.5em 0 2em 0;
+  padding-bottom: 0.5em;
+  text-transform: uppercase;  
+}
+
+.other-images img {
+  border: 1px solid #222;
+  height: 180px;
+  width: 180px;
+}
+
+h6 {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  margin: 0.5em 0 0 0;
+}
+
+em {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h6:hover {
+  color: #333;
+}
+
+.other-images a {
+  display: block;
+  float: left;
+  margin-bottom: 50px;
+  margin-right: 57px;
+  text-decoration: none;
+}
+
+.other-images a:last-child {
+  margin-right: 0;
+}
+
+.twitter-id {
+  margin: 0 auto;
+  width: 660px;
+}
+
+.twitter-id a {
+  background-color: rgba(23, 33, 63, 0.6);
+  border: 1px solid rgba(23, 33, 63, 1);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  clear: both;
+  color: rgba(255, 255, 255, 0.4);
+  display: block;
+  font-size: 1.777em;
+  height: 30px;
+  margin-bottom: 3em;
+  padding: 10px 0 15px 0;
+  text-align: center;
+  text-decoration: none;
+  width: auto;  
+}
+
+.twitter-id a:hover {
+  color: rgba(255, 255, 255, 0.8);  
 }
