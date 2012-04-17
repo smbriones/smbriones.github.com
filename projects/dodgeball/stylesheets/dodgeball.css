@@ -1,0 +1,54 @@
+header {
+  margin: 0 auto;
+  width: 660px;
+}
+
+h1 {
+  color: #3c54ce;
+  border-bottom: 1px solid #EEE;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin: 3em 0 0 0;
+  padding: 0 0 10px 0;
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 1px solid #EEE;
+  color: #202E59;  
+  font-family: 'Graduate', cursive;
+  font-size: 4em;
+  margin: 0;
+  padding: 0 0 8px 0;
+  text-align: center;
+}
+
+h3 {
+  color: #3c54ce;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;  
+  margin: 0.75em 0 0 0;
+  text-align: center;  
+  text-transform: uppercase;
+}
+
+#slideshow {
+  margin: 50px auto;
+  position: relative;
+  width: 640px;
+  height: 480px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
