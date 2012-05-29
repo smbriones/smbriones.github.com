@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile /wireframes/ontime/.htpasswd
-require valid-user
