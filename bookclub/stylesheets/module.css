@@ -2,7 +2,7 @@ header div {
   height: auto;
   margin: 0 auto;
   position: relative;  
-  width: 960px;
+  max-width: 960px;
 }
 
 header h1 {

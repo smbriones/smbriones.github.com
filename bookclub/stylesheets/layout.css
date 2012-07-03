@@ -12,7 +12,7 @@ header {
 
 div[role=main] {
   margin: 0 auto;  
-  width: 960px;
+  max-width: 960px;
 }
 
 section {
@@ -22,6 +22,6 @@ section {
 
 footer {
   margin: 0 auto;
-  width: 960px;   
+  max-width: 960px;   
 }
 
