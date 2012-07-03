@@ -27,7 +27,11 @@ header img {
   margin: 0 auto;
 }
 
-div[role=main] a > p {
+div[role=main] a.banner {
+  text-decoration: none;
+}
+
+div[role=main] a.banner > p {
   background-color: #EAF6FE;
   background-color: rgba(50, 165, 245, 0.2);
   border: 1px solid rgba(50, 165, 245, 0.3);
@@ -109,4 +113,15 @@ section ul li:last-child {
 
 section:last-child {
   margin-bottom: 2em;
+}
+
+footer p {
+  border-top: 1px dashed #DDD;  
+  color: #CCC;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #AAA;
 }

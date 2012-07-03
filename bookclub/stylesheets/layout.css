@@ -25,9 +25,3 @@ footer {
   width: 960px;   
 }
 
-footer p {
-  border-top: 1px dashed #DDD;  
-  color: #CCC;
-  padding: 10px 0;
-  text-align: center;
-}
