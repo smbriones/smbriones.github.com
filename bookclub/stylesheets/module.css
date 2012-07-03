@@ -65,6 +65,7 @@ section img {
   border: 1px solid #DDD;
   float: left;
   max-height: 250px;
+  max-width: 179px;
 }
 
 section h1 {
@@ -125,4 +126,27 @@ footer p {
 
 footer a {
   color: #AAA;
+}
+
+
+/* ----- Color Scheme for Dev Site ------- */
+
+a.dev {
+  color: #88C425;
+}
+
+header h5 a.dev {
+  color: #88C425;
+}
+
+header h5 a.dev:hover,
+a.dev:hover {
+  color: #90dd10;
+  -moz-transition-duration: .25s;
+  -webkit-transition-duration: .25s;
+  transition-duration: .25s;
+}
+
+article span.dev {
+  color: #88C425; 
 }
