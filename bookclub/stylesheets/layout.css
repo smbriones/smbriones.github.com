@@ -1,0 +1,33 @@
+body {
+  background-color: #F7F7F7;
+  background: url(/images/brillant.png) repeat;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 1);
+  background: url(/images/txture2.png) repeat;
+  border-bottom: 2px solid #000;
+  height: auto;
+}
+
+div[role=main] {
+  margin: 0 auto;  
+  width: 960px;
+}
+
+section {
+  margin: 2em 0;
+  overflow: hidden;
+}
+
+footer {
+  margin: 0 auto;
+  width: 960px;   
+}
+
+footer p {
+  border-top: 1px dashed #DDD;  
+  color: #CCC;
+  padding: 10px 0;
+  text-align: center;
+}

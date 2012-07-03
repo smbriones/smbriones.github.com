@@ -1,0 +1,112 @@
+header div {
+  height: auto;
+  margin: 0 auto;
+  position: relative;  
+  width: 960px;
+}
+
+header h1 {
+  color: #000;
+  font-size: 70px;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 1px 1px 0 #2C2C2C;
+}
+
+header h5 {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+header img {
+  display: block;
+  height: 130px;
+  margin: 0 auto;
+}
+
+div[role=main] a > p {
+  background-color: #EAF6FE;
+  background-color: rgba(50, 165, 245, 0.2);
+  border: 1px solid rgba(50, 165, 245, 0.3);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;  
+  color: #333;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.m-bookmark-top {
+  background-color: #000;
+  display: block;
+  height: 75px;
+  margin: 0 auto;
+  width: 43px;
+}
+
+header a {
+  color: #147fc9;
+  text-decoration: none;
+  -moz-transition-duration: .25s;  
+  -webkit-transition-duration: .25s;
+  transition-duration: .25s;  
+}
+
+section img {
+  border: 1px solid #DDD;
+  float: left;
+  max-height: 250px;
+}
+
+section h1 {
+  display: inline-block;
+  float: left;
+  font-size: 36px;
+  margin: 0 0 2px 32px;
+  width: 77.9%;
+}
+
+section span {
+  color: #32A5F5;
+  display: inline-block;
+  float: left;  
+  margin: 0 0 0 2em;  
+  width: 77.9%;
+}
+
+section p {
+  color: #333;
+  float: left;    
+  line-height: 1.333em;
+  margin: 9px 0 9px 2em;  
+  width: 77.9%;
+}
+
+section p:last-child {
+  margin-bottom: 18px;
+}
+
+section ul { 
+  float: left;
+  font-size: 14px;
+  list-style: none;
+  margin-left: 32px;
+  width: 77.9%;  
+}
+
+section ul li {
+  float: left;
+  margin-right: 1em;
+}
+
+section ul li:last-child {
+  margin-right: 0;
+}
+
+section:last-child {
+  margin-bottom: 2em;
+}
