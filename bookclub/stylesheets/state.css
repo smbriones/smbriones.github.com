@@ -1,5 +1,23 @@
 /* - - - - - - - - 1. i P H O N E - - - - - - - - */
 
+@media only screen and (max-width: 938px) {
+
+  section img {
+    max-width: 140px;
+    margin: 0 0 1em 2em;
+  }
+  
+  h2 { 
+    margin: 0 0 0 1.4em !important;
+  }
+  
+  a.banner p {
+    margin: 2em !important;
+    padding: 10px !important;    
+    width: auto !important;
+  }
+}
+
 
 @media only screen and (max-width: 640px) {
   header {
