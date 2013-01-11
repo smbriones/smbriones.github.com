@@ -49,6 +49,7 @@
         function(event){
         if (event.which == 32 || event.which == 39){
           isAccelerating = false;
+          event.preventDefault();
         }
       }); 
 
