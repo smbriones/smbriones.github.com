@@ -14,7 +14,7 @@
 <meta http-equiv="cleartype" content="on">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
 <link rel="shortcut icon" href="/link/to/favicon.ico">
 <link rel="apple-touch-icon" href="/link/to/apple-touch-icon.png">
 
@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="/stylesheets/state.css" media="all">
 
 <!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
-<link rel="stylesheet" href="/stylesheets/layout.css" media="all and (min-width: 33.236em)">
+<link rel="stylesheet" href="/stylesheets/layout.css">
 <link rel="alternate" type="application/atom+xml" title="Subscribe to Stephanie Briones' blog." href="/atom.xml"/>
 <!-- 30em + (1.618em * 2) = 33.236em / Eliminates potential of horizontal scrolling in most cases -->
 
@@ -49,9 +49,22 @@
 </script>
 </head>
 <body>
+  <div class="top-border"></div>
   <header>
-    <h2 class="m-site-title"><a href="/index.html">Stephanie Briones</a></h2>
+    <a href="/index.html"><img class="logo" src="/images/logo.png" alt="Stephanie Briones" /></a>
   </header>
+  <article>
+    <section class="portfolio">
+      <h4>
+        Portfolio
+      </h4>
+      <p class="portfolio-item als"></p>
+      <a href="http://smbriones-swap.heroku.com"><p class="portfolio-item craftsman-swap"></p></a>
+      <p class="portfolio-item agile-sketches no-rm"></p>
+      <a href="http://stephaniebriones.com/speedometer"><p class="portfolio-item speedometer"></p></a>
+      <a href="http://www.stephaniebriones.com/testing/positioning"><p class="portfolio-item positioning"></p></a>
+    </section>
+  </article>
   <article>
     <section>
         <p class="m-post-date">
@@ -59,16 +72,17 @@
         </p>
         <h1 class="m-post-title">
           {{ page.title }}
-        </h1> 
+        </h1>
         <h2 class="m-post-subtitle">
           {{ page.snippet }}
         </h2>
       </section>
-    {{ content }}	
+    {{ content }}
   </article>
   <footer class="clearfix">
     <div class="container">
       <div class="column">
+        <!--
         <h3>Find Me</h3>
         <a href="http://twitter.com/smbriones"><img src="/images/twitter.png"></a>
 	<a href="http://smbriones.tumblr.com"><img src="/images/tumblr.png"></a>
@@ -79,11 +93,12 @@
       <div class="column">
         <h3>About Me</h3>
         <p>
-          I'm currently living in Chicago, IL. I'm married to 
-          <a href="http://twitter.com/ryanbriones">@ryanbriones</a>. 
-          I'm a UX Craftsman at 
+          I'm currently living in Chicago, IL. I'm married to
+          <a href="http://twitter.com/ryanbriones">@ryanbriones</a>.
+          I'm a UX Craftsman at
           <a href="http://www.8thlight.com">8th Light, Inc.</a>.
-        </p>
+          </p>
+          -->
       </div>
     </div>
   </footer>

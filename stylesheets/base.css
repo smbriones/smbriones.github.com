@@ -41,8 +41,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -56,11 +56,11 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
-  
-  
+
+
 /* 2. ROOT
 ----------------------------------------------------------------------------------------*/
-html { 
+html {
   overflow-y: scroll;
   background: #fafafa;
   width: 100%;
@@ -74,16 +74,28 @@ img, embed, object, video { max-width: 100%; }
 /* 3. CORE TYPOGRAPHY
 ----------------------------------------------------------------------------------------*/
 
+header a {
+  display: block;
+  text-align: center;
+}
+
+.logo {
+  max-width: 170px;
+}
+
 body {
   color:#000;
   font-family:ronnia,sans-serif;
   font-size:100%;
   font-style:normal;
   font-weight:300;
-  width: 100%;
 }
 
-h1 { 
+article {
+  padding:0 2em 2em 2em;
+}
+
+h1 {
   color: #333;
 
   font-family: ronnia,sans-serif;
@@ -120,10 +132,19 @@ h3 {
   margin: 1.777em 0 0.6665em 0;
 }
 
+h4 {
+  color: #ea713a;
+  font-size: 0.75em;
+  font-weight: 600;
+  margin: 1.777em 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 p, ul, ol, dl, blockquote {
   font-size: 1em;
   line-height: 1.618em;
-  margin-bottom: 1.618em; 
+  margin-bottom: 1.618em;
   max-width: 40em; /* Optimal width for long-form text */
 }
 
@@ -137,18 +158,18 @@ cite {
   color: #888;
 }
 
-ul { 
-  list-style-type: disc; 
+ul {
+  list-style-type: disc;
   margin-left: 1.618em; }
 
-ol { 
-  list-style-type: decimal; 
-  margin-left: 1.618em; 
+ol {
+  list-style-type: decimal;
+  margin-left: 1.618em;
 }
 
-nav ul, nav ol { 
-  list-style: none; 
-  margin: 0; 
+nav ul, nav ol {
+  list-style: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -159,8 +180,8 @@ small { font-size: 80%; }
 
 /* 4. LINKS
 ----------------------------------------------------------------------------------------*/
-a, a:visited { outline: none; color: rgb(76, 197, 213); text-decoration: underline; }  
-a:hover { outline: none; text-decoration:none; }  
+a, a:visited { outline: none; color: rgb(76, 197, 213); text-decoration: underline; }
+a:hover { outline: none; text-decoration:none; }
 a:active, a:focus { outline: none; }
 
 
