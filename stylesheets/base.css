@@ -6,7 +6,7 @@
 
 body {
   background: #f7f5f3;
-  color: #222;
+  color: #4D4D4D;
   font-family: "ff-tisa-web-pro",serif;
   font-size: 1.25em;
   font-style: normal;
@@ -23,9 +23,12 @@ a:hover {
 }
 
 blockquote {
-  color: #9CA7AC;
+  color: #75797A;
+  font-size: 1em;
   font-style: italic;
-  margin: 1.5em 0;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 1em 0 2em 0;
 }
 
 hr {
@@ -132,7 +135,21 @@ article h2 {
 }
 
 .post-title {
-  margin-bottom: 0.4em;
+  color: #ff574a;
+  margin: 2.5em 0 0.4em 0;
+  text-align: center;
+}
+
+.post-subtitle {
+  border-bottom: 4px double #CECECE;
+  border-top: 4px double #CECECE;
+  color: #75797A;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 2em 0;
+  padding: 1em;
   text-align: center;
 }
 
@@ -141,6 +158,7 @@ article p {
 }
 
 article img {
+  border: 1px solid #CECECE;
   display: block;
   max-width: 700px;
 }
@@ -150,7 +168,7 @@ article ol, article ul {
 }
 
 figure {
-  margin-bottom: 1.5em;
+  margin: 2em 0;
 }
 
 figcaption {
