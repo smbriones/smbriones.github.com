@@ -2,14 +2,15 @@
 layout: frontpage
 ---
 
-<section class="blogpost-list">
-	<h4>Blog Posts</h4>
-	<ul>
-	{% for post in site.posts %}
-		<li>
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</li>
-		<p>{{ post.snippet }}</p>
-	{% endfor %}
-	</ul>
-</section>
+<!-- Blog list -->
+<article>
+  <ul>
+	  {% for post in site.posts %}
+	    <li class="post">
+			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="post-date-summary">{{ post.date_string }}</span>
+		    <p>{{ post.snippet }}</p>
+	    </li>
+	  {% endfor %}
+  </ul>
+</article>

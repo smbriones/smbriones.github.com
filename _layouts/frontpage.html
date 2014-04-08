@@ -1,110 +1,38 @@
-<!DOCTYPE html itemscope itemtype="http://schema.org/Blog">
-<!-- /ht Paul Irish - http://front.ie/j5OMXi -->
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<title>{{ page.title }} Stephanie Briones</title>
-<meta name="description" content="A blog site of a Web Design Apprentice.">
-<meta itemprop="author" content="Stephanie Briones">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Stephanie Briones | Blog</title>
+    <link rel="stylesheet" href="/stylesheets/normalize.css" media="all">
+    <link rel="stylesheet" href="/stylesheets/base.css" media="all">
+    <script type="text/javascript" src="//use.typekit.net/acl0lxc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">
 
-<!-- /ht Andy Clarke - http://front.ie/lkCwyf -->
-<meta http-equiv="cleartype" content="on">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28582549-1']);
+      _gaq.push(['_trackPageview']);
 
-<link rel="shortcut icon" href="/link/to/favicon.ico">
-<link rel="apple-touch-icon" href="/link/to/apple-touch-icon.png">
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
 
-<!-- Stylesheets -->
-<link rel="stylesheet" href="/stylesheets/base.css" media="all">
-<link rel="stylesheet" href="/stylesheets/module.css" media="all">
-<link rel="stylesheet" href="/stylesheets/state.css" media="all">
+     </script>
+   </head>
+   <body>
 
-<!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
-<link rel="stylesheet" href="/stylesheets/layout.css">
-<link rel="alternate" type="application/atom+xml" title="Subscribe to Stephanie Briones' blog." href="/atom.xml"/>
-<!-- 30em + (1.618em * 2) = 33.236em / Eliminates potential of horizontal scrolling in most cases -->
+    <!-- Header -->
+    {% include header.html %}
 
-<!--[if (lt IE 9) & (!IEMobile)]>
-<link rel="stylesheet" href="css/layout.css" media="all">
-<![endif]-->
-<script src="/js/libs/modernizr-1.7.min.js"></script>
-<script type="text/javascript" src="http://use.typekit.com/yks8igg.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-28582549-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</head>
-<body>
-  <div class="top-border"></div>
-  <header>
-    <a href="/index.html"><img class="logo" src="/images/logo.png" alt="Stephanie Briones" /></a>
-  </header>
-  <article>
-    <section class="portfolio">
-      <h4>
-        Portfolio
-      </h4>
-      <p class="portfolio-item als"></p>
-      <a href="http://smbriones-swap.heroku.com"><p class="portfolio-item craftsman-swap"></p></a>
-      <p class="portfolio-item agile-sketches no-rm"></p>
-      <a href="http://stephaniebriones.com/speedometer"><p class="portfolio-item speedometer"></p></a>
-      <a href="http://www.stephaniebriones.com/testing/positioning"><p class="portfolio-item positioning"></p></a>
-    </section>
-  </article>
-  <article>
-    <section>
-        <p class="m-post-date">
-          {{ page.date_string }}
-        </p>
-        <h1 class="m-post-title">
-          {{ page.title }}
-        </h1>
-        <h2 class="m-post-subtitle">
-          {{ page.snippet }}
-        </h2>
-      </section>
-    {{ content }}
-  </article>
-  <footer class="clearfix">
+    <!-- Blog list -->
     <div class="container">
-      <div class="column">
-        <!--
-        <h3>Find Me</h3>
-        <a href="http://twitter.com/smbriones"><img src="/images/twitter.png"></a>
-	<a href="http://smbriones.tumblr.com"><img src="/images/tumblr.png"></a>
-        <a href="http://pinterest.com/smbriones/"><img src="/images/pinterest.png"></a>
-        <a href="http://stephaniebriones.com/atom.xml"><img src="/images/rss.png"></a>
-      </div>
-
-      <div class="column">
-        <h3>About Me</h3>
-        <p>
-          I'm currently living in Chicago, IL. I'm married to
-          <a href="http://twitter.com/ryanbriones">@ryanbriones</a>.
-          I'm a UX Craftsman at
-          <a href="http://www.8thlight.com">8th Light, Inc.</a>.
-          </p>
-          -->
-      </div>
+      {{ content }}
     </div>
-  </footer>
-</body>
+   </body>
 </html>
-
-
-
-
