@@ -11,5 +11,14 @@ layout: frontpage
       {{ page.snippet }}
     </h3>
     {{ content }}
+    <div class="button-wrap">
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="button">‹ Previous</a>
+      {% endif %}
+
+      {% if page.next.url %}
+        <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="button next">Next ›</a>
+      {% endif %}
+    </div>
   </article>
 </div>
