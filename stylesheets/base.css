@@ -136,7 +136,8 @@ article h2 {
 
 .post-title {
   color: #ff574a;
-  margin: 2.5em 0 0.4em 0;
+  font-size: 1.6em;
+  margin: 0 0 0.4em 0;
   text-align: center;
 }
 
@@ -505,13 +506,8 @@ section:after {
 /*------  Media Queries  ------*/
 
 @media screen and (min-width: 480px) {
-  .left-col, .right-col {
-    float: left;
-    overflow: hidden;
-    width: 49%;
-  }
-  .left-col h2, .right-col h2 {
-    border: none;
+  .post-title {
+    margin: 2.5em 0 0.4em 0;
   }
 }
 
@@ -558,6 +554,9 @@ section:after {
 
 
 @media (min-width: 840px) {
+  .post-title {
+    font-size: 2.5em;
+  }
   .column {
     float: left;
     margin: 0 0 0 5%;
