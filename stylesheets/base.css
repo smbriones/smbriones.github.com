@@ -13,6 +13,10 @@ body {
   font-weight: 400;
 }
 
+img {
+  width: 100%;
+}
+
 a {
   color: #FF574A;
   text-decoration: none;
