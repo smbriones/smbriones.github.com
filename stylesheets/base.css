@@ -189,7 +189,7 @@ figcaption {
 header {
   background: #222;
   overflow: hidden;
-  padding: 0 1em;
+  padding: 0 0.9em;
 }
 
 header h2 {
