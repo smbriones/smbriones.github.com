@@ -2,7 +2,7 @@
 layout: new-blog
 title: "Designing Around an Existing Brand"
 snippet: "As web designers, we have a responsibility to our clients to build interfaces that are both usable and beautiful. When faced with unpleasant branding guidelines, what options do we have for success?"
-date_string: April 20th, 2014
+date_string: April 23rd, 2014
 ---
 
 It's difficult for product owners to come to terms with the need for a redesign.
