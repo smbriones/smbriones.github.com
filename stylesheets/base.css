@@ -265,6 +265,15 @@ article {
   max-width: 700px;
 }
 
+@media (max-width: 640px) {
+  article {
+    margin: 0 auto 2em auto;
+  }
+  .post-title {
+    margin-top: 1.8em;
+  }
+}
+
 article p {
   margin: 0.2em 0 1em 0;
 }
