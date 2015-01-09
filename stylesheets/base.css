@@ -220,7 +220,7 @@ header .links li:last-child {
 .post {
   border-bottom: 1px solid rgba(206, 211, 213, 0.07);
   list-style: none;
-  padding: 2em;
+  padding: 2em 0;
 }
 
 .post:first-child {
