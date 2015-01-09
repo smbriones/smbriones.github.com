@@ -3,14 +3,13 @@ layout: frontpage
 ---
 
 <!-- Blog list -->
-<article>
-  <ul>
+<div class="container post-list">
+  <ul class="center">
 	  {% for post in site.posts %}
 	    <li class="post">
-			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <span class="post-date-summary">{{ post.date_string }}</span>
-		    <p>{{ post.snippet }}</p>
+			  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <span class="post-date summary">{{ post.date_string }}</span>
 	    </li>
 	  {% endfor %}
   </ul>
-</article>
+</div>

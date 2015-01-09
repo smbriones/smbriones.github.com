@@ -3,20 +3,20 @@ layout: frontpage
 ---
 
 <!-- Blog Post -->
-<article>
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date_string }}</span>
-  <h3 class="post-subtitle">
-    {{ page.snippet }}
-  </h3>
-  {{ content }}
-  <div class="button-wrap">
-    {% if page.previous.url %}
-      <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="button">‹ Previous</a>
-    {% endif %}
+<div class="container">
+  <article>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <span class="divide"></span>
+    <span class="post-date">{{ page.date_string }}</span>
+    {{ content }}
+    <div class="button-wrap">
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="button">‹ Previous</a>
+      {% endif %}
 
-    {% if page.next.url %}
-      <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="button next">Next ›</a>
-    {% endif %}
-  </div>
-</article>
+      {% if page.next.url %}
+        <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="button next">Next ›</a>
+      {% endif %}
+    </div>
+  </article>
+</div>
