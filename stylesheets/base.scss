@@ -105,7 +105,7 @@ blockquote {
 ul, ol {
   list-style: none;
   margin: 0;
-  padding: 0 0 0 1.1em;
+  padding: 0;
 }
 
 li {
@@ -278,6 +278,7 @@ article img {
 article ol, article ul {
   list-style: disc;
   margin: 1.5em 0;
+  padding: 0 0 0 1.1em;
 }
 
 figure {
