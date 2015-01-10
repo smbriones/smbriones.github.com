@@ -1,14 +1,15 @@
-/*
+---
+---
 
-Colors
-
+$background: #3a4449;
 $dark-gray: #404c51;
 $light-gray: #ced3d5;
 $red: #ff574a;
 $white: #fff;
 $mustard: #bba94f;
+$text: #c7cdd0;
+$subtle-text: #929ea5;
 
-*/
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -17,16 +18,17 @@ $mustard: #bba94f;
 }
 
 body {
-  background: #3A4449;
-  color: #C7CDD0;
+  background: $background;
+  color: $text;
   font-size: 110%;
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5 {
-  color: #fff;
+  color: $white;
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -52,7 +54,7 @@ h2 > a {
 }
 
 h3 {
-  color: #fff;
+  color: $white;
   font-size: 1.3em;
   font-weight: 600;
   padding: 1em 0 0 0;
@@ -68,14 +70,10 @@ h4 {
 h5 {
   font-size: 0.7em;
   font-weight: 600;
-  color: #bba94f;
+  color: $mustard;
   letter-spacing: 1px;
   margin: 0 0 1.8em 0;
   text-transform: uppercase;
-}
-
-p {
-  line-height: 1.5em;
 }
 
 em {
@@ -89,33 +87,25 @@ img {
 }
 
 a {
-  color: #fff;
+  color: $white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #bba94f;
+  color: $mustard;
 }
 
 blockquote {
-  color: #929EA5;
+  color: $subtle-text;
   font-style: italic;
   line-height: 1.5em;
   margin: 1.3em 0 1.5em 0;
 }
 
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  margin-bottom: 1.5em;
-}
-
-ul {
+ul, ol {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 1.1em;
 }
 
 li {
@@ -130,7 +120,7 @@ header {
 
 header h2 {
   border-bottom: none;
-  color: #fff;
+  color: $white;
   display: inline-block;
   font-size: 1em;
   font-weight: 400;
@@ -147,6 +137,7 @@ header h2 {
 
 header .links {
   overflow: hidden;
+  padding: 0;
 }
 
 @media (min-width: 840px) {
@@ -171,7 +162,7 @@ header .links a {
 }
 
 header .links a:hover {
-  color: #bba94f;
+  color: $mustard;
 }
 
 header .links li:last-child {
@@ -228,7 +219,7 @@ header .links li:last-child {
 }
 
 .post a {
-  color: #fff;
+  color: $mustard;
 }
 
 .post h1 {
@@ -243,7 +234,7 @@ header .links li:last-child {
 
 .post-date {
   display: block;
-  color: #bba94f;
+  color: $mustard;
   font-family: "brandon-grotesque",sans-serif;
   font-size: 0.8em;
   font-weight: 600;
@@ -279,7 +270,7 @@ article p {
 }
 
 article img {
-  border: 1px solid #CECECE;
+  border: 1px solid #cecece;
   display: block;
   max-width: 700px;
 }
@@ -294,7 +285,7 @@ figure {
 }
 
 figcaption {
-  color: #75797A;
+  color: $subtle-text;
   font-size: 0.8em;
   margin: 0.7em 0;
 }
@@ -324,35 +315,10 @@ figcaption {
 
 .footer {
   border-top: 1px solid rgba(206, 211, 213, 0.07);
-  color: #A8B1B4;
+  color: #a8b1b4;
   margin-top: 2em;
   min-height: 60px;
   padding: 1em 0;
-}
-
-.work-link {
-  display: none;
-}
-
-@media (min-width: 900px) {
-  .work-link { display: inline-block; }
-}
-
-.sub-nav {
-  background: #FF574A;
-}
-
-.sub-nav ul li {
-  text-align: center;
-  margin: 0;
-}
-
-.sub-nav ul li a {
-  color: #f7f5f3;
-  display: block;
-  padding: 1em 0;
-  text-decoration: none;
-  width: 100%;
 }
 
 .button-wrap {
@@ -361,11 +327,11 @@ figcaption {
 }
 
 .button {
-  border: 2px solid #CECECE;
+  border: 2px solid #cecece;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  color: #A3A6A7;
+  color: #a3a6a7;
   float: left;
   padding: 0.5em;
   text-align: center;
@@ -383,39 +349,12 @@ figcaption {
 }
 
 a:hover.button {
-  border: 2px solid #bba94f;
-  color: #bba94f;
-}
-
-iframe {
-  margin: 0;
-}
-
-.tag {
-  border: 1px solid #D3DBDD;
-  color: #A8B1B4;
-  font-size: 0.5em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-family: "Proxima-Nova", sans-serif;
-  padding: 0.6em 0.7em 0.5em 0.7em;
-  display: inline-block;
-  line-height: 1em;
-  vertical-align: top;
-  margin: 0.7em 0 0 0.6em;
-}
-
-.blend {
-  color: inherit;
-}
-
-.blend:hover {
-  text-decoration: none;
+  border: 2px solid $mustard;
+  color: $mustard;
 }
 
 .divide {
-  border-top: 1px solid #CED3D5;
+  border-top: 1px solid #ced3d5;
   display: block;
   margin: 0 auto;
   margin-top: 1em;
