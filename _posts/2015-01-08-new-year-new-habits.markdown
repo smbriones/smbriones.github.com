@@ -11,7 +11,7 @@ I’m sure my opinion of goals stems from past failures at accomplishing them my
 ### Goals for the present
 
 I’ve had a change of heart after having many great conversations with my partner about goals.
-Up until recently, if someone asked about my goals, I may have reacted in <a href="http://bit.ly/1xJHbCY">this way</a>. I’ve only ever forced myself to create them when I’ve needed to for work.
+Up until recently, if someone asked about my goals, I may have reacted in <a href="http://bit.ly/1xJHbCY" target="_blank">this way</a>. I’ve only ever forced myself to create them when I’ve needed to for work.
 
 However, what I’ve learned about goals, or my new interpretation of them, is that I can still enjoy living in the present by creating ones that make the present more enjoyable for myself, and for those around me. 
 
