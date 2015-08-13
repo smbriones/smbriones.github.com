@@ -22,28 +22,27 @@
 body {
   background-color: #fafafa;
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAPUlEQVQYGWP89evXfwYCgImAPMPHjx9n4VUEUsDPz5/GSLZ1IBOQnYFhHcwKZEWkWYduBbJJYOuwWYGsCAC4viIeBsOoWAAAAABJRU5ErkJggg==);
-
-  font-family: "ff-tisa-sans-web-pro",sans-serif;
+  font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
 h2, h3 {
-  font-family: "ff-tisa-sans-web-pro",sans-serif;
+  font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
 p.dark {
   color: #111;
-  font-family: "ff-tisa-sans-web-pro",sans-serif;
+  font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
 p.light {
   color: #FAFAFA;
-  font-family: "ff-tisa-sans-web-pro",sans-serif;
+  font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -1758,10 +1757,10 @@ footer {
 footer p {
   color: #FFF;
   float: left;
-  font-family: "ronnia",sans-serif;
-  font-size: 1.5em;
+  font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 1.5em;
   line-height: 1.5em;
   padding: 0.5em 0 0 2em;
   width: 50%;
