@@ -30,7 +30,7 @@ body {
 h2, h3 {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 p.dark {
@@ -101,7 +101,7 @@ aside:hover {
 
 aside p {
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.333em;
   margin: 2.4em 0 0 1.6em;
   width: 320px;
@@ -1761,7 +1761,7 @@ footer p {
   font-style: normal;
   font-weight: 400;
   font-size: 1.5em;
-  line-height: 1.5em;
+  line-height: 1.3em;
   padding: 0.5em 0 0 2em;
   width: 50%;
 }
