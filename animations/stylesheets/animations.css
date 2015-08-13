@@ -3,9 +3,9 @@
 
 
 
-/* T A B L E  O F  C O N T E N T S  
+/* T A B L E  O F  C O N T E N T S
  *
- * 1. Global 
+ * 1. Global
  * 2. Header
  * 3. Diffusion
  * 4. Negative/Positive
@@ -22,28 +22,30 @@
 body {
   background-color: #fafafa;
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAPUlEQVQYGWP89evXfwYCgImAPMPHjx9n4VUEUsDPz5/GSLZ1IBOQnYFhHcwKZEWkWYduBbJJYOuwWYGsCAC4viIeBsOoWAAAAABJRU5ErkJggg==);
-  font-family: 'Arimo', sans-serif;
+
+  font-family: "ff-tisa-sans-web-pro",sans-serif;
+  font-style: normal;
   font-weight: 400;
 }
 
 h2, h3 {
-  font-family: "ronnia",sans-serif;
+  font-family: "ff-tisa-sans-web-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
 p.dark {
   color: #111;
-  font-family: "ronnia",sans-serif;
+  font-family: "ff-tisa-sans-web-pro",sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 p.light {
   color: #FAFAFA;
-  font-family: "ronnia",sans-serif;
+  font-family: "ff-tisa-sans-web-pro",sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* - - - - -  H E A D E R  - - - - - */
@@ -64,7 +66,7 @@ header h3 {
 }
 
 header h3 span a {
-  border-left: 1px dashed #CCC;  
+  border-left: 1px dashed #CCC;
   color: #BBB;
   font-family: bistro-script-web;
   font-size: 1.2em;
@@ -102,7 +104,7 @@ aside p {
   display: inline-block;
   font-size: 1em;
   line-height: 1.333em;
-  margin: 2.4em 0 0 1.6em;  
+  margin: 2.4em 0 0 1.6em;
   width: 320px;
 }
 
@@ -112,7 +114,7 @@ aside p {
   min-width: 1250px;
 }
 
-#diffusion h2 { 
+#diffusion h2 {
   color: #111;
   font-size: 1.5em;
   padding-top: 2em;
@@ -134,7 +136,7 @@ span.dot {
   -moz-border-radius: 10px;
   display: inline-block;
   height: 20px;
-  width: 20px;  
+  width: 20px;
 
   transition: all .4s ease-out;
   -o-transition: all .4s ease-out;
@@ -276,7 +278,7 @@ p.row-1 span.dot.seventeen {
 p.row-1 span.dot.eighteen {
   position: absolute;
   bottom: 8px;
-  left: 356px;  
+  left: 356px;
 }
 
 p.row-1 span.dot.nineteen {
@@ -295,7 +297,7 @@ p.row-1 span.dot.twenty {
 
 /* - - - ROW 2 - - - */
 
-p.row-2 { 
+p.row-2 {
   position: absolute;
   top: 3.5em;
   display: inline-block;
@@ -416,7 +418,7 @@ p.row-2 span.dot.seventeen {
 p.row-2 span.dot.eighteen {
   position: absolute;
   bottom: 6px;
-  left: 360px;  
+  left: 360px;
 }
 
 p.row-2 span.dot.nineteen {
@@ -435,7 +437,7 @@ p.row-2 span.dot.twenty {
 
 /* - - - ROW 3 - - - */
 
-p.row-3 { 
+p.row-3 {
   position: absolute;
   top: 5em;
   width: 450px;
@@ -565,7 +567,7 @@ p.row-3 span.dot.eighteen {
 
 p.row-3 span.dot.nineteen {
   position: absolute;
-  height: 16px;  
+  height: 16px;
   bottom: 5px;
   left: 386px;
   width: 16px;
@@ -576,12 +578,12 @@ p.row-3 span.dot.twenty {
   position: absolute;
   bottom: 16px;
   left: 408px;
-  width: 16px;  
+  width: 16px;
 }
 
 /* - - - ROW 4 - - - */
 
-p.row-4 { 
+p.row-4 {
   position: absolute;
   top: 6.5em;
   display: inline-block;
@@ -655,7 +657,7 @@ p.row-4 span.dot.ten {
 }
 
 p.row-4 span.dot.eleven {
-  height: 15px;  
+  height: 15px;
   position: absolute;
   bottom: 1px;
   left: 211px;
@@ -704,7 +706,7 @@ p.row-4 span.dot.seventeen {
 p.row-4 span.dot.eighteen {
   position: absolute;
   bottom: 12px;
-  left: 354px;  
+  left: 354px;
 }
 
 p.row-4 span.dot.nineteen {
@@ -721,7 +723,7 @@ p.row-4 span.dot.twenty {
 
 /* - - - ROW 5 - - - */
 
-p.row-5 { 
+p.row-5 {
   position: absolute;
   top: 8em;
   display: inline-block;
@@ -735,7 +737,7 @@ p.row-5 span.dot.one {
 }
 
 p.row-5 span.dot.two {
-  height: 13px;  
+  height: 13px;
   position: absolute;
   bottom: 17px;
   left: 19px;
@@ -773,7 +775,7 @@ p.row-5 span.dot.seven {
   position: absolute;
   bottom: 5px;
   left: 127px;
-} 
+}
 
 p.row-5 span.dot.eight {
   position: absolute;
@@ -785,7 +787,7 @@ p.row-5 span.dot.nine {
   position: absolute;
   bottom: 11px;
   left: 177px;
-  
+
 }
 
 p.row-5 span.dot.ten {
@@ -813,7 +815,7 @@ p.row-5 span.dot.thirteen {
 }
 
 p.row-5 span.dot.fourteen {
-  height: 15px;  
+  height: 15px;
   position: absolute;
   bottom: 7px;
   left: 294px;
@@ -837,13 +839,13 @@ p.row-5 span.dot.seventeen {
   position: absolute;
   bottom: 20px;
   left: 353px;
-  width: 15px;  
+  width: 15px;
 }
 
 p.row-5 span.dot.eighteen {
   position: absolute;
   bottom: 8px;
-  left: 367px;  
+  left: 367px;
 }
 
 p.row-5 span.dot.nineteen {
@@ -862,7 +864,7 @@ p.row-5 span.dot.twenty {
 
 /* - - - ROW 6 - - - */
 
-p.row-6 { 
+p.row-6 {
   position: absolute;
   top: 9.5em;
   display: inline-block;
@@ -937,7 +939,7 @@ p.row-6 span.dot.ten {
 p.row-6 span.dot.eleven {
   position: absolute;
   bottom: 15px;
-  left: 215px; 
+  left: 215px;
 }
 
 p.row-6 span.dot.twelve {
@@ -990,7 +992,7 @@ p.row-6 span.dot.eighteen {
   position: absolute;
   bottom: 9px;
   left: 370px;
-    
+
 }
 
 p.row-6 span.dot.nineteen {
@@ -1011,7 +1013,7 @@ p.row-6 span.dot.twenty {
 
 /* - - - ROW 7 - - - */
 
-p.row-7 { 
+p.row-7 {
   position: absolute;
   top: 11em;
   display: inline-block;
@@ -1131,7 +1133,7 @@ p.row-7 span.dot.seventeen {
 p.row-7 span.dot.eighteen {
   position: absolute;
   bottom: 10px;
-  left: 360px;  
+  left: 360px;
 }
 
 p.row-7 span.dot.nineteen {
@@ -1150,7 +1152,7 @@ p.row-7 span.dot.twenty {
 
 /* - - - ROW 8 - - - */
 
-p.row-8 { 
+p.row-8 {
   position: absolute;
   top: 12.5em;
   display: inline-block;
@@ -1166,7 +1168,7 @@ p.row-8 span.dot.one {
 }
 
 p.row-8 span.dot.two {
-  height: 13px;  
+  height: 13px;
   position: absolute;
   bottom: 19px;
   left: 16px;
@@ -1202,7 +1204,7 @@ p.row-8 span.dot.six {
 p.row-8 span.dot.seven {
   position: absolute;
   bottom: 11px;
-  left: 116px;  
+  left: 116px;
 }
 
 p.row-8 span.dot.eight {
@@ -1276,7 +1278,7 @@ p.row-8 span.dot.seventeen {
 p.row-8 span.dot.eighteen {
   position: absolute;
   bottom: 11px;
-  left: 359px;  
+  left: 359px;
 }
 
 p.row-8 span.dot.nineteen {
@@ -1295,7 +1297,7 @@ p.row-8 span.dot.twenty {
 
 /* - - - ROW 9 - - - */
 
-p.row-9 { 
+p.row-9 {
   position: absolute;
   top: 14em;
   display: inline-block;
@@ -1420,7 +1422,7 @@ p.row-9 span.dot.seventeen {
 p.row-9 span.dot.eighteen {
   position: absolute;
   bottom: 13px;
-  left: 351px;  
+  left: 351px;
 }
 
 p.row-9 span.dot.nineteen {
@@ -1439,7 +1441,7 @@ p.row-9 span.dot.twenty {
 
 /* - - - ROW 10 - - - */
 
-p.row-10 { 
+p.row-10 {
   position: absolute;
   top: 15.5em;
   display: inline-block;
@@ -1559,11 +1561,11 @@ p.row-10 span.dot.seventeen {
 p.row-10 span.dot.eighteen {
   position: absolute;
   bottom: 14px;
-  left: 365px;  
+  left: 365px;
 }
 
 p.row-10 span.dot.nineteen {
-  height: 15px;  
+  height: 15px;
   position: absolute;
   bottom: 13px;
   left: 391px;
@@ -1601,16 +1603,16 @@ p.row-10 span.dot.twenty {
 
 img.white-circle {
   height: 10em;
-  margin: 6em auto 6em auto;  
+  margin: 6em auto 6em auto;
   position: relative;
-  width: 10em;  
+  width: 10em;
 }
 
 img.black-circle {
   height: 10em;
   position: relative;
   margin: 0 auto 0 auto;
-  width: 10em;  
+  width: 10em;
 }
 
 #positive-negative {
@@ -1628,7 +1630,7 @@ img.black-circle {
   height: 10em;
   margin: -23em auto 0 auto;
   width: 10em;
-  
+
   -webkit-transform-origin: 40% 65px;
   -webkit-transform-origin-x: 40%;
   -webkit-transform-origin-y: 65px;
@@ -1659,7 +1661,7 @@ img.black-circle {
   width: auto;
 }
 
-#overlap h2 { 
+#overlap h2 {
   color: #FF322B;
   font-size: 1.5em;
   padding-top: 2em;
@@ -1690,9 +1692,9 @@ img.black-circle {
   -moz-border-radius: 5em;
   -webkit-border-radius: 5em;
   border-radius: 5em;
-  height: 10em;  
+  height: 10em;
   margin: 5em auto 0 auto;
-  opacity: 0.9;  
+  opacity: 0.9;
   position: relative;
   width: 10em;
   z-index: 500;
@@ -1700,12 +1702,12 @@ img.black-circle {
 
 @-webkit-keyframes bounce {
        from{ -webkit-transform: translate(0px,-30px); }
-       to { -webkit-transform: translate(0px,0px); }  
+       to { -webkit-transform: translate(0px,0px); }
 }
 
 @-moz-keyframes bounce {
        from{ -moz-transform: translate(0px,-30px); }
-       to { -moz-transform: translate(0px,0px); }  
+       to { -moz-transform: translate(0px,0px); }
 }
 
 .black {
@@ -1729,19 +1731,19 @@ img.black-circle {
   border-radius: 5em;
   height: 10em;
   margin: -2em auto 0 auto;
-  opacity: 0.9;  
+  opacity: 0.9;
   position: relative;
   width: 10em;
 }
 
 @-webkit-keyframes hop {
        from { -webkit-transform: translate(0px,0px); }
-       to { -webkit-transform: translate(0px,-30px); }  
+       to { -webkit-transform: translate(0px,-30px); }
 }
 
 @-moz-keyframes hop {
        from { -moz-transform: translate(0px,0px); }
-       to { -moz-transform: translate(0px,-30px); }  
+       to { -moz-transform: translate(0px,-30px); }
 }
 
 /* - - - - -  F O O T E R  - - - - - */
@@ -1774,12 +1776,12 @@ footer span.note {
 }
 
 cite {
-  display: block;  
+  display: block;
   font-size: 0.7em;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 2px;
-  line-height: 1.5em; 
+  line-height: 1.5em;
   padding: 1em 0 0 0;
   text-transform: uppercase;
   text-shadow: none;
@@ -1795,7 +1797,7 @@ em a {
   text-decoration: none;
 }
 
-cite a:hover { 
+cite a:hover {
   color: #FFF;
 }
 
@@ -1812,7 +1814,7 @@ figure img {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
-  -ms-transition: opacity 0.5s ease-in-out;	
+  -ms-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
 }
 
