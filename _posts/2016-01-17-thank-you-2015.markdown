@@ -34,6 +34,8 @@ going vegetarian, and a mix of the two. Also started <a href="https://www.instag
 - Became a volunteer at <a href="http://www.pawschicago.org/">PAWS Chicago</a>, (Kitty City). >^..^<
 - Started learning <a href="http://www.amazon.com/gp/product/1604079339">how to meditate</a>.
 - Got a gym membership, and tried <a href="https://www.instagram.com/p/_P5B5ZGfld/?taken-by=smbriones">rock climbing</a>.
+- Started an Open Source project called <a href="https://github.com/OpenMentor/OpenMentor">Open Mentor</a>
+with my partner, <a href="http://rickwinfrey.com">Rick</a>. <3
 
 ### What I’ll work on this year
 
@@ -46,6 +48,7 @@ personal finances</a>. I want to write about what I learn.
 I’d like to continue learning it while also learning more math.
 - Overall health improvements.
 - Meditation.
+- Release <a href="https://github.com/OpenMentor/OpenMentor">Open Mentor</a>.
 - Going to the gym regularly.
 - Doing more things that I’ve either never done before or that am afraid of.
 
