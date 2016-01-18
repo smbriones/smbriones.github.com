@@ -29,7 +29,7 @@ When you find a good high-yield account, set up direct deposit or automatic tran
 ### 3. How much time you give it
 It’s going to take a lot of time to really see the interest rate amount to something substantial. That’s why you should stop what you’re doing and open an account now. I’ve gathered up some of the highest rates from banks that are currently available. Take a look at each one and see if any of them sound particularly good to you. If not, take a look at <a href="http://www.bankrate.com/" target="_blank">Bankrate</a> and see if there’s something that suits you more.
 
-### My Top 3 Savings Accounts
+### My Current Top 3 Savings Accounts
 
 - <a href="https://www.nasb.com/banking/savings-cds/esavings/" target="_blank">NASB E-Savings Account</a>, 1.12% APY, $100 opening minimum, <a href="https://www.depositaccounts.com/banks/north-american-savings-bank.html" target="_blank">Bank Review & Rating</a>
 
@@ -37,6 +37,6 @@ It’s going to take a lot of time to really see the interest rate amount to som
 
 - <a href="https://www.gecapitalbank.com/savings-products/online-savings.html?prod=SAV" target="_blank">GE Online Savings</a>, 1.05% APY, no minimum, <a href="https://www.depositaccounts.com/banks/ge-capital-financial-inc.html" target="_blank">Bank Review & Rating</a>
 
-Play around with <a href="http://www.bankrate.com/calculators/savings/simple-savings-calculator.aspx" target="_blank">this calculator</a> to explore the differences in percentage, starting deposit, and monthly contributions.
+Play around with <a href="http://www.bankrate.com/calculators/savings/simple-savings-calculator.aspx" target="_blank">this calculator</a> to explore the differences in percentage rates, starting deposits, and monthly contributions.
 
 Good luck with your savings goals this year!
