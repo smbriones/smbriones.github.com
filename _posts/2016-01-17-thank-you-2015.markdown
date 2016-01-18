@@ -26,6 +26,7 @@ to my portfolio and started working on forming some better habits.
 - Left my job as Director of Design at <a href="http://8thlight.com" target="_blank">8th Light, Inc.</a>,
 and started a new job as Product Designer at <a href="http://www.zapier.com" target="_blank">Zapier</a>.
 - Started <a href="https://github.com/smbriones/c-how-to-program" target="_blank">learning C</a>.
+- Took an online <a href="http://blog.stephaniebriones.com/2015/05/09/learning-d3js.html">d3.js course</a>.
 - Tried out different diets in attempt to eat healthier.
 <a href="http://www.amazon.com/The-Abs-Diet-Six-Week-Flatten/dp/B000RGSUK4" target="_blank">The Abs Diet</a>,
 going vegetarian, and then a combination of the two. Also started <a href="https://www.instagram.com/p/_sefdWmfg_/?taken-by=smbriones" target="_blank">cooking</a>
