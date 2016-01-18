@@ -38,3 +38,5 @@ It’s going to take a lot of time to really see the interest rate amount to som
 - <a href="https://www.gecapitalbank.com/savings-products/online-savings.html?prod=SAV" target="_blank">GE Online Savings</a>, 1.05% APY, no minimum, <a href="https://www.depositaccounts.com/banks/ge-capital-financial-inc.html" target="_blank">Bank Review & Rating</a>
 
 Play around with <a href="http://www.bankrate.com/calculators/savings/simple-savings-calculator.aspx" target="_blank">this calculator</a> to explore the differences in percentage, starting deposit, and monthly contributions.
+
+Good luck with your savings goals this year!
