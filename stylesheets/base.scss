@@ -131,19 +131,19 @@ header {
 }
 
 header .links {
+  float: right;
   overflow: hidden;
   padding: 0;
-}
-
-@media (min-width: 840px) {
-  header .links {
-    float: right;
+  .blog-link {
+    color: $dark-gray;
+    border-bottom: 2px solid $blue;
+    font-weight: 700;
   }
 }
 
 header .links li {
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 1em;
   margin: 0;
   padding-right: 2em;
 }
@@ -151,13 +151,12 @@ header .links li {
 header .links a {
   color: #99a3a8;
   display: inline-block;
-  font-size: 1em;
   font-weight: 500;
   text-decoration: none;
 }
 
 header .links a:hover {
-  color: $mustard;
+  color: $blue;
 }
 
 header .links li:last-child {
@@ -166,7 +165,6 @@ header .links li:last-child {
 
 @media (min-width: 840px) {
   header .links li {
-    font-size: 1em;
     padding-right: 2em;
   }
 }
@@ -207,6 +205,9 @@ header .links li:last-child {
   border-bottom: 1px solid #eee;
   list-style: none;
   padding: 2em 0;
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .post a {
