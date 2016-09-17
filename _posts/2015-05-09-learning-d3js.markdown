@@ -16,4 +16,4 @@ in learning how to do more advanced styling with SVG and learn more about workin
 different types of data.
 
 I kept all of my exercises here throughout the course:
-[http://stephaniebriones.com/learning](http://stephaniebriones.com/learning)
+[http://stephaniebriones.com/learning-d3](http://stephaniebriones.com/learning-d3)
