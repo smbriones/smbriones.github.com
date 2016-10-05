@@ -17,3 +17,7 @@ I'll be sharing my progress on the <a href="https://trello.com/b/enFpLVAz/octobe
 If you do join in this month, or sometime in the future, I wish you the best of luck, and hope that you'll come away from your challenges feeling refreshed and inspired.
 
 Cheers!
+
+### Completed Projects
+- [Self-Evaluation of Skills](http://stephaniebriones.com/self-evaluation) • October 3rd
+- [News Article](http://stephaniebriones.com/news-article) • October 4th
