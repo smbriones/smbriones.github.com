@@ -21,3 +21,5 @@ Cheers!
 ### Completed Projects
 - [Self-Evaluation of Skills](http://stephaniebriones.com/self-evaluation) • October 3rd
 - [News Article](http://stephaniebriones.com/news-article) • October 4th
+- [Photo Day](http://stephaniebriones.com/photo-day) • October 5th
+- [Logo Challenge](http://stephaniebriones.com/work/projects/rest-hooks.html) • October 6th
