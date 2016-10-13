@@ -19,7 +19,11 @@ If you do join in this month, or sometime in the future, I wish you the best of 
 Cheers!
 
 ### Completed Projects
-- [Self-Evaluation of Skills](http://stephaniebriones.com/self-evaluation) • October 3rd
-- [News Article](http://stephaniebriones.com/news-article) • October 4th
-- [Photo Day](http://stephaniebriones.com/photo-day) • October 5th
-- [Logo Challenge](http://stephaniebriones.com/work/projects/rest-hooks.html) • October 6th
+- [Self-Evaluation of Skills](http://stephaniebriones.com/self-evaluation)
+- [News Article](http://stephaniebriones.com/news-article)
+- [Photo Day](http://stephaniebriones.com/photo-day)
+- [Logo Challenge](http://stephaniebriones.com/work/projects/rest-hooks.html)
+- [Writing](http://blog.stephaniebriones.com/2016/10/07/time-to-raise-my-apm.html)
+- [Book Cover Redesign](https://dribbble.com/shots/3016276-Book-Cover-Redesign)
+- [Hand-lettering](https://dribbble.com/shots/3019228-October)
+- [Typography](https://dribbble.com/shots/3024416-Usable-Beautiful)
