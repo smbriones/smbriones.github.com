@@ -27,3 +27,6 @@ Cheers!
 - [Book Cover Redesign](https://dribbble.com/shots/3016276-Book-Cover-Redesign)
 - [Hand-lettering](https://dribbble.com/shots/3019228-October)
 - [Typography](https://dribbble.com/shots/3024416-Usable-Beautiful)
+- [Illustration](https://dribbble.com/shots/3034370-Spooky)
+- [Mars Poster](https://dribbble.com/shots/3031363-Mars-Poster)
+- [Walls](http://stephaniebriones.com/walls)
