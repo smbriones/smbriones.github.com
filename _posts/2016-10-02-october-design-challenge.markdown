@@ -32,3 +32,4 @@ Cheers!
 - [Mars Poster](https://dribbble.com/shots/3031363-Mars-Poster)
 - [Walls](http://stephaniebriones.com/walls)
 - [Bit Bank](http://stephaniebriones.com/work/projects/bit.html)
+- [Vote Poster](https://dribbble.com/shots/3046559-Vote)
