@@ -207,11 +207,20 @@ header {
   text-transform: uppercase;
 }
 
-.post-date.summary {
+.post-year {
+  border-bottom: 1px solid #eee;
+  color: $blue;
+  padding-bottom: 0.5em;
+  text-align: left;
+}
+
+.post-date {
   margin: 0 0 1em 0;
 }
 
 article {
+  font-size: 1.2em;
+  line-height: 1.5em;
   margin: 5em auto 2em auto;
   max-width: 700px;
   @media (max-width: 640px) {
@@ -221,8 +230,6 @@ article {
     }
   }
   p {
-    font-size: 1.2em;
-    line-height: 1.5em;
     margin: 0.2em 0 1em 0;
   }
   img {
@@ -267,12 +274,23 @@ figcaption {
   margin: 0 2em 0 0;
 }
 
-.footer {
+footer {
   border-top: 1px solid rgba(206, 211, 213, 0.07);
-  color: #a8b1b4;
+  color: #A8B1B4;
   margin-top: 2em;
   min-height: 60px;
   padding: 1em 0;
+  .links {
+    padding: 0;
+    float: left;
+    margin: 0;
+    a {
+      color: inherit;
+      display: inline-block;
+      font-size: 0.8em;
+      margin: 0 2em 0 0;
+    }
+  }
 }
 
 .button-wrap {

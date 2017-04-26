@@ -1,0 +1,137 @@
+---
+layout: new-blog
+title: "Designing in the Browser: Web Inspector Prototyping"
+date_string: August 08, 2012
+---
+
+<p>
+  <em>Originally posted on the
+  <a href="https://8thlight.com/blog/stephanie-briones/2012/08/08/designing-in-the-browser.html">
+  8th Light blog</a>.</em>
+</p>
+<p>
+  I'd like to tell you a little about one of my favorite tools; my browser's web
+  inspector. I'm often asked what I like to use for wireframing or mockups and if
+  I use PhotoShop or something else. The answer usually ends up being “It depends”.
+</p>
+<p>
+  Of course there are times for sketches, simple wireframes, (I like
+<a href="http://www.hotgloo.com/">HotGloo</a>), and even PhotoShop, but lately
+  I have been using the web inspector as a quick prototyping tool.
+</p>
+<p>
+  I'll edit html, add css, and apply the desired changes to my files. In many
+  situations, it's a perfect tool to demonstrate an idea and get quick feedback.
+  It's more detailed than a sketch, but only takes a minute or two to make several
+  changes.
+</p>
+<p>
+  While using the web inspector, I accomplish a few things at once:
+</p>
+<h3>Learning about the codebase</h3>
+<p>
+  Using the web inspector to explore provides an opportunity to get to know
+  unfamiliar applications. While clicking around I'm identifying class names and
+  IDs, I'm taking a look at the way that the html is structured, and where styles
+  are kept.
+</p>
+<figure>
+	<img src="/images/blog/browser-prototyping/screenshot-1.png" />
+</figure>
+<p>
+  A lot of times, unless it's your CSS, it's going to take a bit of time to
+  understand it; to figure out how coupled things are. When not written well,
+  CSS is a tangled mess that acts like an unfortunate game of Jenga. You pull
+  out the wrong block and the whole thing topples over.
+</p>
+<p>
+  Playing around in the browser's inspector tool provides you with a nice sneak
+  peak of the structure and styling fun you're getting into. Dealing with multiple
+  stylesheets becomes much easier.
+</p>
+<p>
+  As a bonus, the web inspector also makes it easier to help others when they're
+  stuck. I'm able to better explain what's happening behind the scenes with margins
+  and padding or block and in-line elements.
+</p>
+<p>
+  Examining blocks of color representing margins, padding and elements themselves
+  is, in my experience, the fastest way to fix layout issues.
+</p>
+<h3>Creating a quick prototype</h3>
+<p>
+  Doing a little bit of work in the browser allows me to explain what I'd like to
+  accomplish to others on the project. That, in turn, helps me solidify what I want
+  to do and figure out the best way to make it happen. A lot of times I'll make
+  changes in the browser and take a screen shot of something I'd like to do,
+  then share it with my team and quickly get their feedback.
+</p>
+<figure>
+	<img src="/images/blog/browser-prototyping/skitch.png" />
+</figure>
+<p>
+  Editing css and html in the browser has always helped me solve tricky problems.
+  Without it I don't believe I would understand as much as I do about how the box
+  model works, or why certain elements need "display: inline-block;" or
+  "overflow: hidden;" to behave the way you want them to.
+</p>
+<p>
+  A lot of times, as I'm writing html and css, I can visualize the results in the
+  browser before refreshing the page. I owe that to the things I've learned using
+  the web inspector.
+</p>
+<h3>Some tips on using the Web Inspector</h3>
+<ol>
+  <li>
+    Use Chrome's "Developer Tools". This obviously isn't a requirement, and it's
+    mostly personal preference, but for what it's worth, Chrome's web inspector has
+    been the most helpful and it's features most pleasant to use.
+  </li>
+  <li>
+    Try to get out of the habit of refreshing the page too soon. One of the issues
+    with counting on the web inspector is that you'll lose your experimental changes
+    if you refresh, but are some things you can do to help prevent that.
+    <figure>
+    	<img src="/images/blog/browser-prototyping/screenshot-2.png" />
+    </figure>
+    If you have two tabs open at a time; one for your web inspector changes and
+    one for actual changes, it will make things easier. You can also copy your
+    changes over to your editor regularly if you'd prefer having fewer things to
+    look at. I like to take screen shots of my changes to share and reference later.
+  </li>
+  <li>
+    Playing with font sizes and element widths is so simple. Just click on the
+    current size (e.g. 24px, 1.777em, 50%) and when it becomes an input, just
+    use your up and down arrow keys to increase and decrease font sizes, widths,
+    heights, whatever you'd like. Additionally, hovering over an element using
+    the magnifying glass while adjusting the size, gives you an even better idea
+    of what you're doing.
+    <figure>
+    	<img src="/images/blog/browser-prototyping/screenshot-3.png" />
+    </figure>
+  </li>
+  <li>
+    Editing html. I know, kind of crazy sounding, but this is one of my new
+    favorite things to do. For example, if you have an image from another area
+    of the site that you want to try out on the page, you can copy the code for
+    that image, right click, select "Edit as HTML" and paste it where you would
+    like it to go. This quickly gives you an idea of how it will look.
+  </li>
+  <li>
+    One last cool thing is the location info that you get through the web inspector.
+    When you inspect an element, you also get a little bit of information on which
+    stylesheet the styles are coming from and which line in the file you can find
+    them on.
+  </li>
+</ol>
+<h3>Designing in the browser, for the browser</h3>
+<p>
+  I use the web inspector daily. It's been my go-to tool ever since I started
+  learning to create things for the web. It's been only in the last 6 months to
+  a year that I've started to realize all of its other uses.
+</p>
+<p>
+  So I write with the hope that if you're not using the web inspector for development
+  now, that you give it a try. You'll probably wonder why you hadn't been using
+  it all along.
+</p>
